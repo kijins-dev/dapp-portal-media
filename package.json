@@ -8,6 +8,11 @@
     "generate": "tsx --env-file=.env src/generator/index.ts",
     "generate:single": "tsx --env-file=.env src/generator/index.ts single",
     "generate:all": "tsx --env-file=.env src/generator/index.ts all",
+    "pipeline": "tsx --env-file=.env src/pipeline/index.ts",
+    "pipeline:all": "tsx --env-file=.env src/pipeline/index.ts all",
+    "site:dev": "cd site && npm run dev",
+    "site:build": "cd site && npm run build",
+    "site:preview": "cd site && npm run preview",
     "typecheck": "tsc --noEmit"
   },
   "keywords": [],
