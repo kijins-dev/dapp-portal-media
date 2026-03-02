@@ -1,0 +1,96 @@
+---
+import { getCollection } from "astro:content";
+import BaseHead from "../../components/BaseHead.astro";
+import Footer from "../../components/Footer.astro";
+import Header from "../../components/Header.astro";
+import { SITE_TITLE } from "../../consts";
+
+const games = (await getCollection("games", ({ data }) => !data.draft)).sort(
+  (a, b) => b.data.published_at.valueOf() - a.data.published_at.valueOf()
+);
+---
+
+<!doctype html>
+<html lang="ja">
+  <head>
+    <BaseHead
+      title={`全ゲーム一覧 | ${SITE_TITLE}`}
+      description="LINE Dapp Portal（Mini Dapp）の全ゲーム攻略記事一覧。"
+    />
+    <style>
+      main {
+        width: 960px;
+        max-width: calc(100% - 2em);
+        margin: 0 auto;
+        padding: 1em;
+      }
+      h1 {
+        margin-bottom: 1em;
+      }
+      .game-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 1.5rem;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      .game-card {
+        border: 1px solid rgb(var(--gray-light));
+        border-radius: 12px;
+        overflow: hidden;
+        transition: box-shadow 0.2s;
+      }
+      .game-card:hover {
+        box-shadow: var(--box-shadow);
+      }
+      .game-card a {
+        display: block;
+        padding: 1.2em;
+        text-decoration: none;
+        color: inherit;
+      }
+      .game-card .category {
+        display: inline-block;
+        padding: 0.15em 0.5em;
+        background: rgb(var(--gray-light));
+        border-radius: 3px;
+        font-size: 0.75em;
+        font-weight: 700;
+        color: rgb(var(--gray));
+        margin-bottom: 0.5em;
+      }
+      .game-card h3 {
+        margin: 0 0 0.3em 0;
+        font-size: 1.1em;
+        line-height: 1.3;
+      }
+      .game-card .meta {
+        font-size: 0.85em;
+        color: rgb(var(--gray));
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <main>
+      <h1>全ゲーム攻略記事</h1>
+      <ul class="game-grid">
+        {
+          games.map((game) => (
+            <li class="game-card">
+              <a href={`/games/${game.data.slug}/`}>
+                <span class="category">{game.data.category}</span>
+                <h3>{game.data.game_name}</h3>
+                <p class="meta">
+                  {game.data.play_count}人プレイ中
+                </p>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </main>
+    <Footer />
+  </body>
+</html>

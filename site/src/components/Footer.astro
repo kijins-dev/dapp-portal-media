@@ -1,0 +1,23 @@
+---
+const today = new Date();
+---
+
+<footer>
+  <p>&copy; {today.getFullYear()} Dapp Portal攻略ガイド. All rights reserved.</p>
+  <p class="disclaimer">
+    ※当サイトにはアフィリエイトリンクが含まれます。暗号資産の取引にはリスクが伴います。投資は自己責任でお願いします。
+  </p>
+</footer>
+<style>
+  footer {
+    padding: 2em 1em 4em 1em;
+    background: linear-gradient(var(--gray-gradient)) no-repeat;
+    color: rgb(var(--gray));
+    text-align: center;
+  }
+  .disclaimer {
+    font-size: 0.8em;
+    margin-top: 1em;
+    opacity: 0.7;
+  }
+</style>
