@@ -1,0 +1,14 @@
+affiliates:
+  # Phase 1以降にASP申請後、実際のリンクを設定
+  line_bitmax:
+    url: ""
+    label: "LINE BITMAX"
+    asp: "tcs"
+  coincheck:
+    url: ""
+    label: "Coincheck"
+    asp: "accesstrade"
+  bitflyer:
+    url: ""
+    label: "bitFlyer"
+    asp: ""

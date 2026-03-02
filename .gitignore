@@ -1,1 +1,6 @@
 .claude/handovers/
+.env
+node_modules/
+dist/
+drafts/
+data/

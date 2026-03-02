@@ -1,0 +1,23 @@
+{
+  "name": "dapp-portal-media",
+  "version": "1.0.0",
+  "description": "LINE Dapp Portal（Mini Dapp）の攻略記事を自動生成・自動公開するメディアサイト。",
+  "type": "module",
+  "scripts": {
+    "scrape": "tsx src/scraper/index.ts",
+    "generate": "tsx --env-file=.env src/generator/index.ts",
+    "generate:single": "tsx --env-file=.env src/generator/index.ts single",
+    "generate:all": "tsx --env-file=.env src/generator/index.ts all",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.78.0",
+    "@types/node": "^25.3.3",
+    "playwright": "^1.58.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
