@@ -10,16 +10,69 @@ const PROJECT_ROOT = join(__dirname, "..", "..");
 const DATA_DIR = join(PROJECT_ROOT, "data");
 const APPS_FILE = join(DATA_DIR, "apps.json");
 const DIFF_FILE = join(DATA_DIR, "diff.json");
+const SCRAPER_CONFIG_FILE = join(PROJECT_ROOT, "config", "scraper.yaml");
+const HEALTH_FILE = join(DATA_DIR, "scraper-health.json");
 
-const SCRAPER_VERSION = "1.0.0";
+const SCRAPER_VERSION = "1.2.0";
 
-const config: ScraperConfig = {
-  target_url: "https://www.unifi.me/apps",
-  user_agent:
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-  wait_timeout: 5000,
-  viewport: { width: 1280, height: 720 },
-};
+function readScalar(raw: string, key: string): string | undefined {
+  const line = raw
+    .split(/\r?\n/)
+    .find((l) => l.trimStart().startsWith(`${key}:`));
+  if (!line) return undefined;
+  return line
+    .split(":")
+    .slice(1)
+    .join(":")
+    .trim()
+    .replace(/^"|"$/g, "");
+}
+
+function readNestedScalar(raw: string, parent: string, key: string): string | undefined {
+  const lines = raw.split(/\r?\n/);
+  const parentIndex = lines.findIndex((l) => l.trim() === `${parent}:`);
+  if (parentIndex === -1) return undefined;
+
+  for (let i = parentIndex + 1; i < lines.length; i++) {
+    const line = lines[i];
+    if (!line.startsWith("  ")) break;
+    const trimmed = line.trim();
+    if (trimmed.startsWith(`${key}:`)) {
+      return trimmed
+        .split(":")
+        .slice(1)
+        .join(":")
+        .trim()
+        .replace(/^"|"$/g, "");
+    }
+  }
+  return undefined;
+}
+
+function loadConfig(): ScraperConfig {
+  const fallback: ScraperConfig = {
+    target_url: "https://www.unifi.me/apps",
+    user_agent:
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    wait_timeout: 5000,
+    viewport: { width: 1280, height: 720 },
+  };
+
+  if (!existsSync(SCRAPER_CONFIG_FILE)) return fallback;
+
+  const raw = readFileSync(SCRAPER_CONFIG_FILE, "utf-8");
+  return {
+    target_url: readNestedScalar(raw, "scraper", "target_url") ?? fallback.target_url,
+    user_agent: readNestedScalar(raw, "scraper", "user_agent") ?? fallback.user_agent,
+    wait_timeout: Number(readNestedScalar(raw, "scraper", "wait_timeout") ?? fallback.wait_timeout),
+    viewport: {
+      width: Number(readNestedScalar(raw, "viewport", "width") ?? fallback.viewport.width),
+      height: Number(readNestedScalar(raw, "viewport", "height") ?? fallback.viewport.height),
+    },
+  };
+}
+
+const config: ScraperConfig = loadConfig();
 
 function slugify(name: string): string {
   return name
@@ -40,11 +93,23 @@ function parsePlayCount(text: string): number {
   return Math.round(num);
 }
 
+function canonicalize(value: unknown): unknown {
+  if (Array.isArray(value)) {
+    return value.map(canonicalize);
+  }
+  if (value && typeof value === "object") {
+    const entries = Object.entries(value as Record<string, unknown>).sort(([a], [b]) =>
+      a.localeCompare(b)
+    );
+    return Object.fromEntries(entries.map(([k, v]) => [k, canonicalize(v)]));
+  }
+  return value;
+}
+
 function computeHash(apps: AppData[]): string {
-  const sorted = apps
-    .map((a) => ({ name: a.name, category: a.category, play_count: a.play_count }))
-    .sort((a, b) => a.name.localeCompare(b.name));
-  const json = JSON.stringify(sorted);
+  const sortedApps = [...apps].sort((a, b) => a.slug.localeCompare(b.slug));
+  const canonical = canonicalize(sortedApps);
+  const json = JSON.stringify(canonical);
   return "sha256:" + createHash("sha256").update(json).digest("hex");
 }
 
@@ -77,6 +142,15 @@ async function scrape(): Promise<AppData[]> {
     const now = new Date().toISOString();
     const today = now.split("T")[0];
 
+    const selectorHealth = await page.evaluate(() => {
+      return {
+        cardCount: document.querySelectorAll(".item-explore-wrap").length,
+        titleCount: document.querySelectorAll(".item-explore-wrap .title").length,
+        categoryCount: document.querySelectorAll(".item-explore-wrap .info-wrap > .text").length,
+        playCountCount: document.querySelectorAll(".item-explore-wrap .info-user").length,
+      };
+    });
+
     const apps = await page.evaluate(
       ({ now, today, sourceUrl }: { now: string; today: string; sourceUrl: string }) => {
         const cards = Array.from(document.querySelectorAll(".item-explore-wrap"));
@@ -105,6 +179,25 @@ async function scrape(): Promise<AppData[]> {
     );
 
     console.log(`[scraper] Found ${apps.length} apps`);
+
+    const health = {
+      checked_at: now,
+      source_url: config.target_url,
+      selectors: selectorHealth,
+      ok:
+        selectorHealth.cardCount > 0 &&
+        selectorHealth.titleCount > 0 &&
+        selectorHealth.categoryCount > 0 &&
+        selectorHealth.playCountCount > 0,
+    };
+
+    if (!existsSync(DATA_DIR)) {
+      mkdirSync(DATA_DIR, { recursive: true });
+    }
+    writeFileSync(HEALTH_FILE, JSON.stringify(health, null, 2), "utf-8");
+    if (!health.ok) {
+      throw new Error(`[scraper] Selector health check failed: ${JSON.stringify(selectorHealth)}`);
+    }
 
     // Load previous data for first_seen
     const previous = loadPreviousData();

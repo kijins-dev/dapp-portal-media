@@ -5,6 +5,7 @@ import { fileURLToPath } from "url";
 import type { AppData, ScrapeResult, DiffResult } from "../scraper/types.js";
 import type { GenerateRequest, GeneratedArticle } from "./types.js";
 import { buildPrompt, pickVariant } from "./prompts.js";
+import { runComplianceCheck } from "./compliance.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PROJECT_ROOT = join(__dirname, "..", "..");
@@ -12,6 +13,8 @@ const DATA_DIR = join(PROJECT_ROOT, "data");
 const DRAFTS_DIR = join(PROJECT_ROOT, "drafts");
 const APPS_FILE = join(DATA_DIR, "apps.json");
 const DIFF_FILE = join(DATA_DIR, "diff.json");
+const REVIEW_QUEUE_FILE = join(DATA_DIR, "review-queue.json");
+const DEAD_LETTER_FILE = join(DATA_DIR, "dead-letter.json");
 
 const MODEL = "claude-haiku-4-5-20251001";
 
@@ -103,6 +106,51 @@ function saveDraft(article: GeneratedArticle): string {
   return filePath;
 }
 
+function loadJsonFile<T>(path: string, fallback: T): T {
+  if (!existsSync(path)) return fallback;
+  try {
+    return JSON.parse(readFileSync(path, "utf-8")) as T;
+  } catch {
+    return fallback;
+  }
+}
+
+function saveReviewQueueEntry(
+  slug: string,
+  hits: string[],
+  reasons: string[],
+  draftPath: string
+): void {
+  const queue = loadJsonFile<Array<Record<string, unknown>>>(REVIEW_QUEUE_FILE, []);
+  queue.push({
+    slug,
+    reason: reasons.join(",") || "manual_review_required",
+    hits,
+    reasons,
+    draft_path: draftPath,
+    created_at: new Date().toISOString(),
+  });
+  writeFileSync(REVIEW_QUEUE_FILE, JSON.stringify(queue, null, 2), "utf-8");
+}
+
+function updateDeadLetter(failures: { slug: string; error: string }[]): void {
+  const state = loadJsonFile<Record<string, { count: number; last_error: string; updated_at: string }>>(
+    DEAD_LETTER_FILE,
+    {}
+  );
+
+  for (const failure of failures) {
+    const current = state[failure.slug] ?? { count: 0, last_error: "", updated_at: "" };
+    state[failure.slug] = {
+      count: current.count + 1,
+      last_error: failure.error,
+      updated_at: new Date().toISOString(),
+    };
+  }
+
+  writeFileSync(DEAD_LETTER_FILE, JSON.stringify(state, null, 2), "utf-8");
+}
+
 async function main() {
   const args = process.argv.slice(2);
   const mode = args[0] || "new"; // "new" = diff only, "all" = all apps, "single" = specific app
@@ -157,17 +205,37 @@ async function main() {
     `[generator] Generating articles for ${appsToGenerate.length} apps (mode: ${mode})`
   );
 
-  const results: { slug: string; success: boolean; error?: string; tokens?: { input: number; output: number } }[] = [];
+  const results: {
+    slug: string;
+    success: boolean;
+    error?: string;
+    tokens?: { input: number; output: number };
+    compliancePassed?: boolean;
+  }[] = [];
 
   for (const app of appsToGenerate) {
     try {
       console.log(`[generator] Generating: ${app.name} (${app.slug})...`);
       const article = await generateArticle(client, app);
       const filePath = saveDraft(article);
+
+      const compliance = runComplianceCheck(article.content);
+      if (compliance.requiresManualReview) {
+        saveReviewQueueEntry(app.slug, compliance.hits, compliance.reasons, filePath);
+        console.warn(
+          `[generator] Compliance flagged: ${app.slug} (${compliance.reasons.join(", ")}) -> queued for manual review`
+        );
+      }
+
       console.log(
         `[generator] Saved: ${filePath} (${article.tokens_used.input}+${article.tokens_used.output} tokens)`
       );
-      results.push({ slug: app.slug, success: true, tokens: article.tokens_used });
+      results.push({
+        slug: app.slug,
+        success: true,
+        tokens: article.tokens_used,
+        compliancePassed: compliance.passed,
+      });
     } catch (err) {
       const message = err instanceof Error ? err.message : String(err);
       console.error(`[generator] Failed: ${app.name} - ${message}`);
@@ -178,17 +246,26 @@ async function main() {
   // Summary
   const succeeded = results.filter((r) => r.success);
   const failed = results.filter((r) => !r.success);
+  const complianceQueued = results.filter((r) => r.success && r.compliancePassed === false);
   const totalInput = succeeded.reduce((sum, r) => sum + (r.tokens?.input || 0), 0);
   const totalOutput = succeeded.reduce((sum, r) => sum + (r.tokens?.output || 0), 0);
 
   console.log(`\n[generator] Done.`);
   console.log(`[generator] Success: ${succeeded.length}, Failed: ${failed.length}`);
+  console.log(`[generator] Compliance queued: ${complianceQueued.length}`);
   console.log(`[generator] Total tokens: ${totalInput} input, ${totalOutput} output`);
 
   if (failed.length > 0) {
     const failedFile = join(DATA_DIR, "generation-failures.json");
     writeFileSync(failedFile, JSON.stringify(failed, null, 2), "utf-8");
     console.log(`[generator] Failures saved to ${failedFile}`);
+    updateDeadLetter(
+      failed.map((f) => ({
+        slug: f.slug,
+        error: f.error || "unknown error",
+      }))
+    );
+    console.log(`[generator] Dead-letter state updated: ${DEAD_LETTER_FILE}`);
   }
 }
 
