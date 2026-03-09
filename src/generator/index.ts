@@ -16,7 +16,7 @@ const DIFF_FILE = join(DATA_DIR, "diff.json");
 const REVIEW_QUEUE_FILE = join(DATA_DIR, "review-queue.json");
 const DEAD_LETTER_FILE = join(DATA_DIR, "dead-letter.json");
 
-const MODEL = "claude-haiku-4-5-20251001";
+const MODEL = "claude-sonnet-4-6";
 
 const DISCLAIMER = `
 ---
