@@ -1,0 +1,96 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+import { SITE_TITLE } from "../consts";
+---
+
+<html lang="ja">
+  <head>
+    <BaseHead
+      title={`プライバシーポリシー | ${SITE_TITLE}`}
+      description="Dapp Portal攻略ガイドのプライバシーポリシー。個人情報の取り扱いについて。"
+    />
+    <style>
+      main {
+        max-width: 780px;
+        margin: 0 auto;
+        padding: 2em 1em;
+        color: rgb(var(--gray-dark));
+        line-height: 1.8;
+      }
+      h1 {
+        font-size: 1.8em;
+        margin-bottom: 1em;
+      }
+      h2 {
+        font-size: 1.3em;
+        margin-top: 2em;
+        margin-bottom: 0.5em;
+        border-bottom: 1px solid rgb(var(--gray-light));
+        padding-bottom: 0.3em;
+      }
+      p {
+        margin: 0.8em 0;
+      }
+      ul {
+        padding-left: 1.5em;
+      }
+      li {
+        margin: 0.3em 0;
+      }
+      .last-updated {
+        font-size: 0.85em;
+        color: rgb(var(--gray));
+        margin-top: 3em;
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <main>
+      <h1>プライバシーポリシー</h1>
+
+      <p>ミチガエル株式会社（以下「当社」）が運営する「Dapp Portal攻略ガイド」（以下「当サイト」）における個人情報の取り扱いについて、以下のとおりプライバシーポリシーを定めます。</p>
+
+      <h2>1. 個人情報の収集</h2>
+      <p>当サイトでは、お問い合わせフォームをご利用いただく際に、メールアドレス等の個人情報をご提供いただく場合があります。</p>
+
+      <h2>2. 個人情報の利用目的</h2>
+      <p>収集した個人情報は、以下の目的で利用いたします。</p>
+      <ul>
+        <li>お問い合わせへの回答</li>
+        <li>サービスの改善・向上</li>
+        <li>重要なお知らせの連絡</li>
+      </ul>
+
+      <h2>3. 個人情報の第三者提供</h2>
+      <p>当社は、法令に基づく場合を除き、ご本人の同意なく個人情報を第三者に提供することはありません。</p>
+
+      <h2>4. アクセス解析ツール</h2>
+      <p>当サイトでは、Googleによるアクセス解析ツール「Googleアナリティクス」を使用しています。Googleアナリティクスはデータ収集のためにCookieを使用しています。このデータは匿名で収集されており、個人を特定するものではありません。</p>
+      <p>この機能はCookieを無効にすることで収集を拒否できます。詳しくは<a href="https://marketingplatform.google.com/about/analytics/terms/jp/" target="_blank" rel="noopener noreferrer">Googleアナリティクス利用規約</a>をご確認ください。</p>
+
+      <h2>5. 広告について</h2>
+      <p>当サイトでは、第三者配信の広告サービス（アフィリエイトサービス）を利用しています。広告配信事業者は、ユーザーの興味に応じた広告を表示するためにCookieを使用する場合があります。</p>
+
+      <h2>6. Cookieについて</h2>
+      <p>当サイトでは、サイトの利便性向上やアクセス解析のためにCookieを使用しています。ブラウザの設定によりCookieの使用を拒否することが可能ですが、その場合一部のサービスをご利用いただけない場合があります。</p>
+
+      <h2>7. プライバシーポリシーの変更</h2>
+      <p>当社は、必要に応じて本ポリシーを変更することがあります。変更後のポリシーは当サイトに掲載した時点で効力を生じます。</p>
+
+      <h2>8. お問い合わせ</h2>
+      <p>個人情報の取り扱いに関するお問い合わせは、<a href="/contact/">お問い合わせページ</a>よりご連絡ください。</p>
+
+      <p><strong>運営者</strong></p>
+      <p>
+        ミチガエル株式会社<br />
+        〒101-0041 東京都千代田区神田須田町2丁目19-23 Daiwa秋葉原ビル 2F
+      </p>
+
+      <p class="last-updated">最終更新日: 2026年3月10日</p>
+    </main>
+    <Footer />
+  </body>
+</html>

@@ -1,0 +1,74 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+import { SITE_TITLE } from "../consts";
+---
+
+<html lang="ja">
+  <head>
+    <BaseHead
+      title={`免責事項 | ${SITE_TITLE}`}
+      description="Dapp Portal攻略ガイドの免責事項。当サイトの情報利用に関する注意事項。"
+    />
+    <style>
+      main {
+        max-width: 780px;
+        margin: 0 auto;
+        padding: 2em 1em;
+        color: rgb(var(--gray-dark));
+        line-height: 1.8;
+      }
+      h1 {
+        font-size: 1.8em;
+        margin-bottom: 1em;
+      }
+      h2 {
+        font-size: 1.3em;
+        margin-top: 2em;
+        margin-bottom: 0.5em;
+        border-bottom: 1px solid rgb(var(--gray-light));
+        padding-bottom: 0.3em;
+      }
+      p {
+        margin: 0.8em 0;
+      }
+      .last-updated {
+        font-size: 0.85em;
+        color: rgb(var(--gray));
+        margin-top: 3em;
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <main>
+      <h1>免責事項</h1>
+
+      <h2>1. 情報の正確性について</h2>
+      <p>当サイト「Dapp Portal攻略ガイド」（以下「当サイト」）に掲載される情報は、できる限り正確な情報を提供するよう努めておりますが、正確性や安全性を保証するものではありません。情報が古くなっている場合もございますので、最新の情報は各ゲームの公式サイトをご確認ください。</p>
+
+      <h2>2. 損害等の責任について</h2>
+      <p>当サイトに掲載された情報を利用することで生じた損害等について、当社は一切の責任を負いかねます。自己責任のもとでご利用ください。</p>
+
+      <h2>3. 暗号資産に関するリスク</h2>
+      <p>当サイトで紹介するゲームの一部では、暗号資産（仮想通貨）が関連しています。暗号資産の取引には、価格変動リスク、流動性リスク、法規制の変更リスク等が伴います。暗号資産への投資は自己責任でお願いいたします。</p>
+      <p>当サイトは投資助言を行うものではなく、特定の暗号資産の購入・売却を推奨するものではありません。</p>
+
+      <h2>4. 外部リンクについて</h2>
+      <p>当サイトからリンクやバナーなどで移動したサイトの情報やサービスについて、当社は一切の責任を負いません。</p>
+
+      <h2>5. アフィリエイトリンクについて</h2>
+      <p>当サイトにはアフィリエイトプログラムによる広告リンクが含まれます。これらのリンクを通じて商品・サービスをご利用いただいた場合、当社が報酬を受け取ることがあります。ただし、これにより利用者の皆様に追加の費用が発生することはありません。</p>
+
+      <h2>6. 著作権について</h2>
+      <p>当サイトの文章・画像等のコンテンツの著作権は当社に帰属します。無断転載・複製を禁じます。ただし、各ゲームのスクリーンショット・商標等はそれぞれの権利者に帰属します。</p>
+
+      <h2>7. AI生成コンテンツについて</h2>
+      <p>当サイトの記事の一部は、AIツールを活用して作成しています。記事は公開前に品質チェックを行っておりますが、誤りがある可能性があります。正確な情報については公式サイトをご確認ください。</p>
+
+      <p class="last-updated">最終更新日: 2026年3月10日</p>
+    </main>
+    <Footer />
+  </body>
+</html>

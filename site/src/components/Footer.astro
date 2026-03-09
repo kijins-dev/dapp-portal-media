@@ -3,6 +3,12 @@ const today = new Date();
 ---
 
 <footer>
+  <nav class="footer-links">
+    <a href="/about/">運営者情報</a>
+    <a href="/privacy/">プライバシーポリシー</a>
+    <a href="/disclaimer/">免責事項</a>
+    <a href="/contact/">お問い合わせ</a>
+  </nav>
   <p>&copy; {today.getFullYear()} Dapp Portal攻略ガイド. All rights reserved.</p>
   <p class="disclaimer">
     ※当サイトにはアフィリエイトリンクが含まれます。暗号資産の取引にはリスクが伴います。投資は自己責任でお願いします。
@@ -14,6 +20,21 @@ const today = new Date();
     background: linear-gradient(var(--gray-gradient)) no-repeat;
     color: rgb(var(--gray));
     text-align: center;
+  }
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    flex-wrap: wrap;
+    margin-bottom: 1.5em;
+  }
+  .footer-links a {
+    color: rgb(var(--gray));
+    text-decoration: none;
+    font-size: 0.85em;
+  }
+  .footer-links a:hover {
+    text-decoration: underline;
   }
   .disclaimer {
     font-size: 0.8em;

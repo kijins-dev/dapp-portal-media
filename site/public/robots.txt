@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dapp-portal-guide.com/sitemap-index.xml

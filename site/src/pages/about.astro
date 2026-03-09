@@ -1,0 +1,92 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+import { SITE_TITLE } from "../consts";
+---
+
+<html lang="ja">
+  <head>
+    <BaseHead
+      title={`運営者情報 | ${SITE_TITLE}`}
+      description="Dapp Portal攻略ガイドの運営者情報。運営会社・サイトの目的について。"
+    />
+    <style>
+      main {
+        max-width: 780px;
+        margin: 0 auto;
+        padding: 2em 1em;
+        color: rgb(var(--gray-dark));
+        line-height: 1.8;
+      }
+      h1 {
+        font-size: 1.8em;
+        margin-bottom: 1em;
+      }
+      h2 {
+        font-size: 1.3em;
+        margin-top: 2em;
+        margin-bottom: 0.5em;
+        border-bottom: 1px solid rgb(var(--gray-light));
+        padding-bottom: 0.3em;
+      }
+      p {
+        margin: 0.8em 0;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 1em 0;
+      }
+      th, td {
+        border: 1px solid rgb(var(--gray-light));
+        padding: 0.8em 1em;
+        text-align: left;
+      }
+      th {
+        background: rgb(var(--gray-light));
+        width: 30%;
+        font-weight: 700;
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <main>
+      <h1>運営者情報</h1>
+
+      <h2>運営会社</h2>
+      <table>
+        <tr>
+          <th>会社名</th>
+          <td>ミチガエル株式会社</td>
+        </tr>
+        <tr>
+          <th>所在地</th>
+          <td>〒101-0041 東京都千代田区神田須田町2丁目19-23 Daiwa秋葉原ビル 2F</td>
+        </tr>
+        <tr>
+          <th>メール</th>
+          <td><a href="/contact/">お問い合わせフォーム</a>よりご連絡ください</td>
+        </tr>
+      </table>
+
+      <h2>サイトについて</h2>
+      <p>「Dapp Portal攻略ガイド」は、LINE Dapp Portal（Mini Dapp）で遊べるゲームの攻略情報を提供する日本語メディアサイトです。</p>
+      <p>各ゲームの遊び方、攻略のコツ、報酬の稼ぎ方、KAIAトークンの換金方法などを初心者にもわかりやすく解説しています。</p>
+
+      <h2>コンテンツ制作方針</h2>
+      <p>当サイトでは、AIツールを活用して効率的にコンテンツを制作しています。記事は以下のプロセスを経て公開しています。</p>
+      <ul>
+        <li>LINE Dapp Portalの公式情報をもとに記事を生成</li>
+        <li>自動品質チェック（構造・文字数・NGワード・事実整合）</li>
+        <li>プレイ数データなどのリアルタイム情報を反映</li>
+        <li>定期的な情報更新</li>
+      </ul>
+
+      <h2>お問い合わせ</h2>
+      <p>サイトに関するご質問・ご意見・掲載内容の修正依頼は、<a href="/contact/">お問い合わせページ</a>よりお気軽にご連絡ください。</p>
+    </main>
+    <Footer />
+  </body>
+</html>
