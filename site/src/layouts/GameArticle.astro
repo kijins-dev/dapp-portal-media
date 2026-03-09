@@ -1,12 +1,13 @@
 ---
 import type { CollectionEntry } from "astro:content";
+import { getCollection } from "astro:content";
 import BaseHead from "../components/BaseHead.astro";
 import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
 
 type Props = CollectionEntry<"games">["data"];
 
-const { title, description, game_name, category, play_count, published_at, updated_at } =
+const { title, description, game_name, category, play_count, published_at, updated_at, slug } =
   Astro.props;
 
 const pubDateStr = published_at.toLocaleDateString("ja-JP", {
@@ -19,11 +20,44 @@ const updDateStr = updated_at.toLocaleDateString("ja-JP", {
   month: "long",
   day: "numeric",
 });
+
+// Related games: same category, excluding current, max 4
+const allGames = await getCollection("games", ({ data }) => !data.draft);
+const relatedGames = allGames
+  .filter((g) => g.data.slug !== slug && g.data.category === category)
+  .sort(() => Math.random() - 0.5)
+  .slice(0, 4);
+
+// Structured data
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": title,
+  "description": description,
+  "datePublished": published_at.toISOString(),
+  "dateModified": updated_at.toISOString(),
+  "author": { "@type": "Organization", "name": "Dapp Portal攻略ガイド", "url": "https://dapp-portal-guide.com" },
+  "publisher": { "@type": "Organization", "name": "Dapp Portal攻略ガイド", "url": "https://dapp-portal-guide.com" },
+  "inLanguage": "ja",
+  "mainEntityOfPage": `https://dapp-portal-guide.com/games/${slug}/`,
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://dapp-portal-guide.com/" },
+    { "@type": "ListItem", "position": 2, "name": "ゲーム一覧", "item": "https://dapp-portal-guide.com/games/" },
+    { "@type": "ListItem", "position": 3, "name": game_name },
+  ],
+};
 ---
 
 <html lang="ja">
   <head>
-    <BaseHead title={title} description={description} />
+    <BaseHead title={title} description={description} isArticle={true} />
+    <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
     <style>
       main {
         width: calc(100% - 2em);
@@ -45,6 +79,16 @@ const updDateStr = updated_at.toLocaleDateString("ja-JP", {
       .sidebar {
         width: 300px;
         flex-shrink: 0;
+      }
+      .breadcrumb {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 0.8em 1em 0;
+        font-size: 0.85em;
+        color: rgb(var(--gray));
+      }
+      .breadcrumb a {
+        color: rgb(var(--gray));
       }
       .game-meta {
         margin-bottom: 1.5em;
@@ -103,6 +147,51 @@ const updDateStr = updated_at.toLocaleDateString("ja-JP", {
       .sidebar-card a:hover {
         opacity: 0.9;
       }
+      .related-games {
+        margin-top: 3em;
+        padding-top: 2em;
+        border-top: 1px solid rgb(var(--gray-light));
+      }
+      .related-games h2 {
+        font-size: 1.3em;
+        margin: 0 0 1em 0;
+      }
+      .related-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 1rem;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      .related-grid li {
+        border: 1px solid rgb(var(--gray-light));
+        border-radius: 8px;
+        transition: box-shadow 0.2s;
+      }
+      .related-grid li:hover {
+        box-shadow: var(--box-shadow);
+      }
+      .related-grid a {
+        display: block;
+        padding: 1em;
+        text-decoration: none;
+        color: inherit;
+      }
+      .related-grid .r-category {
+        font-size: 0.75em;
+        color: rgb(var(--gray));
+        font-weight: 700;
+      }
+      .related-grid .r-name {
+        font-size: 1em;
+        font-weight: 700;
+        margin: 0.2em 0;
+      }
+      .related-grid .r-meta {
+        font-size: 0.8em;
+        color: rgb(var(--gray));
+      }
       @media (max-width: 900px) {
         .article-container {
           flex-direction: column;
@@ -116,6 +205,9 @@ const updDateStr = updated_at.toLocaleDateString("ja-JP", {
 
   <body>
     <Header />
+    <nav class="breadcrumb" aria-label="パンくずリスト">
+      <a href="/">ホーム</a> &gt; <a href="/games/">ゲーム一覧</a> &gt; {game_name}
+    </nav>
     <main>
       <article>
         <div class="article-container">
@@ -136,6 +228,23 @@ const updDateStr = updated_at.toLocaleDateString("ja-JP", {
               </div>
             </div>
             <slot />
+
+            {relatedGames.length > 0 && (
+              <section class="related-games">
+                <h2>同じカテゴリのおすすめゲーム</h2>
+                <ul class="related-grid">
+                  {relatedGames.map((g) => (
+                    <li>
+                      <a href={`/games/${g.data.slug}/`}>
+                        <span class="r-category">{g.data.category}</span>
+                        <div class="r-name">{g.data.game_name}</div>
+                        <span class="r-meta">{g.data.play_count}人プレイ中</span>
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
           </div>
           <aside class="sidebar">
             <div class="sidebar-card">
