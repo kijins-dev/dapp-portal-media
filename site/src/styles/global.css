@@ -31,7 +31,7 @@
 	font-display: swap;
 }
 body {
-	font-family: "Atkinson", sans-serif;
+	font-family: "Atkinson", "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Noto Sans JP", "Yu Gothic", "Meiryo", sans-serif;
 	margin: 0;
 	padding: 0;
 	text-align: left;
@@ -104,6 +104,9 @@ img {
 	max-width: 100%;
 	height: auto;
 	border-radius: 8px;
+}
+img[loading="lazy"] {
+	content-visibility: auto;
 }
 code {
 	padding: 2px 5px;

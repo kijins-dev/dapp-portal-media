@@ -4,15 +4,14 @@ slug: bricks-breaker-crush
 game_name: Bricks Breaker Crush
 category: GAME
 play_count: "165.8K"
-published_at: 2026-03-10
+published_at: 2026-03-04
 updated_at: 2026-03-10
 referral_link: ""
 tags: ["GAME", "LINE Dapp Portal", "攻略"]
-description: "LINE Dapp PortalのBricks Breaker Crushの遊び方、攻略のコツ、報酬の稼ぎ方を解説。165.8K人がプレイ中の人気GAMEゲーム。"
+description: "LINE Dapp PortalのBricks Breaker Crushの遊び方、攻略のコツ、報酬の稼ぎ方を解説。165.8K人がプレイ中の人気ゲーム。"
 source_urls:
   - "https://lineh5.mobirix.com/bbcrush/index.html?dp_tracking_id=OoriXQZPNUzNV1Zi"
 template_variant: "reward_focus"
-compliance_check: "pending"
 generation_model: "claude-sonnet-4-6"
 draft: false
 ---
@@ -33,7 +32,7 @@ draft: false
 
 Bricks Breaker Crushを始めるには、まずLINE Dapp Portalにアクセスする必要があります。LINEアプリを開き、ウォレット機能またはDappポータルのメニューからLINE Dapp Portalへ移動してください。検索機能で「Bricks Breaker Crush」と入力するか、GAMEカテゴリのリストからタイトルを探してタップします。
 
-ゲームページに移動したら「プレイ」ボタンをタップすることでゲームが起動します。直接のゲームURLは `https://lineh5.mobirix.com/bbcrush/index.html` からアクセスすることも可能です。初回起動時はLINEアカウントとの連携確認が表示される場合があります。連携を許可することで、プレイ記録やリワード受け取りがLINEアカウントに紐付けられます。
+ゲームページに移動したら「プレイ」ボタンをタップすることでゲームが起動します。直接のゲームURLは `https://lineh5.mobirix.com/bbcrush/index.html` からアクセスすることも可能です。初回起動時はLINEアカウントとの連携確認が表示されます。連携を許可することで、プレイ記録やリワード受け取りがLINEアカウントに紐付けられます。
 
 チュートリアルはゲーム内で自動的に開始されます。最初のステージでボールの発射方向の調整方法、ブロックへの当て方、コンボの発生条件といった基本的な操作が順を追って説明されます。チュートリアル自体は数分程度で完了するため、初めてプレイする方でもスムーズにゲームに入ることができます。
 
@@ -93,10 +92,3 @@ KAIAの換金方法については、詳しくは[KAIA換金ガイド](/guide/ho
 
 同じカテゴリのゲームでは[BubbleHeroes](/games/bubbleheroes/)や[Unscrew](/games/unscrew/)もおすすめです。
 
----
-
-**免責事項**
-
-※本記事の情報は執筆時点のものです。最新の情報は公式サイトをご確認ください。
-※暗号資産の取引にはリスクが伴います。投資は自己責任でお願いします。
-※本記事にはアフィリエイトリンクが含まれる場合があります。

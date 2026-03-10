@@ -4,15 +4,14 @@ slug: unscrew
 game_name: Unscrew
 category: GAME
 play_count: "3K"
-published_at: 2026-03-10
+published_at: 2026-03-08
 updated_at: 2026-03-10
 referral_link: ""
 tags: ["GAME", "LINE Dapp Portal", "攻略"]
-description: "LINE Dapp PortalのUnscrewの遊び方、攻略のコツ、報酬の稼ぎ方を解説。3K人がプレイ中の人気GAMEゲーム。"
+description: "LINE Dapp PortalのUnscrewの遊び方、攻略のコツ、報酬の稼ぎ方を解説。3K人がプレイ中の人気ゲーム。"
 source_urls:
   - "https://cdn.unscrew.xyz/?dp_tracking_id=OoriXQZPNUzNV1Zi"
 template_variant: "comparison"
-compliance_check: "pending"
 generation_model: "claude-sonnet-4-6"
 draft: false
 ---
@@ -103,10 +102,3 @@ Unscrewのプレイを通じて獲得したKAIAトークンは、対応する取
 
 同じカテゴリのゲームでは[Bricks Breaker Crush](/games/bricks-breaker-crush/)や[Slime Miner](/games/slime-miner/)もおすすめです。
 
----
-
-**免責事項**
-
-※本記事の情報は執筆時点のものです。最新の情報は公式サイトをご確認ください。
-※暗号資産の取引にはリスクが伴います。投資は自己責任でお願いします。
-※本記事にはアフィリエイトリンクが含まれる場合があります。

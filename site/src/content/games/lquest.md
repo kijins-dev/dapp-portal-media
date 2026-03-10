@@ -4,15 +4,14 @@ slug: lquest
 game_name: LQuest
 category: SOCIAL
 play_count: "3.9K"
-published_at: 2026-03-10
+published_at: 2026-03-08
 updated_at: 2026-03-10
 referral_link: ""
 tags: ["SOCIAL", "LINE Dapp Portal", "攻略"]
-description: "LINE Dapp PortalのLQuestの遊び方、攻略のコツ、報酬の稼ぎ方を解説。3.9K人がプレイ中の人気SOCIALゲーム。"
+description: "LINE Dapp PortalのLQuestの遊び方、攻略のコツ、報酬の稼ぎ方を解説。3.9K人がプレイ中の人気ソーシャルゲーム。"
 source_urls:
   - "https://quest.kaia.newlo.xyz/?dp_tracking_id=OoriXQZPNUzNV1Zi"
 template_variant: "comparison"
-compliance_check: "pending"
 generation_model: "claude-sonnet-4-6"
 draft: false
 ---
@@ -98,10 +97,3 @@ KAIAの換金方法については、詳しくは[KAIA換金ガイド](/guide/ho
 
 LINE Dapp Portalの他のゲームについては[Laguna Network](/games/laguna-network/)の攻略ガイドもご覧ください。
 
----
-
-**免責事項**
-
-※本記事の情報は執筆時点のものです。最新の情報は公式サイトをご確認ください。
-※暗号資産の取引にはリスクが伴います。投資は自己責任でお願いします。
-※本記事にはアフィリエイトリンクが含まれる場合があります。

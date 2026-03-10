@@ -1,5 +1,7 @@
 ---
 import type { CollectionEntry } from "astro:content";
+import { existsSync } from "node:fs";
+import { join } from "node:path";
 import { getCollection } from "astro:content";
 import BaseHead from "../components/BaseHead.astro";
 import Footer from "../components/Footer.astro";
@@ -21,11 +23,25 @@ const updDateStr = updated_at.toLocaleDateString("ja-JP", {
   day: "numeric",
 });
 
+// OGP image: use screenshot if available, otherwise default
+const screenshotPath = `/screenshots/${slug}.png`;
+const screenshotExists = existsSync(join(process.cwd(), "public", "screenshots", `${slug}.png`));
+const ogImage = screenshotExists ? screenshotPath : "/og-default.png";
+
 // Related games: same category, excluding current, max 4
+// Deterministic sort by play_count (descending) to avoid SSG cache issues
 const allGames = await getCollection("games", ({ data }) => !data.draft);
 const relatedGames = allGames
   .filter((g) => g.data.slug !== slug && g.data.category === category)
-  .sort(() => Math.random() - 0.5)
+  .sort((a, b) => {
+    const parseCount = (s: string) => {
+      const n = parseFloat(s);
+      if (s.includes("M")) return n * 1_000_000;
+      if (s.includes("K")) return n * 1_000;
+      return n || 0;
+    };
+    return parseCount(b.data.play_count) - parseCount(a.data.play_count);
+  })
   .slice(0, 4);
 
 // Structured data
@@ -34,6 +50,7 @@ const articleSchema = {
   "@type": "Article",
   "headline": title,
   "description": description,
+  "image": `https://dapp-portal-guide.com${ogImage}`,
   "datePublished": published_at.toISOString(),
   "dateModified": updated_at.toISOString(),
   "author": { "@type": "Organization", "name": "Dapp Portal攻略ガイド", "url": "https://dapp-portal-guide.com" },
@@ -55,7 +72,7 @@ const breadcrumbSchema = {
 
 <html lang="ja">
   <head>
-    <BaseHead title={title} description={description} isArticle={true} />
+    <BaseHead title={title} description={description} image={ogImage} isArticle={true} />
     <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
     <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
     <style>
@@ -192,6 +209,25 @@ const breadcrumbSchema = {
         font-size: 0.8em;
         color: rgb(var(--gray));
       }
+      .pr-notice {
+        font-size: 0.8em;
+        color: rgb(var(--gray));
+        background: rgba(var(--gray-light), 0.5);
+        padding: 0.4em 0.8em;
+        border-radius: 4px;
+        margin-bottom: 1.5em;
+      }
+      .disclaimer {
+        margin-top: 2em;
+        padding: 1em;
+        background: rgba(var(--gray-light), 0.3);
+        border-radius: 8px;
+        font-size: 0.85em;
+        color: rgb(var(--gray));
+      }
+      .disclaimer p {
+        margin: 0.3em 0;
+      }
       @media (max-width: 900px) {
         .article-container {
           flex-direction: column;
@@ -227,7 +263,13 @@ const breadcrumbSchema = {
                 }
               </div>
             </div>
+            <p class="pr-notice">※当サイトの記事にはアフィリエイトリンクが含まれます。</p>
             <slot />
+
+            <aside class="disclaimer">
+              <p>※本記事の情報は執筆時点のものです。最新の情報は公式サイトをご確認ください。</p>
+              <p>※暗号資産の取引にはリスクが伴います。投資は自己責任でお願いします。</p>
+            </aside>
 
             {relatedGames.length > 0 && (
               <section class="related-games">

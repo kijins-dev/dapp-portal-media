@@ -5,9 +5,18 @@ import Footer from "../../components/Footer.astro";
 import Header from "../../components/Header.astro";
 import { SITE_TITLE } from "../../consts";
 
+const parsePlayCount = (s: string) => {
+  const n = parseFloat(s);
+  if (s.includes("M")) return n * 1_000_000;
+  if (s.includes("K")) return n * 1_000;
+  return n || 0;
+};
+
 const games = (await getCollection("games", ({ data }) => !data.draft)).sort(
-  (a, b) => b.data.published_at.valueOf() - a.data.published_at.valueOf()
+  (a, b) => parsePlayCount(b.data.play_count) - parsePlayCount(a.data.play_count)
 );
+
+const categories = [...new Set(games.map((g) => g.data.category))].sort();
 ---
 
 <!doctype html>
@@ -15,7 +24,7 @@ const games = (await getCollection("games", ({ data }) => !data.draft)).sort(
   <head>
     <BaseHead
       title={`全ゲーム一覧 | ${SITE_TITLE}`}
-      description="LINE Dapp Portal（Mini Dapp）の全ゲーム攻略記事一覧。"
+      description={`LINE Dapp Portal（Mini Dapp）の全${games.length}ゲーム攻略記事一覧。カテゴリ別に検索・フィルター可能。`}
     />
     <style>
       main {
@@ -24,8 +33,37 @@ const games = (await getCollection("games", ({ data }) => !data.draft)).sort(
         margin: 0 auto;
         padding: 1em;
       }
-      h1 {
-        margin-bottom: 1em;
+      h1 { margin-bottom: 0.5em; }
+      .subtitle {
+        color: rgb(var(--gray));
+        font-size: 0.9em;
+        margin-bottom: 1.5em;
+      }
+      .filter-bar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-bottom: 1.5em;
+      }
+      .filter-btn {
+        padding: 0.4em 1em;
+        border: 1px solid rgb(var(--gray-light));
+        border-radius: 20px;
+        background: white;
+        color: rgb(var(--gray));
+        font-size: 0.85em;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.15s;
+      }
+      .filter-btn:hover {
+        border-color: var(--accent);
+        color: var(--accent);
+      }
+      .filter-btn.active {
+        background: var(--accent);
+        border-color: var(--accent);
+        color: white;
       }
       .game-grid {
         display: grid;
@@ -69,16 +107,26 @@ const games = (await getCollection("games", ({ data }) => !data.draft)).sort(
         font-size: 0.85em;
         color: rgb(var(--gray));
       }
+      .game-card[hidden] { display: none; }
     </style>
   </head>
   <body>
     <Header />
     <main>
       <h1>全ゲーム攻略記事</h1>
-      <ul class="game-grid">
+      <p class="subtitle">{games.length}タイトルの攻略ガイド（プレイ人数順）</p>
+
+      <div class="filter-bar">
+        <button class="filter-btn active" data-category="all">すべて</button>
+        {categories.map((cat) => (
+          <button class="filter-btn" data-category={cat}>{cat}</button>
+        ))}
+      </div>
+
+      <ul class="game-grid" id="game-list">
         {
           games.map((game) => (
-            <li class="game-card">
+            <li class="game-card" data-cat={game.data.category}>
               <a href={`/games/${game.data.slug}/`}>
                 <span class="category">{game.data.category}</span>
                 <h3>{game.data.game_name}</h3>
@@ -92,5 +140,22 @@ const games = (await getCollection("games", ({ data }) => !data.draft)).sort(
       </ul>
     </main>
     <Footer />
+
+    <script>
+      document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          const cat = btn.getAttribute('data-category');
+          document.querySelectorAll('.game-card').forEach(card => {
+            if (cat === 'all' || card.getAttribute('data-cat') === cat) {
+              card.removeAttribute('hidden');
+            } else {
+              card.setAttribute('hidden', '');
+            }
+          });
+        });
+      });
+    </script>
   </body>
 </html>

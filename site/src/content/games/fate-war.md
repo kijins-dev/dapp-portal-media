@@ -4,15 +4,14 @@ slug: fate-war
 game_name: Fate War
 category: GAME
 play_count: "467.2K"
-published_at: 2026-03-10
+published_at: 2026-03-04
 updated_at: 2026-03-10
 referral_link: ""
 tags: ["GAME", "LINE Dapp Portal", "攻略"]
-description: "LINE Dapp PortalのFate Warの遊び方、攻略のコツ、報酬の稼ぎ方を解説。467.2K人がプレイ中の人気GAMEゲーム。"
+description: "LINE Dapp PortalのFate Warの遊び方、攻略のコツ、報酬の稼ぎ方を解説。467.2K人がプレイ中の人気ゲーム。"
 source_urls:
   - "https://center.fatewar.xyz/sa/ReleaseLINE/webgl/index.html?dp_tracking_id=OoriXQZPNUzNV1Zi"
 template_variant: "reward_focus"
-compliance_check: "pending"
 generation_model: "claude-sonnet-4-6"
 draft: false
 ---
@@ -140,10 +139,3 @@ Fate Warは、約46万人以上のプレイヤーが楽しむLINE Dapp Portal上
 
 同じカテゴリのゲームでは[Elderglade](/games/elderglade/)や[BeGods](/games/begods/)もおすすめです。
 
----
-
-**免責事項**
-
-※本記事の情報は執筆時点のものです。最新の情報は公式サイトをご確認ください。
-※暗号資産の取引にはリスクが伴います。投資は自己責任でお願いします。
-※本記事にはアフィリエイトリンクが含まれる場合があります。

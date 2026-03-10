@@ -4,15 +4,14 @@ slug: pepenade-crush-fear-greed
 game_name: "Pepenade Crush: Fear & Greed"
 category: GAME
 play_count: "1.3K"
-published_at: 2026-03-10
+published_at: 2026-03-09
 updated_at: 2026-03-10
 referral_link: ""
 tags: ["GAME", "LINE Dapp Portal", "攻略"]
-description: "LINE Dapp PortalのPepenade Crush: Fear & Greedの遊び方、攻略のコツ、報酬の稼ぎ方を解説。1.3K人がプレイ中の人気GAMEゲーム。"
+description: "LINE Dapp PortalのPepenade Crush: Fear & Greedの遊び方、攻略のコツ、報酬の稼ぎ方を解説。1.3K人がプレイ中の人気ゲーム。"
 source_urls:
   - "https://pepenade-line.upcade.xyz/?dp_tracking_id=OoriXQZPNUzNV1Zi"
 template_variant: "comparison"
-compliance_check: "pending"
 generation_model: "claude-sonnet-4-6"
 draft: false
 ---
@@ -79,7 +78,7 @@ draft: false
 
 - **毎日ログインしてデイリー報酬を受け取る** — ログインボーナスとして用意されている報酬を毎日欠かさず受け取ることで、長期的な報酬量が増加します
 - **高スコアを意識してプレイする** — スコアが高いほど、セッション終了後に獲得できる報酬が増える仕組みが用意されています
-- **期間限定イベントに参加する** — 特定の期間中に開催されるイベントでは、通常よりも多くの報酬が獲得できる場合があります
+- **期間限定イベントに参加する** — 特定の期間中に開催されるイベントでは、通常よりも多くの報酬が獲得できます
 - **ミッションをこなす** — ゲーム内で用意されているミッション（特定のスコア達成・アイテム消去数など）を達成することで、追加報酬が付与されます
 
 報酬の種類や付与量はゲームのアップデートや運営方針によって変更される場合があるため、ゲーム内のお知らせや公式情報を定期的に確認することをおすすめします。
@@ -102,10 +101,3 @@ draft: false
 
 同じカテゴリのゲームでは[BubbleHeroes](/games/bubbleheroes/)や[Bricks Breaker Crush](/games/bricks-breaker-crush/)もおすすめです。
 
----
-
-**免責事項**
-
-※本記事の情報は執筆時点のものです。最新の情報は公式サイトをご確認ください。
-※暗号資産の取引にはリスクが伴います。投資は自己責任でお願いします。
-※本記事にはアフィリエイトリンクが含まれる場合があります。

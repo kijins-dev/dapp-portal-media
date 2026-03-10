@@ -6,8 +6,15 @@ import Header from "../components/Header.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 
 const allGames = await getCollection("games", ({ data }) => !data.draft);
+// Sort by play count (most popular first) since most articles share the same publish date
+const parsePlayCount = (s: string) => {
+  const n = parseFloat(s);
+  if (s.includes("M")) return n * 1_000_000;
+  if (s.includes("K")) return n * 1_000;
+  return n || 0;
+};
 const latestGames = allGames
-  .sort((a, b) => b.data.published_at.valueOf() - a.data.published_at.valueOf())
+  .sort((a, b) => parsePlayCount(b.data.play_count) - parsePlayCount(a.data.play_count))
   .slice(0, 6);
 ---
 
@@ -140,7 +147,7 @@ const latestGames = allGames
         <p>Mini Dappの遊び方・攻略のコツ・報酬の稼ぎ方を徹底解説</p>
       </section>
 
-      <h2>最新の攻略記事</h2>
+      <h2>人気の攻略記事</h2>
       <ul class="game-grid">
         {
           latestGames.map((game) => (
