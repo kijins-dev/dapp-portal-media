@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![SAMURAI SHODOWN: RPSのゲーム画面](https://obs.line-scdn.net:443/0hn41ZXavgMRsMIy8oyE5OTFZ2P2pgUigOdRUjY3FmO3c_QS1MdTkbIHd2CVAiex8yaBV9FnFzJ0BqchAMdjomFihCCSp9RhNMeRUIFS1dGnZpRhMbMC19L29YM3EpbwY/webp_w100)
+
 ## SAMURAI SHODOWN: RPSとは
 
 **SAMURAI SHODOWN: RPS**は、LINE Dapp Portal（Mini Dapp）上でプレイできるカジュアルゲームです。カテゴリは「GAME」に分類されており、シンプルながらも戦略性の高い「じゃんけん（Rock-Paper-Scissors）」をベースにした対戦ゲームとなっています。あの人気格闘ゲームシリーズ「SAMURAI SHODOWN」の世界観を取り入れており、侍をテーマにしたビジュアルと手軽なルールが融合した作品です。

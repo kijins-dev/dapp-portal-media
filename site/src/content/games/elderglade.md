@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![Eldergladeのゲーム画面](https://obs.line-scdn.net:443/0hWXVBrdhdCHdrOxYYDNV3IDNuBgYHShFiEg0aDxZ-AhtYWRQgVw4bZhNHPywNYyZWHCEcdgZACTtOWxBRVCYYcUZoNCxGaipWCA9EVA1HIBlCWwReHyEyYRJrM0YA/webp_w100)
+
 ## Eldergladeとは
 
 **Elderglade**は、LINE Dapp Portal（Mini Dapp）上で楽しめる本格的なブロックチェーンゲームです。ファンタジー世界を舞台にした冒険型のゲームで、プレイヤーはキャラクターを育成しながらさまざまなクエストやバトルに挑戦していきます。カテゴリは「GAME」に分類されており、アクション・RPG要素を兼ね備えた作品として多くのユーザーから支持を集めています。

@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![Retro.funのゲーム画面](https://obs.line-scdn.net:443/0hL_65PQ_ZE3ALTA0fQH9sJ1EZHQFnPQplcnoBCHYJGRw4Lg8nclUpZWscEj98LiJgN1YDci0nLyttHTJncVUEfS8tK0F6KTEnfkFeaW4nThYiAwhkNnkHZmg3ERouACQ/webp_w100)
+
 ## Retro.funとは
 
 **Retro.fun**は、LINE Dapp Portal（Mini Dapp）上でプレイできるレトロゲーム系ブロックチェーンゲームです。カテゴリは「GAME」に分類されており、クラシックなゲームボーイ風のビジュアルと操作感を現代のWeb3技術と融合させた、懐かしさと新しさを兼ね備えたタイトルとなっています。

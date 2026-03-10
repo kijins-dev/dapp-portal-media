@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![Paw Spaのゲーム画面](https://obs.line-scdn.net:443/0hxasFHn9rJ05OPzkhKIVYGRZqKT8iTj5bNwk1NjN6LSJ9XTsZOTIOSzJtHwU6Zyt_KAsjVy1EJgJrXz9ocSI3SGNsGxVjbgVvLQtrbSlAIiMjXCt7LCUdWDdvHH8l/webp_w100)
+
 ## Paw Spaとは
 
 **Paw Spa**は、LINE Dapp Portal（Mini Dapp）上でプレイできるカジュアルゲームです。カテゴリは「GAME」に分類されており、かわいらしいペットたちをスパでケアしてあげるというテーマが特徴的なタイトルとなっています。

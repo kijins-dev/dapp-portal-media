@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![YuliGOのゲーム画面](https://obs.line-scdn.net:443/0hncOxX1BZMUxyAS8jNsBOGypUPz0ecChZCzcjNA9EOyBBYy0bBTQYURBqGiEbZABhBzUhWRd6MABXYSlqTRwhSl9SDRdfUBNtETV9axdSGgRaYT1lDxsLWgtRCn0Z/webp_w100)
+
 ## YuliGOとは
 
 **YuliGO**は、LINE Dapp Portal（Mini Dapp）上でプレイできるソーシャル系ブロックチェーンゲームです。Kaiaブロックチェーンを基盤とした「Yuliverse」の世界観を舞台に、プレイヤー同士がつながりながら冒険や探索を楽しめる作品として注目を集めています。

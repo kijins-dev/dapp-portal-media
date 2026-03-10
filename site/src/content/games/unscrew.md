@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![Unscrewのゲーム画面](https://obs.line-scdn.net:443/0heLBXEiMtOmN_ISQlgnxFNCV0NBITUCN2BhcoGwJkMA9MQyY0BjgcZgZdASBSRBhKHhV2ZVp0PDgZcBt0BTgtbltAAlIORBg0ChcAfhFdETgWQn9JQzspVxxaOAlabQ0/webp_w100)
+
 ## Unscrewとは
 
 **Unscrew**は、LINE Dapp Portal（Mini Dapp）上でプレイできるカジュアルパズルゲームです。カテゴリは「GAME」に分類されており、直感的な操作でスクリューやボルトを抜き差しするパズルを解いていくスタイルが特徴です。シンプルながらも奥深いゲームプレイが評価され、現在すでに**3,000人（3K人）以上のプレイヤー**がアクティブに楽しんでいます。

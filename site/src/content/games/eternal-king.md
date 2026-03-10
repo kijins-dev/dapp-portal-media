@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![Eternal Kingのゲーム画面](https://obs.line-scdn.net:443/0hne3CR9GcMUoOOi-kgqFOHVRvPztiSyhfdwwjMnN_OyY9WC0ddyMYWGBqGg14YhAcag4ldXFGJxFoaxBddCMmRypbCXt_XxMdewwHUCtFGSNkdQAVeQ4bXG1BMyArdgY/webp_w100)
+
 ## Eternal Kingとは
 
 **Eternal King**は、LINE Dapp Portal（Mini Dapp）上でプレイできるブロックチェーンゲームです。カテゴリは「GAME」に分類されており、スマートフォンのLINEアプリから手軽にアクセスして楽しむことができます。

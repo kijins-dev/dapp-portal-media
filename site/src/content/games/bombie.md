@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![Bombieのゲーム画面](https://obs.line-scdn.net:443/0hljiSJ2KLM0VUKi0q05pMEg5_PTQ4WypQLRwhPSlvOSlnSC8SLTAneipVMR4wZAIXIDMjUChWNR4yexJSLjMkSHBLC3QlTxESISd-XDN6MRF6cndvIxwacTdRMS9xZgQ/webp_w100)
+
 ## Bombieとは
 
 **Bombie**は、LINE Dapp Portal（Mini Dapp）上でプレイできるブロックチェーン連携型のカジュアルゲームです。爆弾をテーマにしたアクション・パズル系のゲームプレイを楽しみながら、同時にトークン報酬を獲得できる「Play to Earn」スタイルのタイトルとして注目を集めています。

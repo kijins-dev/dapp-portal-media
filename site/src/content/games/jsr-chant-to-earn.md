@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![$JSR: Chant to Earnのゲーム画面](https://obs.line-scdn.net:443/0hQnx0qbQVDkFFSRBNHcVxFh8cADApOBdUPH8cOTgMBC12KxIWPFMdJiYbUgYvKiBgPVAKXDwZIhojGC9WP1AZTGEoNnA0LCwWMH83YiYiJjQ3KRVVeEQ0VyYyDCtgBTk/webp_w100)
+
 ## $JSR: Chant to Earnとは
 
 **$JSR: Chant to Earn**は、LINE Dapp Portal上で提供されているCONTENTカテゴリのブロックチェーンゲームです。「Chant to Earn（唱えて稼ぐ）」というコンセプトのもと、宗教的・精神的なチャント（祈りや詠唱）をテーマにした独自の世界観を持つタイトルとなっています。現在すでに2.9K人（約2,900人）のユーザーがプレイ中であり、LINE Dapp Portalの中でも注目を集めているコンテンツの一つです。

@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![Fananasのゲーム画面](https://data.dappportal.io/assets/dapp/787bc061-3757-4ce2-ad23-9a9d4fc5690d.jpg)
+
 ## Fananasとは
 
 **Fananas**は、LINE Dapp Portal（Mini Dapp）上でプレイできるカジュアルゲームです。カテゴリは「GAME」に分類されており、シンプルな操作性と中毒性の高いゲームプレイが特徴です。現在すでに**418K人（約41万8千人）**がプレイ中という人気タイトルで、LINE Dapp Portalの中でも注目度の高いゲームのひとつとして位置づけられています。

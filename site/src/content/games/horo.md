@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![HOROのゲーム画面](https://obs.line-scdn.net:443/0hFepvqQjPGUpNDwdqoa9mHRdaFzshfgBfNDkLMjBKEyZ-bQUdNBYNdS5aIhljagIcLTwgSG1fDxErXjhdNxYOR2luIXs8ajsdODkgUGlkIRImbDhecQEdXC50GyBoQy4/webp_w100)
+
 ## HOROとは
 
 **HORO**は、LINE Dapp Portal（Mini Dapp）上でプレイできるコンテンツ系ブロックチェーンゲームです。カテゴリは「CONTENT」に分類されており、ユーザーがゲームを楽しみながらデジタルコンテンツと関わっていく体験が中心となっています。現在すでに**2.4K人（約2,400人）**のプレイヤーが参加しており、LINE Dapp Portalの中でも注目度の高いタイトルとして存在感を示しています。

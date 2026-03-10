@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![Battle Wheelsのゲーム画面](https://obs.line-scdn.net:443/0h1Qc8s4vCbn5eQXEjL-kRKQYUYA8yMHdrJ3d8BiMEZBJtI3IpYHRqTT4pazZzDipUY1hYfyE6bzJ7IXZYYVx-eHMSUiVzEExfIlgiYz0TbAcuImJMZ0xqaCcRVU81/webp_w100)
+
 ## Battle Wheelsとは
 
 **Battle Wheels**は、LINE Dapp Portalで遊べる本格的なレーシング＆バトルゲームです。カテゴリは「GAME」に分類されており、車両を操作しながら対戦相手と戦う爽快なアクションが特徴です。スピード感あふれる走行と攻撃を組み合わせたバトル要素が融合しており、短時間でも楽しめるカジュアルさと、戦略的な深みを兼ね備えた作品として注目を集めています。

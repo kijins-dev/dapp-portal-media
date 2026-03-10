@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![Captain Tsubasaのゲーム画面](https://obs.line-scdn.net:443/0haQ1ZYvL8Pn4MIyARRBVBKVZ2MA9gUidrdRUsBnFmNBI_QSIpdToHQWlfPBxpQA9fbxYtGHZIEiVqch9pdjopcyhCBk99RhwpeS5zZ2lIPBdiQx9qMRcEaG9YPBQpbwk/webp_w100)
+
 ## Captain Tsubasaとは
 
 **Captain Tsubasa**（キャプテン翼）は、世界的に有名なサッカー漫画「キャプテン翼」を原作としたブロックチェーンゲームです。LINE Dapp Portalからアクセスできるミニゲーム（Mini Dapp）として提供されており、カテゴリは**GAME**に分類されています。

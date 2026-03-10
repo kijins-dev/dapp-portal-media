@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![MusiKhanのゲーム画面](https://obs.line-scdn.net:443/0hJ-HXDw2tFQJ1IQvD1ChqVS90G3MZUAwXDBcHeghkH25GQwlVDDgsGFRfPkEHbysnDxIBNhZdA1kTcDQVDzgCD1FALTMERDdVABc_GFRdPlIeQRkCAhVZNhZaF2hQbSI/webp_w100)
+
 ## MusiKhanとは
 
 **MusiKhan**は、LINE Dapp Portal（Mini Dapp）上で楽しめる音楽系コンテンツゲームです。カテゴリは「CONTENT」に分類されており、音楽を軸にしたエンターテインメント体験を提供しています。ゲームのURL（https://kaia.khans.io/）からアクセスでき、現在すでに**11,000人以上のユーザーがプレイ中**という活発なコミュニティが形成されています。

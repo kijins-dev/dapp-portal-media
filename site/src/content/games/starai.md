@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![StarAIのゲーム画面](https://obs.line-scdn.net:443/0h6SeS-IY9aXxYKncQTd0WKwJ_Zw00W3BpIRx7BCVvYxBrSHUrITMlZjZWQQ03cVddJzJTfjtCfyc-e0hrIjN-cXxLUU0pT0srLSckenl6TjQ-ZFtKZTN6SDtRaxZ9Zl4/webp_w100)
+
 ## StarAIとは
 
 **StarAI**は、LINE Dapp Portal（Mini Dapp）上で楽しめるコンテンツ系ゲームです。カテゴリは「CONTENT」に分類されており、AIをテーマにしたインタラクティブなコンテンツ体験が特徴です。

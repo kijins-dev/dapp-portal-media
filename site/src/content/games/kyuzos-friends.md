@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![Kyuzo's Friendsのゲーム画面](https://obs.line-scdn.net:443/0hlXLw6XnvM3dxDi0YQXlMIClbPQYdfypiCDghDwxLORtCbC8gTzsgWBZdbzwDawFWEzoFdhV1MjtUbitRThMjcVxdDyxcXxFWEjp_T1ZlMUcfQQFeDBQJYQheCEYa/webp_w100)
+
 ## Kyuzo's Friendsとは
 
 **Kyuzo's Friends**は、LINE Dapp Portal（Mini Dapp）上でプレイできるブロックチェーン連携型のカジュアルゲームです。シンプルな操作性と可愛らしいキャラクターが特徴で、スマートフォンから手軽に楽しめるゲームとして多くのユーザーから注目を集めています。

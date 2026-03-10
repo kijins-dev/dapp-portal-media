@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![CASH PANGのゲーム画面](https://obs.line-scdn.net:443/0hxTE3b46CJ3t4SjiRKiFYLCIfKQoUOz5uAXw1AwUPLRdLKDssAVAORBsYegoNKWMsDH4eHR4aGyAeGwZsAlMwdlwrH0oJLwUsDXw3Zh0iEDgVETwkRURrTxQxJRFdBhA/webp_w100)
+
 ## CASH PANGとは
 
 **CASH PANG**は、LINE Dapp Portal（Mini Dapp）上でプレイできるSocialFiカテゴリのゲームです。SocialFiとは「Social（ソーシャル）」と「Finance（ファイナンス）」を組み合わせた概念で、ソーシャルな交流や活動を通じて報酬を獲得できる仕組みを指します。CASH PANGはその特性を活かし、プレイヤー同士のつながりやゲーム内活動がそのまま報酬獲得につながる設計となっています。

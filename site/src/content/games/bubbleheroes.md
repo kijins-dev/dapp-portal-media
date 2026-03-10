@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![BubbleHeroesのゲーム画面](https://obs.line-scdn.net:443/0hDl60raRTG0MLSQRmOMlkFFEcFTJnOAJWcn8JO3YMES84KwcUclNWVmg2PBAmBSoQfkQITmUiDRhtGDpUcVAMTi8oI3J6LDkUfn8PfysiMBR-ETocNnwxVWgyGSkuBSw/webp_w100)
+
 ## BubbleHeroesとは
 
 **BubbleHeroes**は、LINE Dapp Portalで遊べるカジュアルゲームです。カテゴリは「GAME」に分類されており、シンプルな操作性と爽快感のあるゲームプレイが特徴のタイトルです。バブル（泡）をテーマにしたヒーローたちが登場するこのゲームは、誰でも気軽に楽しめるゲームデザインが採用されています。

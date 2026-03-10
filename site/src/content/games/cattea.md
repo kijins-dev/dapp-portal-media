@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![Catteaのゲーム画面](https://obs.line-scdn.net:443/0henrnoX4rOkFPFyQuKBpFFhdCNDAjZiNUNiEoOTJSMC18dSYWcg0MVGtCAQEkWQtsOiQTLmtsOw1qdyJncAoqR2JEBhpiRhhgLCN2YipEEQUqWwhoMxo-VzZHAXAk/webp_w100)
+
 ## Catteaとは
 
 **Cattea**は、LINE Dapp Portal（Mini Dapp）で楽しめる人気のブロックチェーンゲームです。可愛らしい猫（Cat）をテーマにしたカジュアルゲームで、遊びながらトークン報酬を獲得できる「Play to Earn」型のゲームとして注目を集めています。

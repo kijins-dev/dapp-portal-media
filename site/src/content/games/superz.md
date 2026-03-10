@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![SuperZのゲーム画面](https://obs.line-scdn.net:443/0hzTk8v6c3JXtWQTsUMi5aLA4UKwo6MDxuL3c3AysELxdlIzksakwfQCwpHjgkIRQtaU8MVHA6JDdzIT1daVw1fXsSGSB7EAdaNXVpWDIRDQInIilOMVsfbS8RHko9/webp_w100)
+
 ## SuperZとは
 
 **SuperZ**は、LINE Dapp Portal（Mini Dapp）上でプレイできるコンテンツ系ブロックチェーンゲームです。カテゴリは「CONTENT」に分類されており、エンターテインメント性の高いコンテンツを楽しみながらリワードを獲得できる仕組みが特徴です。

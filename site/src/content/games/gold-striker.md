@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![Gold Strikerのゲーム画面](https://obs.line-scdn.net:443/0hRFI-cXjQDWl0VBMSL81yPi4BAxgYJRR8DWIfEQkRBwVHNhE-DU1BbAkHCCpYNiNIEmIkRhgGGzISBSx-Dk0aZFA1NVgFMS8-AWI3eA4qJQNaMS9fSWIZfxcvDwNRGDo/webp_w100)
+
 ## Gold Strikerとは
 
 **Gold Striker**は、LINE Dapp Portal（Mini Dapp）上でプレイできるブロックチェーンゲームです。カテゴリは「GAME」に分類されており、シンプルな操作性と報酬システムを兼ね備えたタイトルとして注目を集めています。現在すでに**33,100人以上のプレイヤーが楽しんでいる**ことからも、LINE Dapp Portal内でも人気の高いゲームのひとつであることがわかります。

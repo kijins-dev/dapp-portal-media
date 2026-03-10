@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![Fate Warのゲーム画面](https://obs.line-scdn.net:443/0hpQI6sFZpL350TzERNhtQKS4aIQ8YPjZrDXk9BgkKJRJHLTMpDVYrTQwwLRceLA1xC1ZjHBcaAyUSHg5pDlY4c1AuF08FKg0pAUJiZxEccykcAGtUSVUraBc0LRRRAxg/webp_w100)
+
 ## Fate Warとは
 
 **Fate War**は、LINE Dapp Portal（Mini Dapp）上でプレイできる本格的なストラテジー＆RPGジャンルのブロックチェーンゲームです。カテゴリは「GAME」に分類されており、現在**467.2K人（約46万人以上）**がプレイ中という大型タイトルとして注目を集めています。

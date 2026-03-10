@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![Get Pluckedのゲーム画面](https://obs.line-scdn.net:443/0hNq0V39zPEV4NLw9BSrVuCVd6Hy9hXghLdBkDJnBqGzI-TQ0JdDU4OSx8JhF4YTBoMzYBUCl6FwVrfjBJdzYGUylOKW98SjMJeBkoPCh_TRZrT1UBMBw4am5UEzQoYyY/webp_w100)
+
 ## Get Pluckedとは
 
 **Get Plucked**は、LINE Dapp Portal（Mini Dapp）上でプレイできるカジュアルゲームです。カテゴリは「GAME」に分類されており、ブラウザから手軽にアクセスしてプレイできる設計になっています。**LINE Dapp Portal** — LINEが提供するブロックチェーン連携アプリのプラットフォームで、ゲームやサービスを通じてトークン報酬を獲得できる仕組みが用意されています。

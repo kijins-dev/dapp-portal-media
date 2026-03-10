@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![dePICKのゲーム画面](https://obs.line-scdn.net:443/0hvJ61_To8KWULSDcLxx5WMlQdJxRnOTBwcn47HXYNIwk4KjUzc3w6eC0YKwwnEyVubVEQY3IaPFVmKhtba3sTA2szKDEuBAhmfHs9eysaPDZtBG1uaFIUaG8pEiU/webp_w100)
+
 ## dePICKとは
 
 **dePICK**は、LINE Dapp Portal（Mini Dapp）上でプレイできるソーシャル系ブロックチェーンゲームです。カテゴリは「SOCIAL」に分類されており、プレイヤー同士のインタラクションや予測・選択を楽しむゲームデザインが特徴です。現在すでに**3,600人以上のプレイヤー**がアクティブにプレイしており、LINE Dapp Portalの中でも注目度の高いタイトルのひとつとして存在感を示しています。

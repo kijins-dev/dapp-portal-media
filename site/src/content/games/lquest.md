@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![LQuestのゲーム画面](https://obs.line-scdn.net:443/0hxTz2xAt0J3tHSznljQ9YLBgeKQorOj5uPn01AzoOLRd0KTssfkU3djgbHwopE2JeOn8eQz4ZMksqKRVFJ3gdHScwJi9iBwZwP30NS2EbIiAtBBleJFEadiMqHDs/webp_w100)
+
 ## LQuestとは
 
 **LQuest**は、LINE Dapp Portal上で展開されるソーシャル系ブロックチェーンゲームです。カテゴリは「SOCIAL」に分類されており、単純なゲームプレイにとどまらず、クエストをこなしながらコミュニティとのつながりを楽しめる設計になっています。現在すでに**3.9K人（約3,900人）**のユーザーがプレイ中であり、LINE Dapp Portalの中でも注目度の高いタイトルの一つです。

@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![My Restaurantのゲーム画面](https://obs.line-scdn.net:443/0heBTgLQMaOm1pHiQCCXtFOjNLNBwFbyN4ECgoFRRbMAFafCY6EAd2fAVMOBtHfhszEgcpXhVgFjYPTxt6EwctYE1_AlwYexg6HBN3dA9NAj5FRhhbVQcDWQplOAdMUg0/webp_w100)
+
 ## My Restaurantとは
 
 **My Restaurant**は、LINE Dapp Portal（Mini Dapp）上でプレイできるレストラン経営シミュレーションゲームです。プレイヤーは自分だけのレストランをゼロから作り上げ、料理を提供しながら店を成長させていく体験を楽しめます。カテゴリは**GAME**に分類されており、気軽に遊べるカジュアルなゲームデザインが特徴です。

@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![BeGodsのゲーム画面](https://obs.line-scdn.net:443/0h9XSebp4GZnduHHhaHckZIDRJaAYCbX9iFyp0DxNZbBtdfnogFwZ2dg9MQTxDU1R0CCpfEQhMcCwITUdgFAVxekp9XkYfeUQgGypfbgxOZDBAUER3GS9yYQ1nZB1LUFE/webp_w100)
+
 ## BeGodsとは
 
 **BeGods**は、LINE Dapp Portal（Mini Dapp）上でプレイできるブロックチェーンゲームです。カテゴリは「GAME」に分類されており、神々の世界を舞台にした本格的なゲームプレイが楽しめます。現在すでに**10.8K人（約1万800人）**がプレイ中と表示されており、LINE Dapp Portalの中でも注目度の高いタイトルのひとつです。

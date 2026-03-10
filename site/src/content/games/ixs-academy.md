@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![IXS Academyのゲーム画面](https://obs.line-scdn.net:443/0h5elpFj3VakpRCXQlNUcVHQlcZDs9eHNfKD94MixMYCZia3YdKD8mKCt1US8-a2ZBLj1MSylyawZ0aXJsbhR6THxaVhF8WEhrMj0maTViTQF9R1hgbxNQXChZUXs6/webp_w100)
+
 ## IXS Academyとは
 
 **IXS Academy**は、LINE Dapp Portal（Mini Dapp）上でプレイできる**CONTENTカテゴリ**のブロックチェーンゲームです。「Academy（学院）」という名称が示すとおり、Web3やDeFi（分散型金融）に関する知識を学びながら楽しめる、教育型コンテンツゲームとして注目を集めています。

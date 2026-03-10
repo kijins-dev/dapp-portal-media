@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![Laguna Networkのゲーム画面](https://obs.line-scdn.net:443/0hhd6JQ-LjN0sLMymtwalIHFFmOTpnQi5ecgUlM3Z2PSc4USscciozfy5jNXJtUSx-bz4RXmthMRBtYhZccSogRi9SD3p6VhUcfgUBWStgaxsiaAZfNisOf2hINSEufwA/webp_w100)
+
 ## Laguna Networkとは
 
 **Laguna Network**は、LINE Dapp Portalで遊べるソーシャル系ブロックチェーンゲームです。ブロックチェーンとは、取引記録を分散管理する技術のことで、ゲーム内の報酬やアイテムの所有権を透明性高く管理するために活用されています。カテゴリは**SOCIAL**に分類されており、ユーザー同士のつながりやコミュニティ活動を中心に設計されているのが特徴です。

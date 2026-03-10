@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![CapyBoboのゲーム画面](https://obs.line-scdn.net:443/0hBWhRPuyoHXhVKwM1g89iLw1-Ewk5WgRtLB0PAChuFxRmSQEvaR0nTHV7HzciSAVZah40ejtQHDRwSwVeajYNfnh4ISN4ej9ZNzI3aTVDGCMnSBFOLyYZbix7Jkk-/webp_w100)
+
 ## CapyBoboとは
 
 **CapyBobo**は、LINE Dapp Portal（Mini Dapp）上でプレイできるカジュアルゲームです。カテゴリは「GAME」に分類されており、シンプルな操作で楽しめる内容が多くのユーザーに支持されています。キャラクターにはカピバラをモチーフとしたデザインが採用されており、ゆるくかわいらしいビジュアルが特徴です。

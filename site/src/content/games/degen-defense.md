@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![Degen Defenseのゲーム画面](https://obs.line-scdn.net:443/0hbiCjSLeSPUZ-EyONi5JCESZGMzcSYiRTByUvPgNWNypNcSERCyAHXwJsBR4YcQ9nQgkHSwRoPApbcyVgQQ4tQFNAAR1TQh9nAwoLVFhBFXIaSDF0RwkHUAdDBncV/webp_w100)
+
 ## Degen Defenseとは
 
 **Degen Defense**は、LINE Dapp Portalで遊べるブロックチェーン系ゲームです。カテゴリは「GAME」に分類されており、現在**6,600人以上のプレイヤー**がアクティブにプレイ中という人気タイトルです。ゲームジャンルはタワーディフェンス系で、戦略的にユニットや防衛施設を配置しながら敵の侵攻を食い止めるスタイルが特徴です。

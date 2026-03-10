@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![Hatchers Elementのゲーム画面](https://data.dappportal.io/assets/dapp/9da3bf3f-3801-4257-b0de-b8c87aab8ae9.png)
+
 ## Hatchers Elementとは
 
 **Hatchers Element**は、LINE Dapp Portal（Mini Dapp）上でプレイできるブロックチェーンゲームです。カテゴリは「GAME」に分類されており、現在**4,500人以上のプレイヤー**が楽しんでいます。これだけの規模のプレイヤーが集まっていることからも、注目度の高さが伺えます。

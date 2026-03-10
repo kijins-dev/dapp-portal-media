@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![Love Terminalのゲーム画面](https://obs.line-scdn.net:443/0hmK-sh2qhMmQQCiwLlZdNM0pfPBV8eytxaTwgHG1POAgjaC4zaRMYfjRaGlU5UXYyLxN-SzR0Dj92WxNzahMlaTRrClVhbxAzZQd_fXdaGig4RXZOZwc2cnNxMA41RgU/webp_w100)
+
 ## Love Terminalとは
 
 **Love Terminal**は、LINE Dapp Portal（Mini Dapp）上でプレイできるブロックチェーンゲームです。カテゴリは「GAME」に分類されており、恋愛要素を取り入れたユニークなゲーム体験が楽しめるタイトルとして、現在**21,000人以上のプレイヤーが同時にプレイ中**という高い人気を誇っています。

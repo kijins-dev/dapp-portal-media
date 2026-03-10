@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![LastMemories miniのゲーム画面](https://obs.line-scdn.net:443/0h9jKTsRZbZkV2LXgqEKgZEi54aDQaXH9QDxt0PQtobClFT3oSSTQqfg1_XjwYTiNsAhhidhRWZwlTTX5jSTB2Q1t-Wh5bfERkFRkqZhFRZxIETmpwECBiUw99XXQd/webp_w100)
+
 ## LastMemories miniとは
 
 **LastMemories mini**は、LINE Dapp Portal上で遊べるブロックチェーンゲームです。カテゴリは「GAME」に分類されており、スマートフォンから手軽にアクセスしてプレイできる設計になっています。現在すでに**303K人（約30万人）**がプレイ中と表示されており、LINE Dapp Portalの中でも注目度の高いタイトルのひとつです。

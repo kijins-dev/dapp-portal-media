@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![The Fox Seeks Friendsのゲーム画面](https://obs.line-scdn.net:443/0hcrJreYTVPF13CyIyMZVDCi9eMiwbeiVIDj0uJQpONjFEaSAKSQYKWBRjKRYcUA5_DQVwXBRwPRFSayR7SBYsW1pYAAZaWh58FD9wehBZGxJbRA5rAAY4Sw5bB2wc/webp_w100)
+
 ## The Fox Seeks Friendsとは
 
 **The Fox Seeks Friends**は、LINE Dapp Portal（Mini Dapp）で遊べるカジュアルゲームです。カテゴリは「GAME」に分類されており、可愛らしいキツネのキャラクターを中心としたほのぼのとした世界観が特徴です。プレイヤーはキツネが仲間を集める旅を手助けしながら、さまざまなゲームミッションやアクティビティをこなしていきます。

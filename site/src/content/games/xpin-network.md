@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![XPIN Networkのゲーム画面](https://obs.line-scdn.net:443/0ho9jnKFaTMBZXFy_1Zm9PQQ1CPmc7ZikDLiEibipSOnpkdSxBLg4jdChENXMjT3QdIyIaFy9_Jk0xRhEBLQ4nG3N2CCcmchJBIiEgAypCCHsjdSg8IA8JIjRsMnxyWwc/webp_w100)
+
 ## XPIN Networkとは
 
 **XPIN Network**は、LINE Dapp Portalで遊べる**DePIN**（Decentralized Physical Infrastructure Network）カテゴリのブロックチェーンゲームです。DePINとは、現実世界のインフラやリソースを分散型ネットワークで管理・共有する仕組みを指し、ユーザーが実際にネットワークの構築に貢献することでリワードを得るモデルを採用しています。

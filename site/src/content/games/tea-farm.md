@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![Tea Farmのゲーム画面](https://obs.line-scdn.net:443/0ht1rJYZzzKx5PMzVxDU5USRdmJW8jQjILNgU5ZjJ2IXJ8UTdJcAYNH2lNEForaBpMcz04DGtIKlJqUzM4cC47GGJgF0ViYgk_LAdnOSxPdlEiaCcrcikRCDZjEC8k/webp_w100)
+
 ## Tea Farmとは
 
 **Tea Farm**は、LINE Dapp Portal（Mini Dapp）上でプレイできるブロックチェーン連携型の農場経営シミュレーションゲームです。プレイヤーは自分だけのお茶農園を運営し、茶葉を育てて収穫しながら報酬を獲得することを目指します。シンプルな操作性と農場育成の楽しさが組み合わさったカジュアルゲームで、スマートフォンからいつでも手軽にプレイできる点が特徴です。

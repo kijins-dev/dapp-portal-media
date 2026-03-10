@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![Tower Defense: Future Warのゲーム画面](https://obs.line-scdn.net:443/0hVJZaZWmKCWVnGBek7rV2Mj1NBxQLaRBwHi4bHRpdAwlUehUyHgENVgVwCzIDfRJhHSsdfwlzDz4BSShyHQEeaEN5MVQWfSsyEi4jf0BKIRMDVzg6ECsaUQRjCw9CVD4/webp_w100)
+
 ## Tower Defense: Future Warとは
 
 **Tower Defense: Future War**は、LINE Dapp Portalで配信されているタワーディフェンス型ストラテジーゲームです。プレイヤーはSFテイストの近未来世界を舞台に、押し寄せる敵軍の侵攻をさまざまな防衛タワーを設置・強化することで食い止めることを目的とします。シンプルな操作性でありながら、タワーの配置戦略や強化順序に深みがあり、カジュアルプレイヤーからやり込み派まで幅広く楽しめる作りになっています。

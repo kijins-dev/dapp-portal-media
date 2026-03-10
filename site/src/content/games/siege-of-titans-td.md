@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![Siege of Titans TDのゲーム画面](https://obs.line-scdn.net:443/0hHIHHvbT6F2Z1MQigPyloMS9kGRcZQA5zDAcFHgh0HQpGUwsxDCs-Z1BhPwMCUiVDFigxcwtjOz0TYDZxDygAa1FQL1cEVDUxAAcTcw1jFTVYfyZMAgctcBZKFQxQfSA/webp_w100)
+
 ## Siege of Titans TDとは
 
 **Siege of Titans TD**は、LINE Dapp Portalで遊べるタワーディフェンス（TD）ジャンルのブロックチェーンゲームです。プレイヤーは自軍の拠点を守るためにタワーや防衛ユニットを配置し、押し寄せる敵の波を食い止めることを目的とします。戦略性の高いゲームプレイとブロックチェーン要素が組み合わさった作品で、カテゴリは「GAME」に分類されています。

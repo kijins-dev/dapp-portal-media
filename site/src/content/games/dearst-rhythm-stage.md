@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![DearSt! RHYTHM STAGEのゲーム画面](https://obs.line-scdn.net:443/0h7OwlAGEJaGBKFXeKGoEXNxJAZhEmZHF1MyN6GDdQYgx5d3Q3PiMkTydqUAk7TXNVMQ9BAi5uaSxvdXBGdQh4ZmdGVDtnREpBNiF7WGt9ag5idWRJKBhsdjNFU1Eh/webp_w100)
+
 ## DearSt! RHYTHM STAGEとは
 
 **DearSt! RHYTHM STAGE**は、LINE Dapp Portal上でプレイできるリズム系音楽ゲームです。プレイヤーは楽曲に合わせてノーツを叩き、スコアを競いながらゲームを進めていきます。音楽ゲームとブロックチェーン技術を組み合わせた体験が特徴で、ゲームを楽しみながら報酬を獲得できる仕組みが用意されています。

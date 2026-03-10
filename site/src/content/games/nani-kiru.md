@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![Nani-Kiruのゲーム画面](https://obs.line-scdn.net:443/0h4G6GEtgda2gLPnUuR5wUP1NrZRlnT3J9cgh5EHZ7YQQ4XHc_fyZSDm1VQzAkcXBoNCdvZi1FaiQuXnNONCN7biZtVzMmb0lJaSR4DmtBaVxiZmddcCRRfnJuUFlg/webp_w100)
+
 ## Nani-Kiruとは
 
 **Nani-Kiru**は、LINE Dapp Portal（Mini Dapp）上でプレイできるカジュアルゲームです。カテゴリは「GAME」に分類されており、スマートフォンのブラウザから手軽にアクセスして楽しめます。現在すでに**17.2K人（約1万7,200人）のプレイヤーが参加中**であり、LINE Dapp Portalの中でも注目を集めているタイトルのひとつです。

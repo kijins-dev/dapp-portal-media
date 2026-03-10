@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![Gamunityのゲーム画面](https://obs.line-scdn.net:443/0h9Zs0eu-jZnVOSXiGSOYZIhYcaAQiOH9gN390DTMMbBl9K3oicnwqdDYaTTohEUhYKVNfEm8yZzlrKX5TcVR2c2MaWi5jGERULHpPFzciZAQ5KmpHd0RiYzcZXUQl/webp_w100)
+
 ## Gamunityとは
 
 **Gamunity**は、LINE Dapp Portal（Mini Dapp）上でプレイできるブロックチェーン連携型のゲームです。「GAME」カテゴリに分類されており、現在すでに**3,700人以上（3.7K人）**のプレイヤーがアクティブにプレイしている注目タイトルです。

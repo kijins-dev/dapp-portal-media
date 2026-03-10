@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![Chiwatのゲーム画面](https://obs.line-scdn.net:443/0hQgrRovBwDkhPKxAQ41hxHxV-ADkjWhddNh0cMDJuBCR8SRIfNjJCbzRUNnAnThUWNzInWmpXGBMpei9fNTIZRWtKNnk-TiwfOh03WiF-CxxjSCxIcyUdfCxQDCJqZzk/webp_w100)
+
 ## Chiwatとは
 
 **Chiwat**は、LINE Dapp Portal（Mini Dapp）上で楽しめるCONTENTカテゴリのゲームです。CONTENTカテゴリとは、ゲームプレイやコンテンツ消費を通じてポイントや報酬を獲得できるジャンルを指し、スキマ時間に気軽に楽しめる設計が特徴です。

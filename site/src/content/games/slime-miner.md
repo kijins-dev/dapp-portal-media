@@ -17,6 +17,8 @@ generation_model: "claude-haiku-4-5-20251001"
 draft: false
 ---
 
+![Slime Minerのゲーム画面](https://obs.line-scdn.net:443/0hTQu88-hVC35IQRURDXN0KRIUBQ8kMBJrMXcZBjUEARJ7IxcpMVgYGSsRI04lIxd1NkxHEG4qNyUuECppMlgcc2wgM085JCkpPUxGZy0RMyUuDSl-dVsfaCs6CRRtDTw/webp_w100)
+
 ## Slime Minerとは
 
 **Slime Miner**は、LINE Dapp Portalで提供されるカジュアルゲームです。プレイヤーは、かわいらしいスライムのキャラクターを操作しながら、マイニング（採掘）をテーマにしたゲームプレイを楽しみます。

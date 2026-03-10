@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![Legend Warのゲーム画面](https://obs.line-scdn.net:443/0hUSH43g9bCnx1TRWzey91Ky0YBA0ZPBNpDHsYBAgIABBGLxYrSnsZEgkdCygeFShzSXggZRs2CzBQLRJaSlAaelgeNidYHChdClceZQ0YIkgTAzhVSUAOagwdMU0e/webp_w100)
+
 ## Legend Warとは
 
 **Legend War**は、LINE Dapp Portalで配信されているブロックチェーンベースの戦略バトルゲームです。カテゴリは「GAME」に分類されており、プレイヤーは自軍のキャラクターや兵士を編成してステージに挑み、敵を撃破しながら報酬を獲得していく仕組みになっています。現在すでに**1.3K人（約1,300人）**のプレイヤーが参加中であり、LINE Dapp Portal内でも注目を集めているタイトルの一つです。

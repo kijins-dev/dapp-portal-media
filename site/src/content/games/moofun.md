@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![Moofunのゲーム画面](https://obs.line-scdn.net:443/0hSOeyzoDwDGBYABJ6t8NzNwBVAhE0cRV1ITYeGCVFBgxrYhA3ZxocdnlVNzN0TC1RPTYmUzh7DSx9YBRGZx0cZnVTMDt1US5BOjQ1cSV8CS90YgBWLBo2diFQN1Ez/webp_w100)
+
 ## Moofunとは
 
 **Moofun**は、LINE Dapp Portalで遊べるブロックチェーンゲームです。カテゴリは「GAME」に分類されており、現在**1.4K人（約1,400人）**がアクティブにプレイ中のタイトルです。LINE Dapp Portalとは、LINEが提供するWeb3アプリのプラットフォームで、スマートフォンから手軽にブロックチェーン技術を活用したゲームやサービスにアクセスできる環境です。

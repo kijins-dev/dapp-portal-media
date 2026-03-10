@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![Savanna Survivalのゲーム画面](https://obs.line-scdn.net:443/0hlSpzzSb2M3xNAy0TyLVMKxdWPQ0hcippNDUhBDBGORB-YS8rNBonfStQMitjTBJ_MRkafTJ8HycrUhJrNxokcWliC008ZhErOA5-ZSpTGytjYRFKcRo3ai54MRZoTwQ/webp_w100)
+
 ## Savanna Survivalとは
 
 **Savanna Survival**は、LINE Dapp Portal（Mini Dapp）上でプレイできるサバンナをテーマにしたサバイバル系ブロックチェーンゲームです。カテゴリは「GAME」に分類されており、雄大なアフリカのサバンナを舞台に、野生動物たちの世界で生き残りをかけた戦略的なゲームプレイが楽しめます。

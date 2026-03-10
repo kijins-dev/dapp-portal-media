@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![SeekDのゲーム画面](https://obs.line-scdn.net:443/0hFdVddOEeGUtrHQd2KW1mHDNIFzoHbABeEisLMxZYEydYfwUcHyswd01iRAAFfzhICAdVeBRmGAdOfQFtVAAJTUZOJRBGTDtqCRBVaBRhDAgZfhViHwcjXRJNInoA/webp_w100)
+
 ## SeekDとは
 
 **SeekD**は、LINE Dapp Portalで楽しめるAIカテゴリのブロックチェーンゲームです。AIを活用した独自のゲームプレイが特徴で、プレイしながらトークン報酬を獲得できる「Play to Earn」型のタイトルとして注目を集めています。

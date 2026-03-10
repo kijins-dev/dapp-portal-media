@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![LOOTaDOG Travelのゲーム画面](https://data.dappportal.io/assets/dapp/5b6f5731-4d2f-42fe-8fe2-f4ac265a4e03.png)
+
 ## LOOTaDOG Travelとは
 
 **LOOTaDOG Travel**は、LINE Dapp Portal上で楽しめるCONTENTカテゴリのWeb3ゲームです。プレイヤーは愛らしいキャラクター「LOOTaDOG」とともに世界各地を旅するコンセプトのゲームで、旅先でのコンテンツ収集や探索を楽しみながら報酬を獲得できる仕組みが用意されています。

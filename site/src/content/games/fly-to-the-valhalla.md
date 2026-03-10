@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![Fly To The Valhallaのゲーム画面](https://obs.line-scdn.net:443/0h5xEOf441ald4NnUwFGQVACBjZCYUR3NCAQB4LwVzYDtLVHYAATtQSgNJfzIdVlRmHAJ-VhxNaxtdVnJxRyt6UVVlVgxVZ0h2BQJQVhRmQhgRbWZ-BSxQQQFmUWYT/webp_w100)
+
 ## Fly To The Valhallaとは
 
 **Fly To The Valhalla**は、LINE Dapp Portal（Mini Dapp）上でプレイできるブロックチェーンゲームです。「ヴァルハラへ飛べ」というタイトルが示すとおり、北欧神話の世界観をベースにしたカジュアルゲームで、プレイしながら**KAIAトークン**（LINE Dapp Portalで獲得できる暗号資産で、国内の対応取引所を通じて日本円に換金できます）を報酬として獲得できる仕組みが用意されています。

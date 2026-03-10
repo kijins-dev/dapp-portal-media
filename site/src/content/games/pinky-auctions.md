@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![Pinky Auctionsのゲーム画面](https://obs.line-scdn.net:443/0hb-EBLxG0PQJ4OyM3OYJCVSBuM3MUSiQXAQ0vegV-N25LWSFVRAgXDxpFCkZUWAMvRTYEJl5APE5dWyUkRyYtBFVoAVlVah8jGjYULRRuFW8PWTE3GiEHFAFrBjMT/webp_w100)
+
 ## Pinky Auctionsとは
 
 **Pinky Auctions**は、LINE Dapp Portal（Mini Dapp）上でプレイできるオークション体験型のコンテンツゲームです。カテゴリは「CONTENT」に分類されており、ゲーム内でオークションに参加しながらアイテムや報酬を獲得していく仕組みが用意されています。

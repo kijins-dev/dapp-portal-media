@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![Magic Squadのゲーム画面](https://obs.line-scdn.net:443/0h-txmM0v3cltFFG1aVB4NDB9BfCopZWtOPCJgIzhReDd2dm4MPA12Xj9ERQ9qdkx9MSdheGBqTgAjRVNMPw1lVmF1Smo0cVAMMCJhZyZEcABpW0NxeCA-byZvcDFgWEU/webp_w100)
+
 ## Magic Squadとは
 
 **Magic Squad**は、LINE Dapp Portal（Mini Dapp）上でプレイできるブロックチェーンゲームです。カテゴリは「GAME」に分類されており、ファンタジー世界を舞台にした魔法使いたちのスクワッド（部隊）を編成して戦うゲームです。現在すでに**4.6K人（約4,600人）**がプレイ中という人気タイトルで、LINE Dapp Portalのゲームラインナップの中でも注目を集めています。

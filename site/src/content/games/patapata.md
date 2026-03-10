@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![PataPataのゲーム画面](https://obs.line-scdn.net:443/0hY-xyvSk8BgJFABhtJAV5VRpVCHMpcR8XPDYUejhFDG52YhpVfBkvOWB8A1FoTzdUIxk_ZTxSEzIoYjQ8JTM8ZCV7B1ZgTCcBMjZKLSFQPk0jTzc8Pxo7DyFhPUI/webp_w100)
+
 ## PataPataとは
 
 **PataPata**は、LINE Dapp Portal（Mini Dapp）上でプレイできるブロックチェーンゲームです。カテゴリは「GAME」に分類されており、現在2.4K人（約2,400人）ものプレイヤーが同時にプレイ中というデータが表示されています。LINE Dapp Portalは、LINEアプリ内からアクセスできるWeb3対応のゲーム・サービスプラットフォームで、PataPataはその中でも注目度の高いタイトルのひとつです。

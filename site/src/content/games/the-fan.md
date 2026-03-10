@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![The Fanのゲーム画面](https://obs.line-scdn.net:443/0hWUjXL7n5CHpXIRaiLrd3LQ90Bgs7UBFvLhcaAipkAhZkQxQtajgiSndeHR87QjpHKxcxVShaCTZyQRBcaDwYfHpyNCF6cCpbKjkhazJzMy07QQRMazsybC5xM0s8/webp_w100)
+
 ## The Fanとは
 
 **The Fan**は、LINE Dapp Portal（Mini Dapp）上で提供されているソーシャル系のブロックチェーンゲームです。カテゴリは「SOCIAL」に分類されており、エンターテインメントとコミュニティ交流を組み合わせた体験が特徴です。現在すでに**7,700人以上のユーザーがプレイ中**であり、LINE Dapp Portal内でも注目度の高いタイトルのひとつとして位置づけられています。

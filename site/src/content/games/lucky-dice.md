@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![Lucky Diceのゲーム画面](https://obs.line-scdn.net:443/0hQELxURuwDmpxARAFPf1xPStUABsdcBd_CDccEgxEBAZCYxI9CBsKfFV-JT1dY0tDBhgkZxBpGDEXUC99CxgZZ1VgNlsAZCw9BAxDcxRpDzkeWj9uTBk0fBJ6DABUTTk/webp_w100)
+
 ## Lucky Diceとは
 
 **Lucky Dice**は、LINE Dapp Portal（Mini Dapp）上でプレイできるブロックチェーンベースのダイスゲームです。シンプルながらも奥深いゲームデザインが特徴で、カテゴリは**GAME**に分類されています。現在**120万人以上（1.2M人）**のプレイヤーが楽しんでおり、LINE Dapp Portal内でも特に人気の高いタイトルのひとつとなっています。

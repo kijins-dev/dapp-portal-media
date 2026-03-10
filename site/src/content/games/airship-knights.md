@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![Airship Knightsのゲーム画面](https://obs.line-scdn.net:443/0hRxtQZGmHDVdJKBOSP6FyABN9AyYlWRRCMB4fLzRtBzt6ShEAMDInSjV4JTosc0h1PSYeNS56MQwveSxAMzEaWm1JNWY4TS8APB4nSWlWJW8-ZC9hPiYeYypTDz1sZDo/webp_w100)
+
 ## Airship Knightsとは
 
 **Airship Knights**は、LINE Dapp Portal（Mini Dapp）上でプレイできる空中艦隊をテーマにしたブロックチェーンゲームです。カテゴリは「GAME」に分類されており、現在**8,500人以上のユーザーがプレイ中**という人気タイトルです。プレイヤーは飛行艦船と騎士たちを率いて戦略的なバトルに挑み、報酬を獲得しながらゲームを進めていきます。

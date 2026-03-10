@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![Lairのゲーム画面](https://obs.line-scdn.net:443/0hd68vfuGhOxkFDyV2NdxETl9aNWhpfiIMfDkpYXhKMXU2bSdOfBUSJnpfZ0EqQRoOcDsrGGBxF0JjXhoOfxYsFCFuAyh0ahlOcAJ2AGBwZ1IoQycZcjsRD2l0OXMgQww/webp_w100)
+
 ## Lairとは
 
 **Lair**は、LINE Dapp Portal（Mini Dapp）上でプレイできるコンテンツ系ブロックチェーンゲームです。カテゴリは「CONTENT」に分類されており、インタラクティブなコンテンツを楽しみながら報酬を獲得できる仕組みが特徴です。

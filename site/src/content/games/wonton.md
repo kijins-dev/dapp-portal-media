@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![Wontonのゲーム画面](https://obs.line-scdn.net:443/0hBbbPxocAHU1fKQMiPr5iGgd8EzwzWARYJh8PNSJsFyFsSwEaKyQ0KyJBJgI6ZhF8Pxw3SDtSHAF6SQVrYDQNS3J6IRZyeD9sPB1Rbj9VNgotShFnZyQZWyZ5Jnw0/webp_w100)
+
 ## Wontonとは
 
 **Wonton**は、LINE Dapp Portal（Mini Dapp）上でプレイできるブロックチェーンゲームです。カテゴリは「GAME」に分類されており、スマートフォンのブラウザからLINEアプリを通じて手軽にアクセスできる点が特徴です。ゲームのコンセプトは「料理」をテーマにしており、ワンタン（Wonton）という名前が示すとおり、食をモチーフにしたキャラクターや世界観が楽しめます。

@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![Pepenade Crush: Fear & Greedのゲーム画面](https://obs.line-scdn.net:443/0hkxLpwRUUNFdxCSo4M8ZLAClcOiYdeC1CCD8mLwxMPjtCaygACBMgWVBbExwCUnBYDxMNMR1yNRtUaSxxThQkUVxaCAxcWBZ2Ej14cBJiaBADRwZ-CAQwSQhZD2Ya/webp_w100)
+
 ## Pepenade Crush: Fear & Greedとは
 
 **Pepenade Crush: Fear & Greed**は、LINE Dapp Portal上でプレイできるカジュアルゲームです。カテゴリは「GAME」に分類されており、シンプルな操作性と中毒性の高いゲームプレイが特徴です。現在すでに**1.3K人（約1,300人）**がプレイ中と表示されており、LINE Dapp Portalの中でも注目を集めているタイトルのひとつです。

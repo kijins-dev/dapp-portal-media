@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![Mini GangHouseのゲーム画面](https://obs.line-scdn.net:443/0h36El0uaobBl4FXLb-IMTTiJAYmgUZHUMASN-YQVQZnVLd3BOAQ9_Ol1qMXwMWk1LBiAgJhxGQEIeRE0OAgx7FFx0VCgJcE5ODSNGAxtrR3wMWk1GDwwgLRtubnNdWVs/webp_w100)
+
 ## Mini GangHouseとは
 
 **Mini GangHouse**は、LINE Dapp Portal（Mini Dapp）上でプレイできるブロックチェーンゲームです。カテゴリは「GAME」に分類されており、スマートフォンのLINEアプリから手軽にアクセスしてプレイできる設計になっています。「GangHouse」というタイトルが示すように、縄張りや拠点をテーマにしたゲーム性が特徴的です。

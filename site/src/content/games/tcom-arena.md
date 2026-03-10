@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![TCOM Arenaのゲーム画面](https://obs.line-scdn.net:443/0hhddutoZuN0tZDCkkPsRIHAFZOTo1fS5eIDolMyRJPSdqbiscZhQBSXlcHx90byxmOQEOWjl3Ngd8bC9tZhEnTXRfCxB0XRVqOjh7aDxZHyl1VDtiLBYNXSBcDHoy/webp_w100)
+
 ## TCOM Arenaとは
 
 **TCOM Arena**は、LINE Dapp Portal（Mini Dapp）上でプレイできる本格的なブロックチェーンゲームです。現在すでに**1.3M人（130万人）以上**がプレイ中という驚異的なユーザー数を誇り、LINE Dapp Portalの「GAME」カテゴリの中でも特に注目度の高いタイトルの一つとなっています。

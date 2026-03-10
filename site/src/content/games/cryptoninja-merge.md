@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![CryptoNinja Merge!のゲーム画面](https://data.dappportal.io/assets/dapp/22beadd5-8e7b-4ea8-af15-99901ac7be6d.png)
+
 ## CryptoNinja Merge!とは
 
 **CryptoNinja Merge!** は、LINE Dapp Portalで遊べるマージ系パズルゲームです。マージ系ゲームとは、同じアイテムどうしを合体（マージ）させてより強力なアイテムを生み出していくジャンルで、シンプルな操作ながら奥深い戦略性が魅力です。CryptoNinja Merge!では、人気NFTプロジェクト「CryptoNinja」の世界観をベースにしたキャラクターやアイテムが登場し、ビジュアル面でも楽しめる作りになっています。

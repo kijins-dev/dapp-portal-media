@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![CapyGoのゲーム画面](https://obs.line-scdn.net:443/0h1pdigO6Nbl9ZEHCh-_YRCAFFYC41YXdKICZ8JyRVZDNqcnIIZx1XPSFsVQQ3cnVMOSN-XX1rbxN8cHZ5Zg1-WXRDUgR0QUx-JApURiJ4bww0c2JqLB1qSSBAVW4y/webp_w100)
+
 ## CapyGoとは
 
 **CapyGo**は、LINE Dapp Portal（Mini Dapp）上で遊べるCONTENTカテゴリのブロックチェーンゲームです。カピバラをモチーフにしたキャラクターが登場する本作は、そのほのぼのとしたビジュアルと手軽なゲームプレイで多くのユーザーを集めており、現在**89,300人以上がプレイ中**という人気タイトルとなっています。

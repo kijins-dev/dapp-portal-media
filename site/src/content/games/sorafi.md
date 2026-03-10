@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![Sorafiのゲーム画面](https://obs.line-scdn.net:443/0hky2XUgQHNFYPISp3tvVLAVV0OidjUC1DdhcmLnJkPjo8QygBdjgneW1yDGJ4ehVrMhUeSC9xGA1pcBVBdTgjWytADGd-RBYBehcNS2JfHx1jbRZwMhIgQGxaNjwqbQM/webp_w100)
+
 ## Sorafiとは
 
 **Sorafi**は、LINE Dapp Portal（Mini Dapp）上でプレイできる**DeFiカテゴリ**のブロックチェーンゲームです。DeFi（Decentralized Finance）とは、ブロックチェーン技術を活用した分散型金融の仕組みを指し、従来の銀行や仲介業者を介さずにトークンの運用や取引ができる仕組みのことです。Sorafiはそのコンセプトをゲームとして楽しめる形に落とし込んでおり、金融の知識がなくても直感的に操作しながら学べる点が特徴です。

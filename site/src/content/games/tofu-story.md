@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![TOFU Storyのゲーム画面](https://obs.line-scdn.net:443/0hLV8FRNHoE3kFPw3WwNJsLlpqHQhpTgpsfAkBAXh6GRU2XQ8uOwklZHhDKxQpZwgmOSVfFnxtBkloXSFHZQwpH2VEEi0gczJyYQkAdGlABhB3cCJuZiUudGFeKDk/webp_w100)
+
 ## TOFU Storyとは
 
 **TOFU Story**は、LINE Dapp Portal（Mini Dapp）上でプレイできるSocialFiジャンルのブロックチェーンゲームです。「SocialFi」とは、ソーシャル要素とDeFi（分散型金融）を組み合わせた新しいゲームカテゴリで、プレイヤー同士のつながりやコミュニティ活動が報酬に直結する仕組みが特徴です。

@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![Sid Originsのゲーム画面](https://obs.line-scdn.net:443/0h5cOjW9ufakxyE3QjF6IVGypGZD0eYnNZCyV4NA9WYCBBcXYbBwpudw94QgsAX0tuTSB6URZoawBXc3JqTQ56Sl9AVhdfQkhtEScmbxZsNzkCcWZ6SwlQWgtDUX0Z/webp_w100)
+
 ## Sid Originsとは
 
 **Sid Origins**は、LINE Dapp Portal（Mini Dapp）上でプレイできる本格的なブロックチェーンゲームです。カテゴリは「GAME」に分類されており、アクション・アドベンチャー系の要素を持つタイトルです。世界観や独自のキャラクター「Sid」を中心に展開するストーリーが特徴的で、プレイヤーは探索や戦闘を通じてゲームの世界を深く楽しめます。

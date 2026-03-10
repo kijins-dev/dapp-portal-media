@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![GenLeapのゲーム画面](https://obs.line-scdn.net:443/0h452sqj1waxoPCnV1bvsUTVdfZWtje3IPdjx5YnJPYXY8aHdNdhNCIit0Q3d6akksdRNSNStxalYqanM8MBd7HCJZV0EiW0k7bD4nOWhYN1EjRlkzeBBRDHZaUCtk/webp_w100)
+
 ## GenLeapとは
 
 **GenLeap**は、LINE Dapp Portal（Mini Dapp）上でプレイできるブロックチェーンゲームです。カテゴリは「GAME」に分類されており、タワー登頂やバトルといったアクション要素を楽しみながら、KAIAトークンなどの報酬を獲得できる仕組みが用意されています。

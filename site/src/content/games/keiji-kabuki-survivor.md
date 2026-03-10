@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![KEIJI KABUKI Survivorのゲーム画面](https://obs.line-scdn.net:443/0hF288GgsYGR0FQQcm5wxmSloUF2xpMAAIfHcLZXgEE3E2IwVKO1k_DCASMWx3GigWY0wwJXwTDC1oIysjZXIje2U6GEkgDTgSZ1kvGyQqG3stDiczf1skEGEgIl0/webp_w100)
+
 ## KEIJI KABUKI Survivorとは
 
 **KEIJI KABUKI Survivor**は、LINE Dapp Portal上でプレイできるサバイバー系アクションゲームです。カテゴリは「GAME」に分類されており、プレイヤーが次々と押し寄せる敵を倒しながらキャラクターを強化していく、いわゆる「バレットヘル」スタイルのゲームプレイが特徴です。歌舞伎をモチーフにした独特の世界観とビジュアルが、他のブロックチェーンゲームとは一線を画す個性を生み出しています。

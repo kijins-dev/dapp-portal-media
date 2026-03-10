@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![LARVA Survivalのゲーム画面](https://obs.line-scdn.net:443/0hh9GGGAlmNxZ6Pil7mBxIQSBrOWcWTy4DAwglbgd7PXpJXCtBAyQecABrDFELXHIgDid6Cx1rG00cbxYBACcgG15fDycLWxVBDzN6EFpAD2MWZnMSRwgeIhlFNXxfcgA/webp_w100)
+
 ## LARVA Survivalとは
 
 **LARVA Survival**は、人気キャラクター「ラーバ（LARVA）」を題材にしたサバイバル系アクションゲームです。LINE Dapp Portal（Mini Dapp）上でプレイできるブラウザゲームであり、スマートフォン一台で手軽に楽しめます。カテゴリは**GAME**に分類されており、アクション要素とサバイバル要素を組み合わせたゲームデザインが特徴です。

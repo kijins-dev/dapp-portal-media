@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![Wizzwoodsのゲーム画面](https://obs.line-scdn.net:443/0hUAYSHowcCm5kKhQBAaN1OT5_BB8IWxN7HRwYFhlvAAJXSBY5HTAjAUVVLSETZk9QER5GDB9CDDUCeyt5HjMdY0BLMl8VTyg5ESdHdwJ6MTUJZCt6Ex8weAdRCARBZj0/webp_w100)
+
 ## Wizzwoodsとは
 
 **Wizzwoods**は、LINE Dapp Portal（Mini Dapp）上でプレイできるブロックチェーンゲームです。「GAME」カテゴリに分類されており、ファンタジー世界を舞台にした冒険や戦略要素を楽しめるタイトルとなっています。

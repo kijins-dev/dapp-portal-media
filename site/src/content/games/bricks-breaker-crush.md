@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![Bricks Breaker Crushのゲーム画面](https://obs.line-scdn.net:443/0h1u_UaSTOblpiLHBAocgRDTh5YCsOXXdPGxp8Ih9pZDZRTnINGzYiXx5TVTNOdyp3ABlURwxSUgEEfU9NGDV5V0ZNVmsTSUwNFxpYTEN_bC9PYl9eXjYibgFXbDBHYFk/webp_w100)
+
 ## Bricks Breaker Crushとは
 
 **Bricks Breaker Crush**は、LINE Dapp Portalで遊べるボール＆ブロック崩しジャンルのカジュアルゲームです。スマートフォンの画面を指でなぞってボールの角度を調整し、画面上に並んだブロックを次々と破壊していくシンプルながら奥深いゲームプレイが特徴です。カテゴリは「GAME」に分類されており、パズル的な要素とアクション的な爽快感を同時に楽しめます。

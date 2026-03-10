@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![Puzzle & Guardiansのゲーム画面](https://obs.line-scdn.net:443/0heeauEgtEOkpcDCTbh4hFHQZZNDswfSNfJTooMiFJMCZvbiYdJRYcVyFkAR02QgtdJDoQSzBfLBE6XRtdJhUtR3htAnstaRgdKToTLDFyAic2VxhsKzgDfj93OCB5QA0/webp_w100)
+
 ## Puzzle & Guardiansとは
 
 **Puzzle & Guardians**は、LINE Dapp Portal（Mini Dapp）上でプレイできるパズル×RPG融合型のブロックチェーンゲームです。プレイヤーはパズルを解きながら強力なガーディアン（守護者）を育成し、バトルを進めていくゲームデザインになっています。カテゴリは「GAME」に分類されており、カジュアルなパズルゲームの楽しさとやり込み要素の強いRPGの深みを同時に味わえるタイトルです。

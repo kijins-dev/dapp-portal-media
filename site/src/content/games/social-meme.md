@@ -17,6 +17,8 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
+![social.memeのゲーム画面](https://obs.line-scdn.net:443/0hCS4f0m-CHHwJHwITbbljK1FKEg1lbgVpcCkOBHRaFhA6fQArNBIPSGV0Ozd5fwdzbwc1Ty1kHTAsfwRaNgIMeiRMICckTj5daitQX2xhNytnRBBKMQUmanBPJ01i/webp_w100)
+
 ## social.memeとは
 
 **social.meme**は、LINE Dapp Portal（Mini Dapp）上で楽しめる**SocialFi**カテゴリのブロックチェーンゲームです。SocialFiとは「Social（ソーシャル）」と「Finance（ファイナンス）」を組み合わせた新しいジャンルで、SNS的なコミュニティ活動やインタラクションを通じてトークン報酬を獲得できる仕組みが特徴です。
