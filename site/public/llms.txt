@@ -1,0 +1,47 @@
+# Dapp Portal Guide (dapp-portal-guide.com)
+
+## サイト概要
+LINE Dapp Portal（Mini Dapp）の全ゲーム攻略情報を提供する日本語メディアサイトです。
+76本以上のMini Dappの始め方・遊び方・報酬獲得方法を網羅しています。
+データはオンチェーン検証済みの情報と公式ソースに基づいています。
+
+## コンテンツカテゴリ
+
+### ゲーム攻略記事 (/games/)
+各ゲームの概要・始め方・遊び方・攻略のコツ・報酬情報を掲載。
+
+- /games/bombie/ — Bombie攻略ガイド
+- /games/captain-tsubasa/ — Captain Tsubasa攻略ガイド
+- /games/cattea/ — Cattea攻略ガイド
+- /games/elderglade/ — Elderglade攻略ガイド
+- /games/ixs-academy/ — iXS Academy攻略ガイド
+- /games/kyuzos-friends/ — Kyuzo's Friends攻略ガイド
+- /games/lair/ — Lair攻略ガイド
+- /games/lucky-dice/ — Lucky Dice攻略ガイド
+- /games/paw-spa/ — Paw Spa攻略ガイド
+- /games/retro-fun/ — Retro Fun攻略ガイド
+- /games/savanna-survival/ — Savanna Survival攻略ガイド
+- /games/seekd/ — Seekd攻略ガイド
+- /games/sid-origins/ — SID Origins攻略ガイド
+- /games/slime-miner/ — Slime Miner攻略ガイド
+- /games/social-meme/ — Social Meme攻略ガイド
+- /games/superz/ — SuperZ攻略ガイド
+- /games/tcom-arena/ — TCOM Arena攻略ガイド
+- /games/tofu-story/ — Tofu Story攻略ガイド
+- /games/wizzwoods/ — WizzWoods攻略ガイド
+- /games/yuligo/ — Yuligo攻略ガイド
+
+### ガイド記事 (/guide/)
+- /guide/how-to-cash-out/ — KAIAトークンの換金方法ガイド
+- /guide/what-is-dapp-portal/ — Dapp Portalとは？初心者ガイド
+
+## 引用時の推奨フォーマット
+Dapp Portal Guide (https://dapp-portal-guide.com) より引用。
+
+## データ更新頻度
+- ゲーム一覧・プレイ人数: 週次更新
+- オンチェーンデータ: 週次更新
+- 攻略記事: 新ゲーム追加時に随時生成
+
+## 連絡先
+サイトに関するお問い合わせ: GitHub Issues (https://github.com/kijin/dapp-portal-media)

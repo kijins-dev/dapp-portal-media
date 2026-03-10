@@ -2,53 +2,73 @@
 
 LINE Dapp Portal（Mini Dapp）の攻略記事を自動生成・自動公開するメディアサイト。
 
-## プロジェクト概要
-
-### 何をやるか
-- LINE Dapp Portal上の全Mini Dapp（現在77本、2025年末1,000本予定）の攻略記事を自動生成
-- 新規ゲーム追加を自動検知し、即座に記事化
-- SEO最適化された静的サイトとして自動デプロイ
-
-### なぜやるか
-- 77本中、個別攻略記事があるのはBombie/Cattea/キャプ翼の3本程度（2026年3月時点）
-- 残り70本以上のゲームは日本語攻略記事がゼロ → ブルーオーシャン
-- ゲーム数が1,000本に拡大予定 → 手動では不可能、自動化が必須
-
-### 収益モデル（検討中）
-- 各ゲームの紹介リンク（リファラル報酬）
-- アフィリエイト広告
-- 有料コンテンツ（攻略まとめ等）
-- その他（検討中）
-
-### 技術スタック（検討中）
-- スクレイピング: Playwright（Node.js）
-- 記事生成: Claude API
-- サイト: Astro + Cloudflare Pages（候補）
-- CI/CD: GitHub Actions
+- サイト: https://dapp-portal-guide.com
+- ホスティング: Cloudflare Pages
+- 技術: Astro 5.17 + MDX + TypeScript + Claude API
 
 ## フォルダ構成
 
 ```
 dapp-portal-media/
-├── README.md
+├── .claude/
+│   ├── rules/               # Claude Code ルール（6ファイル）
+│   └── agents/              # Claude Code エージェント（3ファイル）
+├── config/
+│   ├── compliance.yaml      # NG単語・免責事項テンプレート
+│   ├── scraper.yaml         # Playwright設定
+│   └── affiliates.yaml      # アフィリエイト設定（Phase 1以降）
+├── data/
+│   ├── games-research.json  # ゲーム調査DB（SSOT）
+│   ├── tokens.json          # オンチェーントークンレジストリ
+│   ├── apps.json            # スクレイパー生データ（76ゲーム）
+│   ├── review-queue.json    # コンプライアンスレビュー待ち
+│   └── dead-letter.json     # 生成失敗（3回fail）
 ├── docs/
-│   └── requirements/        # 要求・要件定義
-│       └── system/V1.0/
-│           ├── BRD.md        # 要求定義書（Why/What）
-│           ├── SRS.md        # 要件定義書（How）
-│           ├── review-prompt.md
-│           └── review-summary.md
-├── src/                      # ソースコード（実装時）
-│   ├── scraper/              # Dapp Portalスクレイパー
-│   ├── generator/            # 記事生成エンジン
-│   └── site/                 # Astroサイト
-└── data/                     # スクレイピングデータ
+│   ├── requirements/system/ # 要件定義（V1.0〜V2.1）
+│   └── plans/               # 計画・PoCレポート
+├── qa/
+│   └── gates.yaml           # 品質ゲート閾値定義
+├── site/                    # Astroサイト本体
+│   ├── src/content/games/   # 攻略記事（20本公開）
+│   ├── src/content/guides/  # ガイド記事（2本）
+│   ├── src/layouts/         # レイアウト
+│   ├── src/components/      # コンポーネント
+│   ├── src/pages/           # ルーティング
+│   └── public/
+│       ├── screenshots/     # Playwrightスクショ
+│       └── llms.txt         # LLM向けサイト情報
+├── src/
+│   ├── scraper/             # Playwrightスクレイパー
+│   ├── generator/           # Claude API記事生成エンジン
+│   │   ├── prompts.ts       # 5テンプレートバリアント
+│   │   └── compliance.ts    # コンプライアンスチェック
+│   └── pipeline/            # 統合パイプライン
+├── drafts/                  # 生成記事ドラフト
+├── CLAUDE.md                # プロジェクト設定
+└── package.json
+```
+
+## コマンド
+
+```bash
+npm run scrape                     # unifi.me/appsスクレイピング → apps.json更新
+npm run generate:single -- {slug}  # 1記事生成
+npm run pipeline                   # 新規のみ: scrape → generate
+npm run pipeline:all               # 全アプリ再生成
+npm run site:dev                   # Astroプレビュー
+npm run site:build                 # Astroビルド
+npm run typecheck                  # TypeScript型チェック
 ```
 
 ## ステータス
 - [x] 市場調査
-- [ ] ビジネスモデル確定
-- [ ] 要求定義（BRD）
-- [ ] 要件定義（SRS）
-- [ ] レビュー
-- [ ] 実装
+- [x] 要件定義（V2.1 — Codexレビュー済み）
+- [x] スクレイパー実装
+- [x] 記事生成エンジン実装
+- [x] サイト構築・デプロイ（20記事公開）
+- [x] オンチェーン実証（6トークン発見）
+- [ ] Phase A-0: 報酬タイプ事前調査（上位20ゲーム）
+- [ ] Phase A: オンチェーン基盤
+- [ ] Phase B: 観測基盤
+- [ ] Phase C: 需要駆動 + LLMO
+- [ ] Phase D: 統合・自動化

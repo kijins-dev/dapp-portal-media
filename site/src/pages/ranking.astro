@@ -1,0 +1,272 @@
+---
+import { readFileSync, existsSync } from "node:fs";
+import { join } from "node:path";
+import BaseHead from "../components/BaseHead.astro";
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+import { SITE_TITLE, SITE_URL } from "../consts";
+
+interface RankingToken {
+  symbol: string;
+  weekly_token_distributed: number;
+  active_wallets_7d: number;
+  weekly_change_pct: number | null;
+}
+
+interface RankingEntry {
+  rank: number;
+  slug: string;
+  game_name: string;
+  play_count: string;
+  type: "onchain" | "offchain";
+  tokens: RankingToken[];
+}
+
+interface RankingData {
+  generated_at: string;
+  entries: RankingEntry[];
+}
+
+const rankingPath = join(process.cwd(), "..", "data", "onchain", "ranking.json");
+let data: RankingData = { generated_at: "", entries: [] };
+
+if (existsSync(rankingPath)) {
+  data = JSON.parse(readFileSync(rankingPath, "utf-8"));
+}
+
+const onchain = data.entries.filter((e) => e.type === "onchain");
+const offchain = data.entries.filter((e) => e.type === "offchain");
+const generatedAt = data.generated_at
+  ? new Date(data.generated_at).toLocaleDateString("ja-JP")
+  : "未計測";
+
+function formatNumber(n: number): string {
+  if (n >= 1_000_000) return (n / 1_000_000).toFixed(1) + "M";
+  if (n >= 1_000) return (n / 1_000).toFixed(1) + "K";
+  return n.toLocaleString("ja-JP", { maximumFractionDigits: 0 });
+}
+
+function changeIndicator(pct: number | null): string {
+  if (pct === null) return "—";
+  if (pct > 0) return `+${pct}%`;
+  return `${pct}%`;
+}
+
+const jsonLd = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  name: "LINE Dapp Portal ゲーム報酬ランキング",
+  description: "Kaiaブロックチェーン上のトークン配布量によるゲームランキング",
+  url: `${SITE_URL}/ranking/`,
+  numberOfItems: onchain.length,
+  itemListElement: onchain.map((entry) => ({
+    "@type": "ListItem",
+    position: entry.rank,
+    name: entry.game_name,
+    url: `${SITE_URL}/games/${entry.slug}/`,
+  })),
+});
+---
+
+<!doctype html>
+<html lang="ja">
+  <head>
+    <BaseHead
+      title={`報酬ランキング | ${SITE_TITLE}`}
+      description="LINE Dapp Portalゲームのオンチェーン報酬配布量ランキング。Kaiaブロックチェーン上のトークン移動データから算出。"
+    />
+    <script type="application/ld+json" set:html={jsonLd} />
+    <style>
+      main {
+        width: 960px;
+        max-width: calc(100% - 2em);
+        margin: 0 auto;
+        padding: 1em;
+      }
+      h1 { margin-bottom: 0.3em; }
+      .subtitle {
+        color: rgb(var(--gray));
+        font-size: 0.9em;
+        margin-bottom: 1.5em;
+      }
+      .ranking-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 2em;
+      }
+      .ranking-table th,
+      .ranking-table td {
+        padding: 0.6em 0.8em;
+        text-align: left;
+        border-bottom: 1px solid rgb(var(--gray-light));
+      }
+      .ranking-table th {
+        background: rgb(var(--gray-light));
+        font-size: 0.85em;
+        font-weight: 700;
+      }
+      .ranking-table tr:hover {
+        background: rgba(var(--gray-light), 0.3);
+      }
+      .rank-num {
+        font-weight: 700;
+        font-size: 1.1em;
+        text-align: center;
+        width: 3em;
+      }
+      .badge {
+        display: inline-block;
+        padding: 0.15em 0.5em;
+        border-radius: 3px;
+        font-size: 0.75em;
+        font-weight: 700;
+      }
+      .badge-onchain {
+        background: #e8f5e9;
+        color: #2e7d32;
+      }
+      .badge-offchain {
+        background: #fff3e0;
+        color: #e65100;
+      }
+      .change-positive { color: #2e7d32; }
+      .change-negative { color: #c62828; }
+      .change-neutral { color: rgb(var(--gray)); }
+      .game-link {
+        color: inherit;
+        text-decoration: none;
+        font-weight: 600;
+      }
+      .game-link:hover {
+        text-decoration: underline;
+      }
+      .token-list {
+        font-size: 0.85em;
+        color: rgb(var(--gray));
+      }
+      .section-title {
+        margin-top: 2em;
+        margin-bottom: 0.5em;
+        font-size: 1.1em;
+      }
+      .note {
+        font-size: 0.85em;
+        color: rgb(var(--gray));
+        margin-top: 1.5em;
+        padding: 0.8em;
+        background: rgba(var(--gray-light), 0.3);
+        border-radius: 6px;
+      }
+      @media (max-width: 600px) {
+        .ranking-table th:nth-child(5),
+        .ranking-table td:nth-child(5) {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <main>
+      <h1>報酬ランキング</h1>
+      <p class="subtitle">
+        Kaiaブロックチェーン上のトークン配布データから算出（{generatedAt}更新）
+      </p>
+
+      {onchain.length > 0 && (
+        <>
+          <h2 class="section-title">
+            <span class="badge badge-onchain">オンチェーン計測済み</span> トークン配布量ランキング
+          </h2>
+          <table class="ranking-table">
+            <thead>
+              <tr>
+                <th class="rank-num">#</th>
+                <th>ゲーム</th>
+                <th>トークン</th>
+                <th>週間配布量</th>
+                <th>ウォレット数</th>
+                <th>前週比</th>
+              </tr>
+            </thead>
+            <tbody>
+              {onchain.map((entry) => (
+                <tr>
+                  <td class="rank-num">{entry.rank}</td>
+                  <td>
+                    <a class="game-link" href={`/games/${entry.slug}/`}>
+                      {entry.game_name}
+                    </a>
+                    <br />
+                    <span class="token-list">{entry.play_count}人</span>
+                  </td>
+                  <td>
+                    {entry.tokens.map((t) => t.symbol).join(" / ")}
+                  </td>
+                  <td>
+                    {entry.tokens.map((t) => (
+                      <div>{formatNumber(t.weekly_token_distributed)} {t.symbol}</div>
+                    ))}
+                  </td>
+                  <td>
+                    {entry.tokens.map((t) => (
+                      <div>{t.active_wallets_7d.toLocaleString()}</div>
+                    ))}
+                  </td>
+                  <td>
+                    {entry.tokens.map((t) => {
+                      const pct = t.weekly_change_pct;
+                      const cls = pct === null ? "change-neutral" : pct > 0 ? "change-positive" : pct < 0 ? "change-negative" : "change-neutral";
+                      return <div class={cls}>{changeIndicator(pct)}</div>;
+                    })}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </>
+      )}
+
+      {offchain.length > 0 && (
+        <>
+          <h2 class="section-title">
+            <span class="badge badge-offchain">プレイ人数のみ</span> オフチェーン報酬ゲーム
+          </h2>
+          <table class="ranking-table">
+            <thead>
+              <tr>
+                <th>ゲーム</th>
+                <th>プレイ人数</th>
+                <th>報酬タイプ</th>
+              </tr>
+            </thead>
+            <tbody>
+              {offchain.map((entry) => (
+                <tr>
+                  <td>
+                    <a class="game-link" href={`/games/${entry.slug}/`}>
+                      {entry.game_name}
+                    </a>
+                  </td>
+                  <td>{entry.play_count}人</td>
+                  <td>ポイント / オフチェーン</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </>
+      )}
+
+      {data.entries.length === 0 && (
+        <p>ランキングデータがまだ生成されていません。<code>npm run onchain</code> を実行してください。</p>
+      )}
+
+      <div class="note">
+        <strong>データについて</strong>: ランキングはKaiaブロックチェーン上のERC-20 Transferイベントを
+        過去7日分集計して算出しています。オフチェーン報酬（LINE Points等）のゲームはトークン配布量の
+        計測対象外のため、プレイ人数のみ表示しています。
+      </div>
+    </main>
+    <Footer />
+  </body>
+</html>

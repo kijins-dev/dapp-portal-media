@@ -1,0 +1,52 @@
+# 品質ゲート閾値定義
+# 参照元: .claude/rules/quality-gates.md
+# 読み込み元: src/generator/compliance.ts
+
+gates:
+  # Gate 1: frontmatter検証
+  frontmatter:
+    required_fields:
+      - title
+      - slug
+      - game_name
+      - category
+      - play_count
+      - published_at
+      - updated_at
+      - tags
+      - description
+      - source_urls
+      - template_variant
+      - compliance_check
+      - generation_model
+      - draft
+
+  # Gate 2: 禁止語チェック
+  compliance:
+    max_ng_word_hits: 0          # 1件でもヒットしたらfail
+    max_financial_claim_hits: 0  # 金融クレームパターンも0件
+    # ng_words定義は config/compliance.yaml を参照
+
+  # Gate 3: 出典・データ確認
+  data_integrity:
+    play_count_tolerance_percent: 10  # apps.jsonとの乖離許容率
+    require_confirmed_for_onchain: true  # オンチェーンデータ含む場合 confidence=confirmed 必須
+    min_source_urls: 1
+
+  # Gate 4: 内部リンク
+  internal_links:
+    min_internal_links: 2
+    required_links:
+      - "/guide/how-to-cash-out/"  # 換金ガイドは必須
+
+  # Gate 5: LLMO構造
+  structure:
+    min_sections: 6       # h2セクション最低数
+    min_chars: 1500       # 最低文字数
+    min_paragraphs: 8     # 最低段落数
+
+# review-queue / dead-letter 運用
+retry:
+  max_retries: 3                          # 3回failでdead-letterへ移動
+  review_queue_path: "data/review-queue.json"
+  dead_letter_path: "data/dead-letter.json"

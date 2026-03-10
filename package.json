@@ -13,6 +13,7 @@
     "site:dev": "cd site && npm run dev",
     "site:build": "cd site && npm run build",
     "site:preview": "cd site && npm run preview",
+    "onchain": "tsx src/onchain/index.ts",
     "typecheck": "tsc --noEmit"
   },
   "keywords": [],

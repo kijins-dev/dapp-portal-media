@@ -1,0 +1,226 @@
+# Phase A-0: 報酬タイプ事前調査
+# SRS V2.1 §1.1.2 / §5 Phase A-0
+# 上位20ゲームの報酬配布方法を記録
+# reward_type: kip7 | native | nft | offchain | unknown
+# 調査日: 2026-03-10
+
+games:
+  # --- 調査済み・confirmed（7ゲーム）---
+
+  - slug: "slime-miner"
+    name: "Slime Miner"
+    play_count: "24.4M"
+    contract_address: "0x32db8748f9b99c6fc2590484f584089955d05c19"
+    reward_type: "kip7"
+    token_symbol: "SLX"
+    token_address: "0x32db8748f9b99c6fc2590484f584089955d05c19"
+    coingecko_id: "slimex"
+    notes: "KIP-7 SLX (SLIMEX) トークン配布。BSCにもブリッジ。RPC verified."
+
+  - slug: "elderglade"
+    name: "Elderglade"
+    play_count: "16.5M"
+    contract_address: "0x8755d2e532b1559454689bf0e8964bd78b187ff6"
+    reward_type: "kip7"
+    token_symbol: "ELDE"
+    token_address: "0x8755d2e532b1559454689bf0e8964bd78b187ff6"
+    coingecko_id: "elderglade"
+    notes: "KIP-7 ELDE トークン配布。BSCにもブリッジ。RPC verified."
+
+  - slug: "captain-tsubasa"
+    name: "Captain Tsubasa"
+    play_count: "12.8M"
+    contract_address: "0x050be4454495579b8d943d795ee3d8b6df4eb7c1"
+    reward_type: "kip7"
+    token_symbol: "JOHN"
+    token_address: "0x050be4454495579b8d943d795ee3d8b6df4eb7c1"
+    coingecko_id: "john-tsubasa-rivals"
+    notes: "KIP-7 JOHN (John Tsubasa Rivals) トークン。TONにもブリッジ。RPC verified."
+
+  - slug: "savanna-survival"
+    name: "Savanna Survival"
+    play_count: "8.5M"
+    contract_address: "0x9947d29b1607ea6edb502d7c08d998fbf0ae0ab1"
+    reward_type: "kip7"
+    token_symbol: "SVSA"
+    token_address: "0x9947d29b1607ea6edb502d7c08d998fbf0ae0ab1"
+    coingecko_id: "savanna-survival"
+    notes: "KIP-7 SVSA トークン。BSCにもブリッジ。RPC verified."
+
+  - slug: "superz"
+    name: "SuperZ"
+    play_count: "1.5M"
+    contract_address: "0x84f8c3c8d6ee30a559d73ec570d574f671e82647"
+    reward_type: "kip7"
+    token_symbol: "GRND"
+    token_address: "0x84f8c3c8d6ee30a559d73ec570d574f671e82647"
+    coingecko_id: "superwalk"
+    notes: "KIP-7 GRND (SuperWalk) + WALK の2トークン。SuperZ = SuperWalk アプリ。RPC verified."
+    additional_tokens:
+      - symbol: "WALK"
+        address: "0x976232eb7eb92287ff06c5d145bd0d1c033eca58"
+        coingecko_id: "superwalk-walk"
+
+  - slug: "bombie"
+    name: "Bombie"
+    play_count: "1.5M"
+    contract_address: "0x0ba2ba407e80bcb8a314649d9bc12efeecc81519"
+    reward_type: "kip7"
+    token_symbol: "BOMB"
+    token_address: "0x0ba2ba407e80bcb8a314649d9bc12efeecc81519"
+    coingecko_id: "bombie"
+    notes: "KIP-7 BOMB トークン。BSC・TONにもブリッジ。RPC verified."
+
+  - slug: "lair"
+    name: "Lair"
+    play_count: "1.2M"
+    contract_address: "0xd70c7d511560493c79df607076fb863f5c8a50b0"
+    reward_type: "kip7"
+    token_symbol: "LAIR"
+    token_address: "0xd70c7d511560493c79df607076fb863f5c8a50b0"
+    coingecko_id: "lair"
+    notes: "KIP-7 LAIR トークン。Kaiaのみ。RPC verified."
+
+  # --- 新規発見: YULI (YuliGO) ---
+
+  - slug: "yuligo"
+    name: "YuliGO"
+    play_count: "1.2M"
+    contract_address: "0x91bcba699222fe2c14ae90e51943a40e59050f79"
+    reward_type: "kip7"
+    token_symbol: "YULI"
+    token_address: "0x91bcba699222fe2c14ae90e51943a40e59050f79"
+    coingecko_id: null
+    notes: "KIP-7 YULI トークン。Kaia L1上でRPC verified (symbol=YULI, decimals=18)。Transfer確認済み。CoinGecko未登録。CoinMarketCapに掲載。DragonSwap V3で取引可能。Yuliverseプロジェクト。"
+
+  # --- オフチェーン報酬 or Kaia外トークン（12ゲーム）---
+
+  - slug: "kyuzos-friends"
+    name: "Kyuzo's Friends"
+    play_count: "12.4M"
+    contract_address: null
+    reward_type: "offchain"
+    token_symbol: null
+    token_address: null
+    coingecko_id: "kyuzo-s-friends"
+    notes: "KOトークンはBSC(0x2d739dd563609c39a1ae1546a03e8b469361175f)のみ。Kaia RPCで応答なし。KAIAキャンペーン報酬あるがゲーム内報酬はオフチェーン。"
+
+  - slug: "tofu-story"
+    name: "TOFU Story"
+    play_count: "6.7M"
+    contract_address: null
+    reward_type: "offchain"
+    token_symbol: null
+    token_address: null
+    coingecko_id: null
+    notes: "LINE Points報酬。ポイントはコンビニ等で利用可能、USDT/KAIAにも交換可能だがオンチェーントークンではない。"
+
+  - slug: "paw-spa"
+    name: "Paw Spa"
+    play_count: "2.1M"
+    contract_address: null
+    reward_type: "offchain"
+    token_symbol: null
+    token_address: null
+    coingecko_id: null
+    notes: "CoinGecko/KaiaScan未登録。Kaia上のトークン未確認。ゲーム内ポイントのみと推定。"
+
+  - slug: "social-meme"
+    name: "social.meme"
+    play_count: "1.5M"
+    contract_address: null
+    reward_type: "offchain"
+    token_symbol: null
+    token_address: null
+    coingecko_id: null
+    notes: "SocialFiカテゴリ。CoinGecko/KaiaScan未登録。オンチェーントークン未確認。"
+
+  - slug: "wizzwoods"
+    name: "Wizzwoods"
+    play_count: "1.5M"
+    contract_address: null
+    reward_type: "offchain"
+    token_symbol: null
+    token_address: null
+    coingecko_id: "wizzwoods-token"
+    notes: "WIZZトークンはBerachain(0x01c8a5ccad23a4d3764ef71c403862160aa2913a)のみ。Kaia上にコントラクトなし。ピクセル農業+SocialFi+DeFi。"
+
+  - slug: "cattea"
+    name: "Cattea"
+    play_count: "1.4M"
+    contract_address: null
+    reward_type: "offchain"
+    token_symbol: null
+    token_address: null
+    coingecko_id: null
+    notes: "Drink to Earn。Pluto Studio(Bombieと同じ開発元)。CATIトークンプールはBSC上。Kaia上にコントラクトなし。"
+
+  - slug: "tcom-arena"
+    name: "TCOM Arena"
+    play_count: "1.3M"
+    contract_address: null
+    reward_type: "offchain"
+    token_symbol: null
+    token_address: null
+    coingecko_id: "tcom-global"
+    notes: "TCOMトークンはBSC(0xc23db46993f643f1fa0494cd30f9f43505885d84)のみ。手塚プロダクション公式IP。Kaia上にコントラクトなし。"
+
+  - slug: "retro-fun"
+    name: "Retro.fun"
+    play_count: "1.2M"
+    contract_address: null
+    reward_type: "offchain"
+    token_symbol: null
+    token_address: null
+    coingecko_id: null
+    notes: "CoinGecko/KaiaScan未登録。オンチェーントークン未確認。"
+
+  - slug: "ixs-academy"
+    name: "IXS Academy"
+    play_count: "1.2M"
+    contract_address: null
+    reward_type: "offchain"
+    token_symbol: null
+    token_address: null
+    coingecko_id: null
+    notes: "IX Swap(IXS)はEthereum/Base/Polygon上のRWA/DeFiトークン。ゲーム報酬トークンではなくプラットフォームトークン。Kaia上にコントラクトなし。"
+
+  - slug: "lucky-dice"
+    name: "Lucky Dice"
+    play_count: "1.2M"
+    contract_address: null
+    reward_type: "offchain"
+    token_symbol: null
+    token_address: null
+    coingecko_id: null
+    notes: "CoinGecko/KaiaScan未登録。オンチェーントークン未確認。"
+
+  - slug: "sid-origins"
+    name: "Sid Origins"
+    play_count: "1M"
+    contract_address: null
+    reward_type: "offchain"
+    token_symbol: null
+    token_address: null
+    coingecko_id: null
+    notes: "CoinGecko/KaiaScan未登録。オンチェーントークン未確認。"
+
+  - slug: "seekd"
+    name: "SeekD"
+    play_count: "739.8K"
+    contract_address: null
+    reward_type: "offchain"
+    token_symbol: null
+    token_address: null
+    coingecko_id: null
+    notes: "AIカテゴリ。CoinGecko/KaiaScan未登録。オンチェーントークン未確認。"
+
+# ゲートチェック（SRS §5 Phase A-0）完了
+# 条件: 上位20ゲーム中、オンチェーン計測可能（kip7/native）≥ 5本
+# 結果: 8本 confirmed (kip7) → ✅ ゲート通過
+#   kip7: slime-miner, elderglade, captain-tsubasa, savanna-survival,
+#         superz, bombie, lair, yuligo
+#   offchain: kyuzos-friends, tofu-story, paw-spa, social-meme,
+#             wizzwoods, cattea, tcom-arena, retro-fun,
+#             ixs-academy, lucky-dice, sid-origins, seekd
+# 調査完了日: 2026-03-10
