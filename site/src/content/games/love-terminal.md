@@ -14,7 +14,7 @@ source_urls:
 template_variant: "comparison"
 compliance_check: "pending"
 generation_model: "claude-sonnet-4-6"
-draft: true
+draft: false
 ---
 
 ## Love Terminalとは
@@ -130,6 +130,8 @@ KAIAの換金方法については、詳しくは[KAIA換金ガイド](/guide/ho
 まだプレイしていない方は、ぜひ一度アクセスして、Love Terminalの世界を体験してみてください。
 
 > 🔗 [Love Terminal をプレイする](https://www.loveterminal.fun/?dp_tracking_id=OoriXQZPNUzNV1Zi)
+
+同じカテゴリのゲームでは[DearSt! RHYTHM STAGE](/games/dearst-rhythm-stage/)や[Cattea](/games/cattea/)もおすすめです。
 
 ---
 

@@ -164,6 +164,8 @@ KAIAの換金方法については、詳しくは[KAIA換金ガイド](/guide/ho
 
 👉 [今すぐKyuzo's Friendsをプレイする](https://kyuzosfriends.com/game?dp_tracking_id=zB8lfxOmt8zOOQUa)
 
+同じカテゴリのゲームでは[Cattea](/games/cattea/)や[Paw Spa](/games/paw-spa/)もおすすめです。
+
 ---
 
 **免責事項**

@@ -14,7 +14,7 @@ source_urls:
 template_variant: "comparison"
 compliance_check: "pending"
 generation_model: "claude-sonnet-4-6"
-draft: true
+draft: false
 ---
 
 ## Unscrewとは
@@ -98,6 +98,8 @@ Unscrewのプレイを通じて獲得したKAIAトークンは、対応する取
 カジュアルにサクッと遊びたい人にも、じっくりパズルを解く達成感を味わいたい人にも対応できる間口の広さが、同カテゴリの他のゲームとの大きな差別化ポイントです。デイリーミッションやログインボーナスなどの継続プレイを促す仕組みも充実しており、毎日少しずつプレイするスタイルにもフィットします。
 
 パズルゲームとしての純粋な面白さを楽しみながら、LINE Dapp Portalのエコシステムに参加できるUnscrewは、Web3ゲームの入門としても最適な一作です。まずはチュートリアルから気軽に始めてみてください。
+
+同じカテゴリのゲームでは[Bricks Breaker Crush](/games/bricks-breaker-crush/)や[Slime Miner](/games/slime-miner/)もおすすめです。
 
 ---
 

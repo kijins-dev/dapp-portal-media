@@ -14,7 +14,7 @@ source_urls:
 template_variant: "comparison"
 compliance_check: "pending"
 generation_model: "claude-sonnet-4-6"
-draft: true
+draft: false
 ---
 
 ## Sorafiとは
@@ -115,6 +115,8 @@ KAIAの換金方法については、詳しくは[KAIA換金ガイド](/guide/ho
 Sorafiは、DeFiの仕組みをゲームとして体験できるLINE Dapp PortalのMini Dappです。9,500人以上のプレイヤーが現在プレイ中であることが示すように、DeFiゲームの中でも活発なコミュニティが形成されています。LINEアカウントさえあればすぐに始められるアクセスのしやすさ、タップ操作だけで完結するシンプルなUI、そしてDeFiならではのトークン運用体験が、このゲームの最大の魅力です。
 
 デイリーログインやミッションのコツコツ積み上げ、プールの分散投入といった基本戦略を意識しながら継続的にプレイすることで、ゲームをより深く楽しめます。DeFiに初めて触れる方にとっても、Sorafiは実際の操作を通じてブロックチェーン金融の仕組みを学べる入門タイトルとしておすすめできます。まずは[Sorafiのゲームページ](https://cloudplay.sorafi.org/?dp_tracking_id=OoriXQZPNUzNV1Zi)にアクセスして、無料でプレイを始めてみてください。
+
+LINE Dapp Portalの他のゲームについては[Slime Miner](/games/slime-miner/)の攻略ガイドもご覧ください。
 
 ---
 

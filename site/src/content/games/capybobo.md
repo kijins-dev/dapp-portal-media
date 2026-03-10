@@ -14,7 +14,7 @@ source_urls:
 template_variant: "standard"
 compliance_check: "pending"
 generation_model: "claude-sonnet-4-6"
-draft: true
+draft: false
 ---
 
 ## CapyBoboとは
@@ -86,6 +86,8 @@ KAIAの換金方法については、詳しくは[KAIA換金ガイド](/guide/ho
 ゲームを楽しみながらKAIAトークンの獲得を目指せる点は、Web3ゲームならではの特徴です。毎日のログインボーナスやステージクリア報酬を積み重ねることで、継続的なプレイがそのまま報酬に結びつく仕組みが用意されています。ゲーム自体の完成度も高く、スコアアタックやランキング上位を目指す楽しみ方もできます。
 
 ブロックチェーンゲームやWeb3サービスに初めて触れる方にとっても、CapyBoboはエントリーポイントとして非常に取り組みやすいタイトルです。まずは気軽にプレイを始めて、ゲームの操作感やシステムに慣れるところからスタートしてみてください。
+
+同じカテゴリのゲームでは[Cattea](/games/cattea/)や[PetPoP](/games/petpop/)もおすすめです。
 
 ---
 

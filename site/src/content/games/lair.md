@@ -134,6 +134,8 @@ KAIAの換金方法については、詳しくは[KAIA換金ガイド](/guide/ho
 
 まだプレイしていない方は、まずは[こちらのリンク](https://app.lair.fi/game?dp_tracking_id=zB8lfxOmt8zOOQUa)からLairにアクセスして、チュートリアルから始めてみてください。ブロックチェーンゲームの入門として、Lairはとても取り組みやすいタイトルといえるでしょう。
 
+LINE Dapp Portalの他のゲームについては[SuperZ](/games/superz/)の攻略ガイドもご覧ください。
+
 ---
 
 **免責事項**

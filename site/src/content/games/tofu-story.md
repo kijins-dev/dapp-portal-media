@@ -149,6 +149,8 @@ KAIAの換金方法については、詳しくは[KAIA換金ガイド](/guide/ho
 
 まだプレイしていない方は、ぜひ[こちら](https://play.tofustory.xyz/?dp_tracking_id=zB8lfxOmt8zOOQUa)からTOFU Storyの世界に飛び込んでみてください！
 
+LINE Dapp Portalの他のゲームについては[CASH PANG](/games/cash-pang/)や[Slime Miner](/games/slime-miner/)の攻略ガイドもご覧ください。
+
 ---
 
 **免責事項**

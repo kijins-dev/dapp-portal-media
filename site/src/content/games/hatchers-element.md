@@ -14,7 +14,7 @@ source_urls:
 template_variant: "comparison"
 compliance_check: "pending"
 generation_model: "claude-sonnet-4-6"
-draft: true
+draft: false
 ---
 
 ## Hatchers Elementとは
@@ -113,6 +113,8 @@ KAIAの換金方法については、詳しくは[KAIA換金ガイド](/guide/ho
 他の同カテゴリゲームと比較したとき、単純な放置ゲームや単調なクリッカーゲームとは一線を画す「属性相性に基づいた戦略性」が、Hatchers Elementならではの特徴です。NFTキャラクターの孵化・育成・売買というブロックチェーンゲームの醍醐味を楽しみながら、KAIAトークンを積み上げていく体験は、ゲームとしての面白さとWeb3の要素を両立しています。
 
 スマートフォンのタップ操作だけでプレイでき、オートバトル機能も用意されているため、ゲーム初心者やブロックチェーンゲーム未経験者でも取り組みやすい設計になっています。まずはチュートリアルを完了させ、最初のエレメントキャラクターを孵化させるところから始めてみてください。
+
+同じカテゴリのゲームでは[Elderglade](/games/elderglade/)や[Puzzle & Guardians](/games/puzzle-guardians/)もおすすめです。
 
 ---
 

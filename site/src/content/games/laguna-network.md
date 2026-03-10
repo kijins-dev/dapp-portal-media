@@ -14,7 +14,7 @@ source_urls:
 template_variant: "reward_focus"
 compliance_check: "pending"
 generation_model: "claude-sonnet-4-6"
-draft: true
+draft: false
 ---
 
 ## Laguna Networkとは
@@ -119,6 +119,8 @@ KAIAの換金方法については、詳しくは[KAIA換金ガイド](/guide/ho
 まだプレイしていない方は、以下のリンクからすぐに始められます。
 
 👉 [Laguna Networkをプレイする](https://laguna.network/en?minidapp=true&dp_tracking_id=OoriXQZPNUzNV1Zi)
+
+LINE Dapp Portalの他のゲームについては[LQuest](/games/lquest/)の攻略ガイドもご覧ください。
 
 ---
 

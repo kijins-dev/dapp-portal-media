@@ -14,7 +14,7 @@ source_urls:
 template_variant: "comparison"
 compliance_check: "pending"
 generation_model: "claude-sonnet-4-6"
-draft: true
+draft: false
 ---
 
 ## DearSt! RHYTHM STAGEとは
@@ -105,6 +105,8 @@ KAIAの換金方法については、詳しくは[KAIA換金ガイド](/guide/ho
 タップ操作のみで遊べるシンプルな仕組みと、楽曲・難易度の選択肢の広さにより、リズムゲーム初心者から上級者まで幅広く楽しめる設計になっています。デイリーミッションやイベントを活用しながら継続的にプレイすることで、報酬獲得の効率を高めることができます。
 
 音楽が好きな方、指先の反射神経を活かしたゲームが好きな方、そしてゲームを楽しみながらKAIAトークンを獲得したい方にとって、DearSt! RHYTHM STAGEは非常に相性のよいゲームです。まずは気軽にプレイしてみて、自分のペースでゲームの世界を楽しんでみてください。
+
+同じカテゴリのゲームでは[Love Terminal](/games/love-terminal/)や[Captain Tsubasa](/games/captain-tsubasa/)もおすすめです。
 
 ---
 

@@ -14,7 +14,7 @@ source_urls:
 template_variant: "beginner"
 compliance_check: "pending"
 generation_model: "claude-sonnet-4-6"
-draft: true
+draft: false
 ---
 
 ## My Restaurantとは
@@ -140,6 +140,8 @@ KAIAの換金方法については、詳しくは[KAIA換金ガイド](/guide/ho
 デイリーミッションをこなしながら調理台をアップグレードし、お客さんの満足度を高めていく過程はシンプルながら奥深く、プレイするほどに上達を実感できるゲームです。また、プレイを通じてKAIAトークンなどの報酬を獲得できる仕組みが用意されており、楽しみながら報酬を積み上げられる点もMy Restaurantの大きな魅力のひとつです。
 
 まずはLINE Dapp Portalにアクセスして、自分だけのレストランを育てる体験を試してみてください。
+
+同じカテゴリのゲームでは[Tea Farm](/games/tea-farm/)や[Cattea](/games/cattea/)もおすすめです。
 
 ---
 

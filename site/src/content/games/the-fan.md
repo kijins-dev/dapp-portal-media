@@ -14,7 +14,7 @@ source_urls:
 template_variant: "beginner"
 compliance_check: "pending"
 generation_model: "claude-sonnet-4-6"
-draft: true
+draft: false
 ---
 
 ## The Fanとは
@@ -153,6 +153,8 @@ KAIAの換金方法については、詳しくは[KAIA換金ガイド](/guide/ho
 ソーシャル機能を活用して他のファンと交流しながら、推しを応援するという新しいゲーム体験をぜひThe Fanで試してみてください。
 
 👉 [The Fanをプレイする](https://dapp.thefan.world/?dp_tracking_id=OoriXQZPNUzNV1Zi)
+
+LINE Dapp Portalの他のゲームについては[dePICK](/games/depick/)の攻略ガイドもご覧ください。
 
 ---
 

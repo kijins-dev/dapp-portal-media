@@ -14,7 +14,7 @@ source_urls:
 template_variant: "beginner"
 compliance_check: "pending"
 generation_model: "claude-sonnet-4-6"
-draft: true
+draft: false
 ---
 
 ## Moofunとは
@@ -124,6 +124,8 @@ Moofunで獲得した**KAIAトークン**は、国内の暗号資産取引所を
 ゲームの魅力は、遊びながらKAIAトークンやNFTアイテムなどのデジタル資産を獲得できる点です。デイリーミッションや期間限定イベントへの積極的な参加、キャラクターの強化といった攻略要素も充実しており、長く楽しめるゲームとなっています。
 
 まずはチュートリアルを完了し、基本操作をしっかりと身につけた上でゲームを進めていきましょう。LINE Dapp Portalを活用したブロックチェーンゲームの入門として、Moofunはおすすめのタイトルです。ぜひ[Moofunのゲームページ](https://dapp.moofun.xyz/?dp_tracking_id=OoriXQZPNUzNV1Zi)からプレイを始めてみてください。
+
+同じカテゴリのゲームでは[Cattea](/games/cattea/)や[Tea Farm](/games/tea-farm/)もおすすめです。
 
 ---
 

@@ -159,6 +159,8 @@ KAIAの換金方法については、詳しくは[KAIA換金ガイド](/guide/ho
 
 毎日のデイリーをこなしながら、アリーナでのランキング上位を目指して着実にレベルアップしていきましょう。ゲームを楽しみながら報酬を積み重ねていくプロセスこそが、TCOM Arenaの醍醐味と言えるでしょう。ぜひこの機会に[TCOM Arenaをプレイ](https://game.tcomarena.com/?dp_tracking_id=zB8lfxOmt8zOOQUa)してみてください！
 
+同じカテゴリのゲームでは[Bombie](/games/bombie/)や[Captain Tsubasa](/games/captain-tsubasa/)もおすすめです。
+
 ---
 
 **免責事項**

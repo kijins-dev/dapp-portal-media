@@ -147,6 +147,8 @@ KAIAの換金方法については、詳しくは[KAIA換金ガイド](/guide/ho
 
 👉 [今すぐLucky Diceをプレイする](https://luckydice.savethelife.io/?dp_tracking_id=zB8lfxOmt8zOOQUa)
 
+同じカテゴリのゲームでは[Gold Striker](/games/gold-striker/)や[Slime Miner](/games/slime-miner/)もおすすめです。
+
 ---
 
 **免責事項**

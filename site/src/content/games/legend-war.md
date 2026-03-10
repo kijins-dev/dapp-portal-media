@@ -14,7 +14,7 @@ source_urls:
 template_variant: "reward_focus"
 compliance_check: "pending"
 generation_model: "claude-sonnet-4-6"
-draft: true
+draft: false
 ---
 
 ## Legend Warとは
@@ -134,6 +134,8 @@ KAIAの換金方法については、詳しくは[KAIA換金ガイド](/guide/ho
 LINEアカウントがあればすぐに始められるため、まずはチュートリアルから気軽に試してみてください。
 
 👉 [Legend Warをプレイする](https://lw.blockverse.games/?dp_tracking_id=OoriXQZPNUzNV1Zi)
+
+同じカテゴリのゲームでは[Eternal King](/games/eternal-king/)や[Fate War](/games/fate-war/)もおすすめです。
 
 ---
 

@@ -147,6 +147,8 @@ KAIAの換金方法については、詳しくは[KAIA換金ガイド](/guide/ho
 
 👉 [social.memeをプレイする](https://line.web.social.meme/?dp_tracking_id=zB8lfxOmt8zOOQUa)
 
+LINE Dapp Portalの他のゲームについては[TOFU Story](/games/tofu-story/)や[Slime Miner](/games/slime-miner/)の攻略ガイドもご覧ください。
+
 ---
 
 **免責事項**

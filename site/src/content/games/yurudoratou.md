@@ -14,7 +14,7 @@ source_urls:
 template_variant: "deep_dive"
 compliance_check: "pending"
 generation_model: "claude-sonnet-4-6"
-draft: true
+draft: false
 ---
 
 ## YURUDORATOUとは
@@ -125,6 +125,8 @@ KAIAの換金方法については、詳しくは[KAIA換金ガイド](/guide/ho
 さらに、スタミナ管理やガチャのタイミング最適化など、上級者向けのテクニックを取り入れることで、ゲーム内の報酬獲得効率を一層高めることができます。YURUDORATOUはカジュアルに楽しめる間口の広さと、突き詰めれば奥深い戦略性を併せ持つゲームです。まだプレイしていない方は、ぜひこの機会に始めてみてください。
 
 🔗 [今すぐYURUDORATOUをプレイする](https://play.tou.yurudora.com/?dp_tracking_id=OoriXQZPNUzNV1Zi)
+
+同じカテゴリのゲームでは[Cattea](/games/cattea/)や[Slime Miner](/games/slime-miner/)もおすすめです。
 
 ---
 

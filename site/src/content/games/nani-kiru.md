@@ -14,7 +14,7 @@ source_urls:
 template_variant: "beginner"
 compliance_check: "pending"
 generation_model: "claude-sonnet-4-6"
-draft: true
+draft: false
 ---
 
 ## Nani-Kiruとは
@@ -115,6 +115,8 @@ KAIAの換金方法については、詳しくは[KAIA換金ガイド](/guide/ho
 まずは以下のリンクからアクセスして、Nani-Kiruの世界を体験してみてください。
 
 > 🎮 [今すぐNani-Kiruをプレイする](https://app.nani-kiru.xyz/?dp_tracking_id=OoriXQZPNUzNV1Zi)
+
+同じカテゴリのゲームでは[KEIJI KABUKI Survivor](/games/keiji-kabuki-survivor/)や[SAMURAI SHODOWN: RPS](/games/samurai-shodown-rps/)もおすすめです。
 
 ---
 

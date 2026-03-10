@@ -14,7 +14,7 @@ source_urls:
 template_variant: "beginner"
 compliance_check: "pending"
 generation_model: "claude-sonnet-4-6"
-draft: true
+draft: false
 ---
 
 ## LastMemories miniとは
@@ -120,6 +120,8 @@ KAIAの換金方法については、詳しくは[KAIA換金ガイド](/guide/ho
 **LastMemories mini**は、LINEアカウントひとつで手軽に始められるブロックチェーンゲームです。303K人以上のプレイヤーが楽しんでいるタイトルであり、ゲームとしての完成度の高さがうかがえます。デイリーミッションの継続、キャラクター編成の最適化、イベントへの積極参加という3つの軸を意識するだけで、初心者でも着実に進められる設計です。
 
 ゲームを楽しみながらKAIAトークンを獲得できる点は、従来のゲームにはない独自の魅力です。まずは気軽にプレイをスタートして、LastMemories miniの世界観を体験してみてください。
+
+同じカテゴリのゲームでは[Elderglade](/games/elderglade/)や[Bombie](/games/bombie/)もおすすめです。
 
 ---
 

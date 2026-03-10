@@ -14,7 +14,7 @@ source_urls:
 template_variant: "standard"
 compliance_check: "pending"
 generation_model: "claude-sonnet-4-6"
-draft: true
+draft: false
 ---
 
 ## Fananasとは
@@ -96,6 +96,8 @@ Fananasは、LINE Dapp Portal上でプレイできるカジュアルゲームで
 LINEアカウントさえあれば追加インストール不要でプレイを始められる手軽さ、デイリーミッションや報酬ループによる継続的な楽しさ、そしてKAIAトークン獲得という実利的な要素が組み合わさっており、空き時間を有効活用したいユーザーにとって試す価値のあるタイトルです。
 
 攻略においては毎日のログイン継続とエネルギー管理が基本となります。無理なく自分のペースでプレイしながら報酬を積み上げていけるゲーム設計になっているため、LINE Dapp Portalでのゲームデビューにも適した一本です。ぜひ[Fananasをプレイ](https://fananas.nnn.so/?dp_tracking_id=OoriXQZPNUzNV1Zi)して、その魅力を体験してみてください。
+
+同じカテゴリのゲームでは[Get Plucked](/games/get-plucked/)や[Moofun](/games/moofun/)もおすすめです。
 
 ---
 

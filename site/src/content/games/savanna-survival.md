@@ -142,6 +142,8 @@ KAIAの換金方法については、詳しくは[KAIA換金ガイド](/guide/ho
 
 デイリーミッションの毎日クリア、フレンド招待、イベントへの積極参加といった基本的な行動を習慣化するだけでも、着実にリワードを積み上げていける場合があります。まだプレイしていない方は、ぜひこの機会にSavanna Survivalの世界に飛び込んでみてください。
 
+同じカテゴリのゲームでは[LARVA Survival](/games/larva-survival/)や[The Fox Seeks Friends](/games/the-fox-seeks-friends/)もおすすめです。
+
 ---
 
 **免責事項**

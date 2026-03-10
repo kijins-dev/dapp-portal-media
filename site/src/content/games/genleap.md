@@ -14,7 +14,7 @@ source_urls:
 template_variant: "deep_dive"
 compliance_check: "pending"
 generation_model: "claude-sonnet-4-6"
-draft: true
+draft: false
 ---
 
 ## GenLeapとは
@@ -127,6 +127,8 @@ GenLeapは、Kaia Towerという塔を舞台にしたブロックチェーンゲ
 42,900人以上のプレイヤーが参加しているコミュニティの規模も魅力のひとつで、ランキングイベントや期間限定ミッションなど、継続してプレイするモチベーションを維持できる仕組みが用意されています。スキル管理・回避立ち回り・リソース管理といった攻略要素を意識しながらプレイすることで、より深くゲームを楽しめます。
 
 まずはLINE Dapp Portalからアクセスして、チュートリアルをこなしながら自分だけのプレイスタイルを見つけてみてください。
+
+同じカテゴリのゲームでは[Slime Miner](/games/slime-miner/)や[Bombie](/games/bombie/)もおすすめです。
 
 ---
 

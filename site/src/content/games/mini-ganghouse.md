@@ -14,7 +14,7 @@ source_urls:
 template_variant: "beginner"
 compliance_check: "pending"
 generation_model: "claude-sonnet-4-6"
-draft: true
+draft: false
 ---
 
 ## Mini GangHouseとは
@@ -119,6 +119,8 @@ KAIAの換金方法については、詳しくは[KAIA換金ガイド](/guide/ho
 現時点では「0人がプレイ中」と表示されており、サービスの初期段階にあります。新しいゲームの立ち上げ期はゲームシステムを最初から学べるチャンスであり、コミュニティが形成される過程を体験できる希少なタイミングです。
 
 毎日ログインしてデイリーミッションをこなし、拠点を少しずつ強化していくことが、Mini GangHouseを楽しみながら続けるための基本的な姿勢です。公式情報を定期的にチェックしながら、ゲームの展開を追っていくことをおすすめします。
+
+同じカテゴリのゲームでは[Bombie](/games/bombie/)や[Degen Defense](/games/degen-defense/)もおすすめです。
 
 ---
 

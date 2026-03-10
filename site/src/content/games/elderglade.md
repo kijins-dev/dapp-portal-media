@@ -122,6 +122,8 @@ KAIAの換金方法については、詳しくは[KAIA換金ガイド](/guide/ho
 
 まずは[こちらのリンク](https://line.elderglade.com/?dp_tracking_id=zB8lfxOmt8zOOQUa)からEldergladeにアクセスして、広大なファンタジーの世界での冒険を始めてみてください。プレイを重ねながら自分なりの攻略スタイルを見つけていくことが、このゲームの醍醐味と言えるでしょう。
 
+同じカテゴリのゲームでは[Airship Knights](/games/airship-knights/)や[Fate War](/games/fate-war/)もおすすめです。
+
 ---
 
 **免責事項**

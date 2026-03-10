@@ -14,7 +14,7 @@ source_urls:
 template_variant: "deep_dive"
 compliance_check: "pending"
 generation_model: "claude-sonnet-4-6"
-draft: true
+draft: false
 ---
 
 ## CASH PANGとは
@@ -116,6 +116,8 @@ KAIAの換金方法については、詳しくは[KAIA換金ガイド](/guide/ho
 まずは以下のリンクからアクセスして、CASH PANGの世界を体験してみてください。
 
 👉 [CASH PANGをプレイする](https://liff.line.me/2008098849-9Kk7r4a5?dp_tracking_id=OoriXQZPNUzNV1Zi)
+
+LINE Dapp Portalの他のゲームについては[TOFU Story](/games/tofu-story/)や[social.meme](/games/social-meme/)の攻略ガイドもご覧ください。
 
 ---
 

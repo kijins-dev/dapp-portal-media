@@ -14,7 +14,7 @@ source_urls:
 template_variant: "standard"
 compliance_check: "pending"
 generation_model: "claude-sonnet-4-6"
-draft: true
+draft: false
 ---
 
 ## HOROとは
@@ -76,6 +76,8 @@ KAIAの換金方法については、詳しくは[KAIA換金ガイド](/guide/ho
 HOROは、LINE Dapp Portalからすぐにアクセスできるコンテンツ系ブロックチェーンゲームです。現在2.4K人のプレイヤーが参加しており、コミュニティとしての規模も着実に広がっています。LINEアカウントさえあれば複雑な事前準備なく始められるため、ブロックチェーンゲーム初心者にとっても入りやすいタイトルといえます。
 
 デイリーミッションやイベントへの参加を軸に毎日少しずつプレイを積み重ねることで、KAIAトークンやNFTアイテムといった報酬を獲得できる仕組みが整っています。コンテンツを楽しみながらデジタル資産に触れられる点がHOROの最大の魅力であり、ゲームを通じてブロックチェーン技術の世界に自然に踏み込める機会を提供しています。まだプレイしていない方は、ぜひLINE Dapp PortalからHOROにアクセスして、その体験を確かめてみてください。
+
+LINE Dapp Portalの他のゲームについては[StarAI](/games/starai/)の攻略ガイドもご覧ください。
 
 ---
 

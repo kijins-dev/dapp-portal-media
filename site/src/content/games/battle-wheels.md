@@ -14,7 +14,7 @@ source_urls:
 template_variant: "standard"
 compliance_check: "pending"
 generation_model: "claude-sonnet-4-6"
-draft: true
+draft: false
 ---
 
 ## Battle Wheelsとは
@@ -88,6 +88,8 @@ Battle Wheelsは、LINE Dapp Portalで手軽にアクセスできるバトルレ
 LINEアカウントがあればすぐに始められるアクセスのしやすさ、チュートリアルによる丁寧な導入、そして車両強化やアイテム収集によるやり込み要素と、ゲームとしての完成度が多方面にわたって整っています。KAIAトークンやNFTアイテムといったWeb3要素も取り入れられており、ゲームを楽しみながらデジタル資産に触れられる点もBattle Wheelsならではの魅力です。
 
 まだプレイしたことがない方は、ぜひ[Battle Wheelsの公式ページ](https://battlewheels.trala.me/?dp_tracking_id=OoriXQZPNUzNV1Zi)からアクセスして、バトルレーシングの世界を体験してみてください。
+
+同じカテゴリのゲームでは[Bombie](/games/bombie/)や[Degen Defense](/games/degen-defense/)もおすすめです。
 
 ---
 

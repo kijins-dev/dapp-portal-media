@@ -14,7 +14,7 @@ source_urls:
 template_variant: "reward_focus"
 compliance_check: "pending"
 generation_model: "claude-sonnet-4-6"
-draft: true
+draft: false
 ---
 
 ## Fly To The Valhallaとは
@@ -118,6 +118,8 @@ KAIAの換金方法については、詳しくは[KAIA換金ガイド](/guide/ho
 報酬を効率よく積み上げるには、**デイリーミッションの毎日クリア・スコアランキングへの継続参加・チャレンジミッションの見逃し防止**の3点がポイントです。操作はタップのみのシンプル設計なので、ブロックチェーンゲーム初心者の入門タイトルとしても最適です。まずは無料でアクセスして、チュートリアルから気軽に試してみてください。
 
 👉 [Fly To The Valhalla をプレイする](https://fttv.magnumopus.co.kr/main?dp_tracking_id=OoriXQZPNUzNV1Zi)
+
+同じカテゴリのゲームでは[Airship Knights](/games/airship-knights/)や[Elderglade](/games/elderglade/)もおすすめです。
 
 ---
 

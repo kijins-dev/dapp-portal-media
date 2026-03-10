@@ -14,7 +14,7 @@ source_urls:
 template_variant: "standard"
 compliance_check: "pending"
 generation_model: "claude-sonnet-4-6"
-draft: true
+draft: false
 ---
 
 ## Tea Farmとは
@@ -88,6 +88,8 @@ Tea Farmは、誰でも気軽に始められる農場経営シミュレーショ
 LINE Dapp Portalから手軽にアクセスできるため、スマートフォン一台で農場経営の楽しさをどこでも体験できます。デイリーログインやミッションをこなしながら農場を着実に成長させていくことで、ゲームとしての楽しみと報酬獲得の両方を追いかけられる設計になっています。
 
 収穫タイミングの管理、農地の効率的な活用、そして定期的なアップグレードという3つの柱を意識してプレイすることが、Tea Farm攻略の基本です。まだプレイしていない方は、ぜひLINE Dapp PortalからTea Farmにアクセスして、自分だけのお茶農園づくりを始めてみてください。
+
+同じカテゴリのゲームでは[My Restaurant](/games/my-restaurant/)や[Moofun](/games/moofun/)もおすすめです。
 
 ---
 

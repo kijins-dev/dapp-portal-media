@@ -14,7 +14,7 @@ source_urls:
 template_variant: "beginner"
 compliance_check: "pending"
 generation_model: "claude-sonnet-4-6"
-draft: true
+draft: false
 ---
 
 ## PataPataとは
@@ -125,6 +125,8 @@ KAIAの換金方法については、詳しくは[KAIA換金ガイド](/guide/ho
 デイリーミッションの継続、コンボを意識した操作、イベント期間の積極的な活用など、基本的な攻略法を押さえるだけで、初心者でも効率よくゲームを進められます。LINEアカウントさえあれば今すぐ始められるPataPataに、ぜひチャレンジしてみてください。
 
 👉 [PataPataをプレイする](https://ptpt.fun/?dp_tracking_id=OoriXQZPNUzNV1Zi)
+
+同じカテゴリのゲームでは[Slime Miner](/games/slime-miner/)や[Cattea](/games/cattea/)もおすすめです。
 
 ---
 

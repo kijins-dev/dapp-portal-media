@@ -14,7 +14,7 @@ source_urls:
 template_variant: "beginner"
 compliance_check: "pending"
 generation_model: "claude-sonnet-4-6"
-draft: true
+draft: false
 ---
 
 ## Gamunityとは
@@ -136,6 +136,8 @@ KAIAの換金方法については、詳しくは[KAIA換金ガイド](/guide/ho
 デイリーミッションをこなす習慣をつけるだけでも報酬を継続的に積み上げられる設計になっているため、ブロックチェーンゲーム初心者でも無理なく始められます。スタミナ管理やランキング挑戦、ギルド活用など、慣れてきたら攻略の幅を広げることで、より深くゲームを楽しめます。
 
 LINEアプリさえあれば今すぐ始められるGamunity、まずは気軽にログインしてチュートリアルから体験してみてください。
+
+同じカテゴリのゲームでは[Slime Miner](/games/slime-miner/)や[Bombie](/games/bombie/)もおすすめです。
 
 ---
 

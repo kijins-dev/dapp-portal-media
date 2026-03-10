@@ -14,7 +14,7 @@ source_urls:
 template_variant: "beginner"
 compliance_check: "pending"
 generation_model: "claude-sonnet-4-6"
-draft: true
+draft: false
 ---
 
 ## PetPoPとは
@@ -124,6 +124,8 @@ KAIAの換金方法については、詳しくは[KAIA換金ガイド](/guide/ho
 LINEアカウントだけでスタートでき、複雑な事前準備が必要ない点は大きなメリットです。毎日のログインボーナスやデイリーミッションをこなしながら、少しずつペットを育て、イベントに参加して報酬を積み上げていくプレイスタイルが、長く楽しむための基本となります。
 
 かわいいペットを集めて育てながら、ゲームとしての楽しさとブロックチェーンゲームならではの報酬システムを両方味わえるPetPoP。まずは気軽にログインして、チュートリアルから遊び始めてみてください。
+
+同じカテゴリのゲームでは[CapyBobo](/games/capybobo/)や[Cattea](/games/cattea/)もおすすめです。
 
 ---
 

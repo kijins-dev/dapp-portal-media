@@ -14,7 +14,7 @@ source_urls:
 template_variant: "beginner"
 compliance_check: "pending"
 generation_model: "claude-sonnet-4-6"
-draft: true
+draft: false
 ---
 
 ## MusiKhanとは
@@ -139,6 +139,8 @@ MusiKhanは、音楽という親しみやすいテーマを軸に、コンテン
 始め方はLINEアカウントとKAIAウォレットを用意するだけとシンプルで、チュートリアルに沿って進めれば初心者でもスムーズにスタートできます。毎日ログインしてデイリーミッションをこなす習慣をつけることが、MusiKhanを長く楽しみながら報酬を積み上げていく基本的な戦略です。
 
 音楽好きの方はもちろん、LINE Dapp Portalで新しいコンテンツ体験を探している方にも、MusiKhanはおすすめのタイトルです。まずは公式URLからアクセスして、その世界観を体験してみてください。
+
+LINE Dapp Portalの他のゲームについては[$JSR: Chant to Earn](/games/jsr-chant-to-earn/)の攻略ガイドもご覧ください。
 
 ---
 

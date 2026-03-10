@@ -14,7 +14,7 @@ source_urls:
 template_variant: "deep_dive"
 compliance_check: "pending"
 generation_model: "claude-sonnet-4-6"
-draft: true
+draft: false
 ---
 
 ## Tower Defense: Future Warとは
@@ -118,6 +118,8 @@ KAIAの換金方法については、詳しくは[KAIA換金ガイド](/guide/ho
 **Tower Defense: Future War**は、近未来SFの世界観を背景にしたタワーディフェンスゲームとして、シンプルな操作性と奥深い戦略性を両立した完成度の高いタイトルです。31,000人以上がプレイしているという数字が示す通り、LINE Dapp Portal内でも人気の高いゲームの一つとして知られています。
 
 チュートリアルで基本を押さえ、タワーの配置戦略とアップグレードの優先順位を意識することで、どのステージも確実に攻略できる実力が身につきます。さらにスロータワーとの連携や動的配置変更といった上級テクニックを習得すれば、高難度ステージや限定イベントでも好成績を残すことが可能になります。プレイを重ねながらリワードを積み上げ、LINE Dapp Portalのゲーム体験を存分に楽しんでください。
+
+同じカテゴリのゲームでは[Siege of Titans TD](/games/siege-of-titans-td/)や[Degen Defense](/games/degen-defense/)もおすすめです。
 
 ---
 

@@ -14,7 +14,7 @@ source_urls:
 template_variant: "deep_dive"
 compliance_check: "pending"
 generation_model: "claude-sonnet-4-6"
-draft: true
+draft: false
 ---
 
 ## Pinky Auctionsとは
@@ -111,6 +111,8 @@ KAIAの換金方法については、詳しくは[KAIA換金ガイド](/guide/ho
 ## まとめ
 
 **Pinky Auctions**は、手軽に楽しめるオークション体験と戦略性を兼ね備えたLINE Dapp PortalのMini Dappです。145,600人以上のプレイヤーが参加している活発なコミュニティの中で、観察・タイミング・リソース管理といった多彩な戦略を駆使してオークションを制することが攻略の核心です。初心者でもチュートリアルから始めてすぐにゲームの流れを掴めるため、気軽にプレイをスタートできます。上級者向けの戦略まで身につければ、より効率よくゲームを楽しみながらリワードの獲得を目指せます。まだプレイしていない方は、ぜひこの機会にPinky Auctionsの世界に参加してみてください。
+
+LINE Dapp Portalの他のゲームについては[Lair](/games/lair/)の攻略ガイドもご覧ください。
 
 ---
 

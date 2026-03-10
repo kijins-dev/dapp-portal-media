@@ -14,7 +14,7 @@ source_urls:
 template_variant: "reward_focus"
 compliance_check: "pending"
 generation_model: "claude-sonnet-4-6"
-draft: true
+draft: false
 ---
 
 ## Bricks Breaker Crushとは
@@ -88,6 +88,8 @@ KAIAの換金方法については、詳しくは[KAIA換金ガイド](/guide/ho
 **Bricks Breaker Crush**は、シンプルな操作で誰でもすぐに楽しめるブロック崩しゲームでありながら、デイリーミッションやスコア報酬、ログインボーナスといった多彩なリワードシステムが充実している点が最大の魅力です。165.8Kという大きなプレイヤーコミュニティが形成されており、LINE Dapp Portal内でも存在感のあるタイトルとして確立されています。
 
 ゲームとしての完成度も高く、反射角度を読んで大量のブロックを一気に崩した瞬間の爽快感はプレイを続ける大きな動機になります。毎日のデイリーミッションをこなしながらスコアアップを目指すルーティンを作ることで、ゲームの楽しさとリワード獲得を同時に追求できます。LINE Dapp Portalのゲームとして気軽に始められる一方で、攻略を深めるほどに奥行きを感じられるBricks Breaker Crushをぜひプレイしてみてください。
+
+同じカテゴリのゲームでは[BubbleHeroes](/games/bubbleheroes/)や[Unscrew](/games/unscrew/)もおすすめです。
 
 ---
 

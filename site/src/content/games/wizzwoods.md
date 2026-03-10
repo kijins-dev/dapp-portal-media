@@ -144,6 +144,8 @@ KAIAの換金方法については、詳しくは[KAIA換金ガイド](/guide/ho
 
 ぜひLINE Dapp PortalからWizzwoodsにアクセスして、魔法の森の冒険を体験してみてください！
 
+同じカテゴリのゲームでは[Elderglade](/games/elderglade/)や[Slime Miner](/games/slime-miner/)もおすすめです。
+
 ---
 
 **免責事項**

@@ -14,7 +14,7 @@ source_urls:
 template_variant: "standard"
 compliance_check: "pending"
 generation_model: "claude-sonnet-4-6"
-draft: true
+draft: false
 ---
 
 ## LARVA Survivalとは
@@ -84,6 +84,8 @@ LARVA Survivalは、親しみやすいラーバキャラクターを主役にし
 シンプルな操作性ながらスキル選択や立ち回りによる戦略性もあり、初心者から上級者まで幅広く楽しめる設計になっています。デイリーミッションや期間限定イベントを活用することでKAIAトークンなどのリワードを受け取れる仕組みも用意されており、ゲームを楽しみながら報酬を積み重ねることができます。
 
 まだプレイしたことがない方は、ぜひLINE Dapp Portalから**LARVA Survival**を起動して、ラーバたちのサバイバルアドベンチャーを体験してみてください。チュートリアルも充実しているため、ゲーム初心者の方でも安心してスタートできます。
+
+同じカテゴリのゲームでは[Savanna Survival](/games/savanna-survival/)や[Slime Miner](/games/slime-miner/)もおすすめです。
 
 ---
 

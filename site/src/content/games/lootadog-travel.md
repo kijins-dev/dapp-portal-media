@@ -14,7 +14,7 @@ source_urls:
 template_variant: "comparison"
 compliance_check: "pending"
 generation_model: "claude-sonnet-4-6"
-draft: true
+draft: false
 ---
 
 ## LOOTaDOG Travelとは
@@ -97,6 +97,8 @@ KAIAの換金方法については、詳しくは[KAIA換金ガイド](/guide/ho
 1,900人以上のプレイヤーが現在もアクティブに旅を続けているこのタイトルは、LINE Dapp Portalから手軽にアクセスできるという敷居の低さも大きな強みです。専用アプリのダウンロードも不要で、LINEアカウントさえあればすぐに旅をスタートできます。
 
 デイリーミッションのこまめな消化、イベントへの積極的な参加、そしてキャラクターの強化を意識しながら進めることで、ゲームの醍醐味をより深く味わえます。KAIAトークンをはじめとした報酬獲得の仕組みも用意されており、楽しみながらWeb3の世界に触れる入口としても最適なゲームです。まだプレイしていない方は、ぜひLOOTaDOG Travelの旅を体験してみてください。
+
+LINE Dapp Portalの他のゲームについては[CapyGo](/games/capygo/)の攻略ガイドもご覧ください。
 
 ---
 
