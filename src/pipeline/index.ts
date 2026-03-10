@@ -53,7 +53,7 @@ async function main() {
     }
   }
 
-  // Step 3: Copy drafts to site content (Phase 0 = manual review step)
+  // Step 3: Copy drafts to site content (skip already-published articles)
   if (existsSync(DRAFTS_DIR)) {
     if (!existsSync(SITE_GAMES_DIR)) {
       mkdirSync(SITE_GAMES_DIR, { recursive: true });
@@ -63,17 +63,28 @@ async function main() {
     const drafts = readdirSync(DRAFTS_DIR).filter((f) => f.endsWith(".md"));
 
     console.log(`\n[pipeline] === Copy Drafts to Site ===`);
+    let copied = 0;
+    let skipped = 0;
     for (const draft of drafts) {
       const src = join(DRAFTS_DIR, draft);
       const dest = join(SITE_GAMES_DIR, draft);
+
+      // Skip if published article already exists (draft: false)
+      if (existsSync(dest)) {
+        const content = readFileSync(dest, "utf-8");
+        if (/^draft:\s*false$/m.test(content)) {
+          console.log(`[pipeline] Skipped (published): ${draft}`);
+          skipped++;
+          continue;
+        }
+      }
+
       copyFileSync(src, dest);
       console.log(`[pipeline] Copied: ${draft}`);
+      copied++;
     }
     console.log(
-      `[pipeline] ${drafts.length} drafts copied to site/src/content/games/`
-    );
-    console.log(
-      `[pipeline] Note: Articles have draft: true. Set to false after review.`
+      `[pipeline] ${copied} drafts copied, ${skipped} published articles preserved`
     );
   }
 

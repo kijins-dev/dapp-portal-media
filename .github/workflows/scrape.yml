@@ -1,0 +1,46 @@
+name: Scrape Apps
+
+on:
+  schedule:
+    - cron: '17 */6 * * *'  # 6時間ごと UTC :17分
+  workflow_dispatch: {}
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - run: npm ci
+
+      - name: Install Playwright browsers
+        run: npx playwright install chromium --with-deps
+
+      - name: Run scraper
+        run: npm run scrape
+
+      - name: Check for new apps
+        id: diff
+        run: |
+          git add data/apps.json
+          if git diff --cached --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            NEW_COUNT=$(node -e "const d=JSON.parse(require('fs').readFileSync('data/diff.json','utf8'));console.log(d.new?.length||0)")
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "new_count=$NEW_COUNT" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit if changed
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: scrape update - ${{ steps.diff.outputs.new_count }} new apps"
+          git push

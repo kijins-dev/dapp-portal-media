@@ -1,0 +1,32 @@
+name: Link Check
+
+on:
+  schedule:
+    - cron: '0 3 * * 1'  # 毎週月曜 UTC 3:00
+  workflow_dispatch: {}
+
+jobs:
+  linkcheck:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - run: npm ci
+
+      - name: Build site
+        run: npm run site:build
+
+      - name: Check links
+        run: |
+          npx linkinator dist/ --recurse --skip "^(?!http)" --format json > /tmp/linkcheck.json 2>&1 || true
+          BROKEN=$(node -e "const r=JSON.parse(require('fs').readFileSync('/tmp/linkcheck.json','utf8'));const b=r.links?.filter(l=>l.state==='BROKEN')||[];console.log(b.length);b.forEach(l=>console.log(l.url,l.status))")
+          echo "Broken links: $BROKEN"
+          if [ "$BROKEN" != "0" ]; then
+            echo "::warning::Found broken links"
+          fi
