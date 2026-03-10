@@ -9,42 +9,112 @@ import { SITE_TITLE } from "../consts";
   <head>
     <BaseHead
       title={`お問い合わせ | ${SITE_TITLE}`}
-      description="Dapp Portal攻略ガイドへのお問い合わせ。ご質問・ご意見をお寄せください。"
+      description="Dapp Portal攻略ガイドへのお問い合わせ。ご質問・ご意見・掲載内容の修正依頼をお寄せください。"
     />
     <style>
       main {
-        max-width: 780px;
+        max-width: 640px;
         margin: 0 auto;
         padding: 2em 1em;
-        color: rgb(var(--gray-dark));
-        line-height: 1.8;
       }
       h1 {
         font-size: 1.8em;
-        margin-bottom: 0.5em;
+        margin-bottom: 0.3em;
       }
-      p {
-        margin: 0.8em 0;
-      }
-      .form-container {
-        margin-top: 2em;
-        border: 1px solid rgb(var(--gray-light));
-        border-radius: 12px;
-        overflow: hidden;
-      }
-      .form-container iframe {
-        width: 100%;
-        height: 800px;
-        border: none;
-      }
-      .form-placeholder {
-        padding: 3em 2em;
-        text-align: center;
-        background: rgb(var(--gray-light));
-        border-radius: 12px;
-      }
-      .form-placeholder p {
+      .subtitle {
         color: rgb(var(--gray));
+        font-size: 0.9em;
+        margin-bottom: 2em;
+      }
+      .form-group {
+        margin-bottom: 1.5em;
+      }
+      label {
+        display: block;
+        font-weight: 700;
+        font-size: 0.9em;
+        margin-bottom: 0.4em;
+        color: rgb(var(--gray-dark));
+      }
+      label .required {
+        color: #c62828;
+        margin-left: 0.3em;
+        font-size: 0.85em;
+      }
+      label .optional {
+        color: rgb(var(--gray));
+        margin-left: 0.3em;
+        font-size: 0.85em;
+        font-weight: 400;
+      }
+      input[type="text"],
+      input[type="email"],
+      select,
+      textarea {
+        width: 100%;
+        padding: 0.7em 0.9em;
+        border: 1px solid rgb(var(--gray-light));
+        border-radius: 8px;
+        font-size: 1em;
+        font-family: inherit;
+        background: white;
+        color: rgb(var(--gray-dark));
+        transition: border-color 0.15s;
+        box-sizing: border-box;
+      }
+      input:focus,
+      select:focus,
+      textarea:focus {
+        outline: none;
+        border-color: var(--accent);
+        box-shadow: 0 0 0 3px rgba(35, 55, 255, 0.1);
+      }
+      textarea {
+        min-height: 180px;
+        resize: vertical;
+      }
+      select {
+        cursor: pointer;
+      }
+      .submit-btn {
+        display: inline-block;
+        padding: 0.8em 2.5em;
+        background: var(--accent);
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 1em;
+        font-weight: 700;
+        cursor: pointer;
+        transition: background 0.15s;
+      }
+      .submit-btn:hover {
+        background: var(--accent-dark);
+      }
+      .submit-btn:disabled {
+        background: rgb(var(--gray));
+        cursor: not-allowed;
+      }
+      .note {
+        font-size: 0.85em;
+        color: rgb(var(--gray));
+        margin-top: 1.5em;
+        padding: 0.8em;
+        background: rgba(var(--gray-light), 0.3);
+        border-radius: 6px;
+      }
+      .success-msg {
+        display: none;
+        padding: 1.5em;
+        background: #e8f5e9;
+        border: 1px solid #a5d6a7;
+        border-radius: 8px;
+        color: #2e7d32;
+        text-align: center;
+        margin-top: 1em;
+      }
+      .success-msg.show {
+        display: block;
       }
     </style>
   </head>
@@ -52,13 +122,69 @@ import { SITE_TITLE } from "../consts";
     <Header />
     <main>
       <h1>お問い合わせ</h1>
-      <p>当サイトに関するご質問・ご意見・掲載内容の修正依頼がございましたら、以下のフォームよりお気軽にお問い合わせください。</p>
+      <p class="subtitle">ご質問・ご意見・掲載内容の修正依頼がございましたら、以下のフォームよりお気軽にどうぞ。</p>
 
-      <div class="form-placeholder">
-        <p>Googleフォームを準備中です。</p>
-        <p>お急ぎの場合はメールにてお問い合わせください。</p>
+      <form
+        id="contact-form"
+        action="https://formsubmit.co/info@michi-gaeru.net"
+        method="POST"
+      >
+        <!-- FormSubmit設定 -->
+        <input type="hidden" name="_subject" value="【Dapp Portal攻略ガイド】お問い合わせ" />
+        <input type="hidden" name="_captcha" value="true" />
+        <input type="hidden" name="_next" value="https://dapp-portal-guide.com/contact/?sent=1" />
+        <input type="hidden" name="_template" value="table" />
+        <input type="text" name="_honey" style="display:none" />
+
+        <div class="form-group">
+          <label for="name">お名前<span class="optional">（任意）</span></label>
+          <input type="text" id="name" name="name" placeholder="山田 太郎" />
+        </div>
+
+        <div class="form-group">
+          <label for="email">メールアドレス<span class="required">*必須</span></label>
+          <input type="email" id="email" name="email" required placeholder="example@email.com" />
+        </div>
+
+        <div class="form-group">
+          <label for="category">お問い合わせ種別<span class="required">*必須</span></label>
+          <select id="category" name="category" required>
+            <option value="" disabled selected>選択してください</option>
+            <option value="質問">ゲームに関する質問</option>
+            <option value="修正依頼">記事内容の修正依頼</option>
+            <option value="掲載依頼">ゲーム掲載のご依頼</option>
+            <option value="広告">広告・提携のご相談</option>
+            <option value="その他">その他</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message">お問い合わせ内容<span class="required">*必須</span></label>
+          <textarea id="message" name="message" required placeholder="お問い合わせ内容をご記入ください"></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">送信する</button>
+      </form>
+
+      <div class="success-msg" id="success-msg">
+        お問い合わせありがとうございます。内容を確認のうえ、折り返しご連絡いたします。
+      </div>
+
+      <div class="note">
+        <strong>ご注意</strong>: 返信にはお時間をいただく場合がございます。お急ぎの場合は
+        <a href="mailto:info@michi-gaeru.net">info@michi-gaeru.net</a> まで直接ご連絡ください。
       </div>
     </main>
     <Footer />
+
+    <script>
+      const params = new URLSearchParams(window.location.search);
+      if (params.get('sent') === '1') {
+        const form = document.getElementById('contact-form');
+        const msg = document.getElementById('success-msg');
+        if (form) form.style.display = 'none';
+        if (msg) msg.classList.add('show');
+      }
+    </script>
   </body>
 </html>
