@@ -28,12 +28,19 @@ const DISCLAIMER = `
 ※本記事にはアフィリエイトリンクが含まれる場合があります。
 `;
 
+function yamlSafe(value: string): string {
+  if (/[:\#\[\]\{\}&\*!\|>'"%@`\u202f]/.test(value) || /^\d+$/.test(value) || value.startsWith("$")) {
+    return `"${value.replace(/\\/g, "\\\\").replace(/"/g, '\\"')}"`;
+  }
+  return value;
+}
+
 function buildFrontmatter(app: AppData, variant: string, model: string): string {
   const now = new Date().toISOString().split("T")[0];
   return `---
 title: "${app.name}の遊び方・攻略ガイド【LINE Dapp Portal】"
-slug: ${app.slug}
-game_name: ${app.name}
+slug: ${yamlSafe(app.slug)}
+game_name: ${yamlSafe(app.name)}
 category: ${app.category}
 play_count: "${app.play_count}"
 published_at: ${now}
