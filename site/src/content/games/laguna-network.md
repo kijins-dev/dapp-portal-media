@@ -11,7 +11,7 @@ tags: ["SOCIAL", "LINE Dapp Portal", "攻略"]
 description: "LINE Dapp PortalのLaguna Networkの遊び方、攻略のコツ、報酬の稼ぎ方を解説。123.3K人がプレイ中の人気ソーシャルゲーム。"
 source_urls:
   - "https://laguna.network/en?minidapp=true&dp_tracking_id=OoriXQZPNUzNV1Zi"
-template_variant: "reward_focus"
+template_variant: "social_community"
 generation_model: "claude-sonnet-4-6"
 draft: false
 ---
@@ -38,7 +38,7 @@ Laguna Networkを始めるには、LINEアプリからDapp Portalにアクセス
 
 ---
 
-## 遊び方・基本操作
+## 基本機能と使い方
 
 Laguna Networkはソーシャル系ゲームとして、プレイヤー同士のインタラクションやコミュニティへの参加を基本軸に設計されています。ゲーム内では、デイリーミッションやソーシャルタスクをこなすことでポイントや報酬を積み上げていくスタイルが採用されています。
 
@@ -48,7 +48,7 @@ Laguna Networkはソーシャル系ゲームとして、プレイヤー同士の
 
 ---
 
-## 攻略のコツ
+## コミュニティ・フレンド活用術
 
 ### デイリーミッションを毎日欠かさずこなす
 

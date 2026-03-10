@@ -11,7 +11,7 @@ tags: ["GAME", "LINE Dapp Portal", "攻略"]
 description: "LINE Dapp PortalのDearSt! RHYTHM STAGEの遊び方、攻略のコツ、報酬の稼ぎ方を解説。51.9K人がプレイ中の人気ゲーム。"
 source_urls:
   - "https://dearst-rhythmstage.com/?dp_tracking_id=OoriXQZPNUzNV1Zi"
-template_variant: "comparison"
+template_variant: "game_casual"
 generation_model: "claude-sonnet-4-6"
 draft: false
 ---
@@ -38,7 +38,7 @@ LINEアカウントでのログインが求められます。LINEアプリと連
 
 ---
 
-## 遊び方・基本操作
+## 基本操作マスターガイド
 
 DearSt! RHYTHM STAGEの基本ルールは、画面上を流れてくるノーツ（音符アイコン）を、タイミングよくタップして叩くシンプルな仕組みです。タイミングの精度によって「PERFECT」「GREAT」「GOOD」「MISS」などの判定が表示され、判定の精度が高いほど高スコアにつながります。
 
@@ -48,7 +48,7 @@ DearSt! RHYTHM STAGEの基本ルールは、画面上を流れてくるノーツ
 
 ---
 
-## 攻略のコツ
+## 初心者がハマりやすい落とし穴と攻略のコツ
 
 **① 低難易度でフルコンボを狙う**
 

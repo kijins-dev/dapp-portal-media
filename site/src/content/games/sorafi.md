@@ -11,7 +11,7 @@ tags: ["DeFi", "LINE Dapp Portal", "攻略"]
 description: "LINE Dapp PortalのSorafiの遊び方、攻略のコツ、報酬の稼ぎ方を解説。9.5K人がプレイ中の人気DeFiゲーム。"
 source_urls:
   - "https://cloudplay.sorafi.org/?dp_tracking_id=OoriXQZPNUzNV1Zi"
-template_variant: "comparison"
+template_variant: "tech_platform"
 generation_model: "claude-sonnet-4-6"
 draft: false
 ---
@@ -43,7 +43,7 @@ SorafiはLINE Dapp Portalからブラウザ上でアクセスして遊ぶMini Da
 
 ---
 
-## 遊び方・基本操作
+## 主要機能の使い方
 
 Sorafiの基本的なゲームプレイは、**トークンの預け入れ・運用・引き出し**というDeFiの流れをゲーム化したものです。プレイヤーはゲーム内のプールや仕組みにトークンを投じ、一定の条件をクリアすることでリワードを獲得していきます。
 
@@ -59,7 +59,7 @@ Sorafiの基本的なゲームプレイは、**トークンの預け入れ・運
 
 ---
 
-## 攻略のコツ
+## 活用シーン・ユースケース
 
 Sorafiで効率よく進めるには、ゲーム内の仕組みを理解した上で行動することが重要です。DeFiゲームならではの「タイミング」と「分散」を意識することが、多くのプレイヤーが実践している基本的な戦略として挙げられます。
 
@@ -81,7 +81,7 @@ LINE Dapp Portal全体やSorafi単体で**期間限定イベント**が開催さ
 
 ---
 
-## 報酬・稼ぎ方
+## 報酬・インセンティブ
 
 Sorafiで獲得できる主なリワードとして、**KAIAトークン**および**ゲーム内ポイント**が用意されています。これらはゲーム内での操作実績やプールへの貢献度に応じて付与される仕組みが表示されています。
 

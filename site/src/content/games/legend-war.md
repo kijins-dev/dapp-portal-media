@@ -11,7 +11,7 @@ tags: ["GAME", "LINE Dapp Portal", "攻略"]
 description: "LINE Dapp PortalのLegend Warの遊び方、攻略のコツ、報酬の稼ぎ方を解説。1.3K人がプレイ中の人気ゲーム。"
 source_urls:
   - "https://lw.blockverse.games/?dp_tracking_id=OoriXQZPNUzNV1Zi"
-template_variant: "reward_focus"
+template_variant: "game_casual"
 generation_model: "claude-sonnet-4-6"
 draft: false
 ---
@@ -43,7 +43,7 @@ Legend Warへのアクセスは、LINEアプリまたはブラウザからLINE D
 
 ---
 
-## 遊び方・基本操作
+## 基本操作マスターガイド
 
 Legend Warの基本的な流れは、**ユニットを編成 → ステージに挑戦 → 敵を撃破して報酬獲得**という形で進行します。
 
@@ -65,7 +65,7 @@ Legend Warの基本的な流れは、**ユニットを編成 → ステージに
 
 ---
 
-## 攻略のコツ
+## 初心者がハマりやすい落とし穴と攻略のコツ
 
 ### ユニット編成を最適化する
 

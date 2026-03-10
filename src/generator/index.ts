@@ -4,7 +4,7 @@ import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 import type { AppData, ScrapeResult, DiffResult } from "../scraper/types.js";
 import type { GenerateRequest, GeneratedArticle } from "./types.js";
-import { buildPrompt, pickVariant } from "./prompts.js";
+import { buildPrompt, selectVariant } from "./prompts.js";
 import { runComplianceCheck } from "./compliance.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -12,21 +12,14 @@ const PROJECT_ROOT = join(__dirname, "..", "..");
 const DATA_DIR = join(PROJECT_ROOT, "data");
 const DRAFTS_DIR = join(PROJECT_ROOT, "drafts");
 const APPS_FILE = join(DATA_DIR, "apps.json");
+const RESEARCH_FILE = join(DATA_DIR, "games-research.json");
 const DIFF_FILE = join(DATA_DIR, "diff.json");
 const REVIEW_QUEUE_FILE = join(DATA_DIR, "review-queue.json");
 const DEAD_LETTER_FILE = join(DATA_DIR, "dead-letter.json");
 
 const MODEL = "claude-sonnet-4-6";
 
-const DISCLAIMER = `
----
-
-**免責事項**
-
-※本記事の情報は執筆時点のものです。最新の情報は公式サイトをご確認ください。
-※暗号資産の取引にはリスクが伴います。投資は自己責任でお願いします。
-※本記事にはアフィリエイトリンクが含まれる場合があります。
-`;
+// Disclaimer is now added by GameArticle.astro template — not in article body
 
 function yamlSafe(value: string): string {
   if (/[:\#\[\]\{\}&\*!\|>'"%@`\u202f]/.test(value) || /^\d+$/.test(value) || value.startsWith("$")) {
@@ -37,6 +30,20 @@ function yamlSafe(value: string): string {
 
 function buildFrontmatter(app: AppData, variant: string, model: string): string {
   const now = new Date().toISOString().split("T")[0];
+  const categoryLabel: Record<string, string> = {
+    GAME: "ゲーム",
+    CONTENT: "コンテンツ",
+    SOCIAL: "ソーシャル",
+    SocialFi: "ソーシャル",
+    AI: "AI",
+    DeFi: "DeFi",
+    DePIN: "DePIN",
+  };
+  const catJa = categoryLabel[app.category] || app.category;
+  const popularityNote = app.play_count_raw > 0
+    ? `${app.play_count}人がプレイ中の人気${catJa}。`
+    : `注目の${catJa}。`;
+
   return `---
 title: "${app.name}の遊び方・攻略ガイド【LINE Dapp Portal】"
 slug: ${yamlSafe(app.slug)}
@@ -47,22 +54,40 @@ published_at: ${now}
 updated_at: ${now}
 referral_link: ""
 tags: ["${app.category}", "LINE Dapp Portal", "攻略"]
-description: "LINE Dapp Portalの${app.name}の遊び方、攻略のコツ、報酬の稼ぎ方を解説。${app.play_count}人がプレイ中の人気${app.category}ゲーム。"
+description: "LINE Dapp Portalの${app.name}の遊び方、攻略のコツ、報酬の稼ぎ方を解説。${popularityNote}"
 source_urls:
   - "${app.detail_url}"
 template_variant: "${variant}"
-compliance_check: "pending"
 generation_model: "${model}"
 draft: true
 ---
 `;
 }
 
+function loadResearchData(): Record<string, { reward?: { type?: string }; onchain?: { has_kaia_token?: boolean } }> {
+  if (!existsSync(RESEARCH_FILE)) return {};
+  try {
+    const data = JSON.parse(readFileSync(RESEARCH_FILE, "utf-8"));
+    return data.games || {};
+  } catch {
+    return {};
+  }
+}
+
+const researchData = loadResearchData();
+
 async function generateArticle(
   client: Anthropic,
   app: AppData
 ): Promise<GeneratedArticle> {
-  const variant = pickVariant();
+  const research = researchData[app.slug];
+  const hasFtToken = research?.onchain?.has_kaia_token || research?.reward?.type === "FT";
+  const variant = selectVariant({
+    category: app.category,
+    play_count_raw: app.play_count_raw,
+    rewards: app.rewards,
+    hasFtToken,
+  });
   const req: GenerateRequest = {
     app: {
       name: app.name,
@@ -89,7 +114,7 @@ async function generateArticle(
     response.content[0].type === "text" ? response.content[0].text : "";
 
   const frontmatter = buildFrontmatter(app, variant, MODEL);
-  const fullContent = frontmatter + "\n" + text + "\n" + DISCLAIMER;
+  const fullContent = frontmatter + "\n" + text;
 
   return {
     slug: app.slug,

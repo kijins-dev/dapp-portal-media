@@ -11,7 +11,7 @@ tags: ["GAME", "LINE Dapp Portal", "攻略"]
 description: "LINE Dapp PortalのSlime Minerの遊び方、攻略のコツ、報酬の稼ぎ方を解説。24.4M人がプレイ中の人気ゲーム。"
 source_urls:
   - "https://kaia.slimeminer.io/?dp_tracking_id=mf3FgFT9Pa2szidZ"
-template_variant: "comparison"
+template_variant: "game_earning"
 generation_model: "claude-haiku-4-5-20251001"
 draft: false
 ---
@@ -84,7 +84,7 @@ Slime Minerの基本的なゲームプレイは、スライムキャラクター
 - 画面下部のスキルボタンを長押しまたはタップして、特殊な採掘スキルを発動させます
 - スキルはクールタイムが設定されているため、戦略的に使用する必要があります
 
-## 攻略のコツ
+## 日次・週次の稼ぎ方ルーティン
 
 ### 効率的な進め方
 
@@ -116,7 +116,7 @@ Slime Minerで効率よく進めるためには、以下のポイントが重要
 - 定期的に開催されるイベントには、通常プレイでは得られない希少なアイテムやボーナスが用意されることが多いです
 - イベント期間中は優先的にイベントクエストに取り組むことで、報酬の効率化が図れます
 
-## 報酬・稼ぎ方
+## 報酬の種類と獲得条件
 
 ### 獲得できるリワードの種類
 

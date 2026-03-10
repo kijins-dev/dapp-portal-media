@@ -11,7 +11,7 @@ tags: ["GAME", "LINE Dapp Portal", "攻略"]
 description: "LINE Dapp PortalのLucky Diceの遊び方、攻略のコツ、報酬の稼ぎ方を解説。1.2M人がプレイ中の人気ゲーム。"
 source_urls:
   - "https://luckydice.savethelife.io/?dp_tracking_id=zB8lfxOmt8zOOQUa"
-template_variant: "comparison"
+template_variant: "game_strategy"
 generation_model: "claude-sonnet-4-6"
 draft: false
 ---
@@ -50,7 +50,7 @@ LINE Dapp Portalの特徴として、普段使いのLINEアカウントとシー
 
 ---
 
-## 遊び方・基本操作
+## ゲームシステム詳解
 
 ### ゲームの基本ルール
 
@@ -76,7 +76,7 @@ Lucky Diceの操作はスマートフォンでの**タップ操作**が基本で
 
 ---
 
-## 攻略のコツ
+## 立ち回り・戦略ガイド
 
 ### 効率的な進め方
 

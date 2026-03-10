@@ -11,7 +11,7 @@ tags: ["SocialFi", "LINE Dapp Portal", "攻略"]
 description: "LINE Dapp Portalのsocial.memeの遊び方、攻略のコツ、報酬の稼ぎ方を解説。1.5M人がプレイ中の人気SocialFiゲーム。"
 source_urls:
   - "https://line.web.social.meme/?dp_tracking_id=zB8lfxOmt8zOOQUa"
-template_variant: "reward_focus"
+template_variant: "social_community"
 generation_model: "claude-sonnet-4-6"
 draft: false
 ---
@@ -53,7 +53,7 @@ draft: false
 
 ---
 
-## 遊び方・基本操作
+## 基本機能と使い方
 
 ### ゲームの基本ルール
 
@@ -72,7 +72,7 @@ draft: false
 
 ---
 
-## 攻略のコツ
+## コミュニティ・フレンド活用術
 
 ### 毎日ログインしてデイリーミッションを優先する
 

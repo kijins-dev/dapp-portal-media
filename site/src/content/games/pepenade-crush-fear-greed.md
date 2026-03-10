@@ -11,7 +11,7 @@ tags: ["GAME", "LINE Dapp Portal", "攻略"]
 description: "LINE Dapp PortalのPepenade Crush: Fear & Greedの遊び方、攻略のコツ、報酬の稼ぎ方を解説。1.3K人がプレイ中の人気ゲーム。"
 source_urls:
   - "https://pepenade-line.upcade.xyz/?dp_tracking_id=OoriXQZPNUzNV1Zi"
-template_variant: "comparison"
+template_variant: "game_casual"
 generation_model: "claude-sonnet-4-6"
 draft: false
 ---
@@ -40,7 +40,7 @@ draft: false
 
 ---
 
-## 遊び方・基本操作
+## 基本操作マスターガイド
 
 **Pepenade Crush: Fear & Greed**は、クラッシュ系のゲームメカニクスを基本としたカジュアルゲームです。「クラッシュ系」とは、画面上のアイテムや要素を一定のルールに従って消去・破壊し、スコアやポイントを積み上げていくジャンルを指します。Pepeをモチーフにしたキャラクターやアイテムが画面に登場し、プレイヤーはそれらを操作してゲームを進めていきます。
 
@@ -55,7 +55,7 @@ draft: false
 
 ---
 
-## 攻略のコツ
+## 初心者がハマりやすい落とし穴と攻略のコツ
 
 **Pepenade Crush: Fear & Greed**を効率よく攻略するうえで最も重要なのは、コンボを途切れさせないことです。連続でアイテムを消去するコンボが発生すると、スコア倍率やポイント獲得量が大幅に増加する仕組みが用意されています。焦らず、次に消去できるアイテムを先読みしながら操作することが高スコアへの近道です。
 
