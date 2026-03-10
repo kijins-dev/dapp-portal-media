@@ -1,0 +1,16 @@
+{
+  "slug": "captain-tsubasa",
+  "weeks": [
+    {
+      "week_start": "2026-03-03",
+      "week_end": "2026-03-10",
+      "tokens": [
+        {
+          "symbol": "JOHN",
+          "weekly_token_distributed": 4914868.9038,
+          "active_wallets_7d": 39
+        }
+      ]
+    }
+  ]
+}

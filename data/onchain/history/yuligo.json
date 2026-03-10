@@ -1,0 +1,16 @@
+{
+  "slug": "yuligo",
+  "weeks": [
+    {
+      "week_start": "2026-03-03",
+      "week_end": "2026-03-10",
+      "tokens": [
+        {
+          "symbol": "YULI",
+          "weekly_token_distributed": 2158536.558,
+          "active_wallets_7d": 8
+        }
+      ]
+    }
+  ]
+}

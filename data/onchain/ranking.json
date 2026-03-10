@@ -1,0 +1,221 @@
+{
+  "generated_at": "2026-03-10T07:16:42.615Z",
+  "entries": [
+    {
+      "rank": 1,
+      "slug": "superz",
+      "game_name": "SuperZ",
+      "play_count": "1.5M",
+      "type": "onchain",
+      "tokens": [
+        {
+          "symbol": "GRND",
+          "weekly_token_distributed": 37495108.8928,
+          "active_wallets_7d": 1190,
+          "weekly_change_pct": null
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "slug": "elderglade",
+      "game_name": "Elderglade",
+      "play_count": "16.5M",
+      "type": "onchain",
+      "tokens": [
+        {
+          "symbol": "ELDE",
+          "weekly_token_distributed": 8519792.1384,
+          "active_wallets_7d": 50,
+          "weekly_change_pct": null
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "slug": "lair",
+      "game_name": "Lair",
+      "play_count": "1.2M",
+      "type": "onchain",
+      "tokens": [
+        {
+          "symbol": "LAIR",
+          "weekly_token_distributed": 6096442.3142,
+          "active_wallets_7d": 45,
+          "weekly_change_pct": null
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "slug": "captain-tsubasa",
+      "game_name": "Captain Tsubasa",
+      "play_count": "12.8M",
+      "type": "onchain",
+      "tokens": [
+        {
+          "symbol": "JOHN",
+          "weekly_token_distributed": 4914868.9038,
+          "active_wallets_7d": 39,
+          "weekly_change_pct": null
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "slug": "yuligo",
+      "game_name": "YuliGO",
+      "play_count": "1.2M",
+      "type": "onchain",
+      "tokens": [
+        {
+          "symbol": "YULI",
+          "weekly_token_distributed": 2158536.558,
+          "active_wallets_7d": 8,
+          "weekly_change_pct": null
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "slug": "slime-miner",
+      "game_name": "Slime Miner",
+      "play_count": "24.4M",
+      "type": "onchain",
+      "tokens": [
+        {
+          "symbol": "SLX",
+          "weekly_token_distributed": 375405.8408,
+          "active_wallets_7d": 37,
+          "weekly_change_pct": null
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "slug": "savanna-survival",
+      "game_name": "Savanna Survival",
+      "play_count": "8.5M",
+      "type": "onchain",
+      "tokens": [
+        {
+          "symbol": "SVSA",
+          "weekly_token_distributed": 742,
+          "active_wallets_7d": 3,
+          "weekly_change_pct": null
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "slug": "bombie",
+      "game_name": "Bombie",
+      "play_count": "1.5M",
+      "type": "onchain",
+      "tokens": [
+        {
+          "symbol": "BOMB",
+          "weekly_token_distributed": 272.687,
+          "active_wallets_7d": 4,
+          "weekly_change_pct": null
+        }
+      ]
+    },
+    {
+      "rank": 0,
+      "slug": "kyuzos-friends",
+      "game_name": "Kyuzo's Friends",
+      "play_count": "12.4M",
+      "type": "offchain",
+      "tokens": []
+    },
+    {
+      "rank": 0,
+      "slug": "tofu-story",
+      "game_name": "TOFU Story",
+      "play_count": "6.7M",
+      "type": "offchain",
+      "tokens": []
+    },
+    {
+      "rank": 0,
+      "slug": "paw-spa",
+      "game_name": "Paw Spa",
+      "play_count": "2.1M",
+      "type": "offchain",
+      "tokens": []
+    },
+    {
+      "rank": 0,
+      "slug": "social-meme",
+      "game_name": "social.meme",
+      "play_count": "1.5M",
+      "type": "offchain",
+      "tokens": []
+    },
+    {
+      "rank": 0,
+      "slug": "wizzwoods",
+      "game_name": "Wizzwoods",
+      "play_count": "1.5M",
+      "type": "offchain",
+      "tokens": []
+    },
+    {
+      "rank": 0,
+      "slug": "cattea",
+      "game_name": "Cattea",
+      "play_count": "1.4M",
+      "type": "offchain",
+      "tokens": []
+    },
+    {
+      "rank": 0,
+      "slug": "tcom-arena",
+      "game_name": "TCOM Arena",
+      "play_count": "1.3M",
+      "type": "offchain",
+      "tokens": []
+    },
+    {
+      "rank": 0,
+      "slug": "retro-fun",
+      "game_name": "Retro.fun",
+      "play_count": "1.2M",
+      "type": "offchain",
+      "tokens": []
+    },
+    {
+      "rank": 0,
+      "slug": "ixs-academy",
+      "game_name": "IXS Academy",
+      "play_count": "1.2M",
+      "type": "offchain",
+      "tokens": []
+    },
+    {
+      "rank": 0,
+      "slug": "lucky-dice",
+      "game_name": "Lucky Dice",
+      "play_count": "1.2M",
+      "type": "offchain",
+      "tokens": []
+    },
+    {
+      "rank": 0,
+      "slug": "sid-origins",
+      "game_name": "Sid Origins",
+      "play_count": "1M",
+      "type": "offchain",
+      "tokens": []
+    },
+    {
+      "rank": 0,
+      "slug": "seekd",
+      "game_name": "SeekD",
+      "play_count": "739.8K",
+      "type": "offchain",
+      "tokens": []
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "generated_at": "2026-03-10T07:16:42.613Z",
+  "games": [
+    {
+      "slug": "slime-miner",
+      "game_name": "Slime Miner",
+      "play_count": "24.4M",
+      "tokens": [
+        {
+          "symbol": "SLX",
+          "contract": "0x32db8748f9b99c6fc2590484f584089955d05c19",
+          "decimals": 18,
+          "weekly_token_distributed": 375405.8408,
+          "active_wallets_7d": 37,
+          "reward_concentration": 0.6049,
+          "weekly_change_pct": null,
+          "token_flow": {
+            "exchange": 0,
+            "other": 375405.8408
+          }
+        }
+      ],
+      "measured_at": "2026-03-10T07:16:42.597Z"
+    },
+    {
+      "slug": "elderglade",
+      "game_name": "Elderglade",
+      "play_count": "16.5M",
+      "tokens": [
+        {
+          "symbol": "ELDE",
+          "contract": "0x8755d2e532b1559454689bf0e8964bd78b187ff6",
+          "decimals": 18,
+          "weekly_token_distributed": 8519792.1384,
+          "active_wallets_7d": 50,
+          "reward_concentration": 0.5389,
+          "weekly_change_pct": null,
+          "token_flow": {
+            "exchange": 0,
+            "other": 8519792.1384
+          }
+        }
+      ],
+      "measured_at": "2026-03-10T07:16:42.597Z"
+    },
+    {
+      "slug": "captain-tsubasa",
+      "game_name": "Captain Tsubasa",
+      "play_count": "12.8M",
+      "tokens": [
+        {
+          "symbol": "JOHN",
+          "contract": "0x050be4454495579b8d943d795ee3d8b6df4eb7c1",
+          "decimals": 18,
+          "weekly_token_distributed": 4914868.9038,
+          "active_wallets_7d": 39,
+          "reward_concentration": 0.6227,
+          "weekly_change_pct": null,
+          "token_flow": {
+            "exchange": 0,
+            "other": 4914868.9038
+          }
+        }
+      ],
+      "measured_at": "2026-03-10T07:16:42.597Z"
+    },
+    {
+      "slug": "savanna-survival",
+      "game_name": "Savanna Survival",
+      "play_count": "8.5M",
+      "tokens": [
+        {
+          "symbol": "SVSA",
+          "contract": "0x9947d29b1607ea6edb502d7c08d998fbf0ae0ab1",
+          "decimals": 18,
+          "weekly_token_distributed": 742,
+          "active_wallets_7d": 3,
+          "reward_concentration": 0.9825,
+          "weekly_change_pct": null,
+          "token_flow": {
+            "exchange": 0,
+            "other": 742
+          }
+        }
+      ],
+      "measured_at": "2026-03-10T07:16:42.597Z"
+    },
+    {
+      "slug": "superz",
+      "game_name": "SuperZ",
+      "play_count": "1.5M",
+      "tokens": [
+        {
+          "symbol": "GRND",
+          "contract": "0x84f8c3c8d6ee30a559d73ec570d574f671e82647",
+          "decimals": 18,
+          "weekly_token_distributed": 37495108.8928,
+          "active_wallets_7d": 1190,
+          "reward_concentration": 0.9357,
+          "weekly_change_pct": null,
+          "token_flow": {
+            "exchange": 0,
+            "other": 37495108.8928
+          }
+        }
+      ],
+      "measured_at": "2026-03-10T07:16:42.597Z"
+    },
+    {
+      "slug": "bombie",
+      "game_name": "Bombie",
+      "play_count": "1.5M",
+      "tokens": [
+        {
+          "symbol": "BOMB",
+          "contract": "0x0ba2ba407e80bcb8a314649d9bc12efeecc81519",
+          "decimals": 18,
+          "weekly_token_distributed": 272.687,
+          "active_wallets_7d": 4,
+          "reward_concentration": 0.7066,
+          "weekly_change_pct": null,
+          "token_flow": {
+            "exchange": 0,
+            "other": 272.687
+          }
+        }
+      ],
+      "measured_at": "2026-03-10T07:16:42.597Z"
+    },
+    {
+      "slug": "lair",
+      "game_name": "Lair",
+      "play_count": "1.2M",
+      "tokens": [
+        {
+          "symbol": "LAIR",
+          "contract": "0xd70c7d511560493c79df607076fb863f5c8a50b0",
+          "decimals": 18,
+          "weekly_token_distributed": 6096442.3142,
+          "active_wallets_7d": 45,
+          "reward_concentration": 0.6429,
+          "weekly_change_pct": null,
+          "token_flow": {
+            "exchange": 0,
+            "other": 6096442.3142
+          }
+        }
+      ],
+      "measured_at": "2026-03-10T07:16:42.597Z"
+    },
+    {
+      "slug": "yuligo",
+      "game_name": "YuliGO",
+      "play_count": "1.2M",
+      "tokens": [
+        {
+          "symbol": "YULI",
+          "contract": "0x91bcba699222fe2c14ae90e51943a40e59050f79",
+          "decimals": 18,
+          "weekly_token_distributed": 2158536.558,
+          "active_wallets_7d": 8,
+          "reward_concentration": 0.9883,
+          "weekly_change_pct": null,
+          "token_flow": {
+            "exchange": 0,
+            "other": 2158536.558
+          }
+        }
+      ],
+      "measured_at": "2026-03-10T07:16:42.597Z"
+    }
+  ]
+}

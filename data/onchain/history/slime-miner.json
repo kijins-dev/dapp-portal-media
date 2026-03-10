@@ -1,0 +1,16 @@
+{
+  "slug": "slime-miner",
+  "weeks": [
+    {
+      "week_start": "2026-03-03",
+      "week_end": "2026-03-10",
+      "tokens": [
+        {
+          "symbol": "SLX",
+          "weekly_token_distributed": 375405.8408,
+          "active_wallets_7d": 37
+        }
+      ]
+    }
+  ]
+}

@@ -3,6 +3,7 @@
 node_modules/
 dist/
 drafts/
-data/
+data/*
+!data/onchain/
 *hook-log*
 HANDOVER.md
