@@ -17,7 +17,7 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
-![SAMURAI SHODOWN: RPSのゲーム画面](https://obs.line-scdn.net:443/0hn41ZXavgMRsMIy8oyE5OTFZ2P2pgUigOdRUjY3FmO3c_QS1MdTkbIHd2CVAiex8yaBV9FnFzJ0BqchAMdjomFihCCSp9RhNMeRUIFS1dGnZpRhMbMC19L29YM3EpbwY/webp_w100)
+![SAMURAI SHODOWN: RPSのゲーム画面](/screenshots/samurai-shodown-rps.png)
 
 ## SAMURAI SHODOWN: RPSとは
 

@@ -17,7 +17,7 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
-![Sorafiのゲーム画面](https://obs.line-scdn.net:443/0hky2XUgQHNFYPISp3tvVLAVV0OidjUC1DdhcmLnJkPjo8QygBdjgneW1yDGJ4ehVrMhUeSC9xGA1pcBVBdTgjWytADGd-RBYBehcNS2JfHx1jbRZwMhIgQGxaNjwqbQM/webp_w100)
+![Sorafiのゲーム画面](/screenshots/sorafi.png)
 
 ## Sorafiとは
 

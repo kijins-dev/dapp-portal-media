@@ -17,7 +17,7 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
-![PetPoPのゲーム画面](https://obs.line-scdn.net:443/0h9amlCGVoZk5QFXghMC8ZGQhAaD88ZH9bKSN0Ni1QbCJjd3oZbCZQUDNqTho0dSJnLAxQQyluZwJ1dX5obwh2SH1GWhV9RERvMyEqbTBGTQU-dmpkbxhiWClFXX87/webp_w100)
+![PetPoPのゲーム画面](/screenshots/petpop.png)
 
 ## PetPoPとは
 

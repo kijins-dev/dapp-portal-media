@@ -17,7 +17,7 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
-![Battle Wheelsのゲーム画面](https://obs.line-scdn.net:443/0h1Qc8s4vCbn5eQXEjL-kRKQYUYA8yMHdrJ3d8BiMEZBJtI3IpYHRqTT4pazZzDipUY1hYfyE6bzJ7IXZYYVx-eHMSUiVzEExfIlgiYz0TbAcuImJMZ0xqaCcRVU81/webp_w100)
+![Battle Wheelsのゲーム画面](/screenshots/battle-wheels.png)
 
 ## Battle Wheelsとは
 

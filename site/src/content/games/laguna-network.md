@@ -17,7 +17,7 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
-![Laguna Networkのゲーム画面](https://obs.line-scdn.net:443/0hhd6JQ-LjN0sLMymtwalIHFFmOTpnQi5ecgUlM3Z2PSc4USscciozfy5jNXJtUSx-bz4RXmthMRBtYhZccSogRi9SD3p6VhUcfgUBWStgaxsiaAZfNisOf2hINSEufwA/webp_w100)
+![Laguna Networkのゲーム画面](/screenshots/laguna-network.png)
 
 ## Laguna Networkとは
 

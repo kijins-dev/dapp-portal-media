@@ -17,7 +17,7 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
-![Lucky Diceのゲーム画面](https://obs.line-scdn.net:443/0hQELxURuwDmpxARAFPf1xPStUABsdcBd_CDccEgxEBAZCYxI9CBsKfFV-JT1dY0tDBhgkZxBpGDEXUC99CxgZZ1VgNlsAZCw9BAxDcxRpDzkeWj9uTBk0fBJ6DABUTTk/webp_w100)
+![Lucky Diceのゲーム画面](/screenshots/lucky-dice.png)
 
 ## Lucky Diceとは
 

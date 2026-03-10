@@ -17,7 +17,7 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
-![Fate Warのゲーム画面](https://obs.line-scdn.net:443/0hpQI6sFZpL350TzERNhtQKS4aIQ8YPjZrDXk9BgkKJRJHLTMpDVYrTQwwLRceLA1xC1ZjHBcaAyUSHg5pDlY4c1AuF08FKg0pAUJiZxEccykcAGtUSVUraBc0LRRRAxg/webp_w100)
+![Fate Warのゲーム画面](/screenshots/fate-war.png)
 
 ## Fate Warとは
 

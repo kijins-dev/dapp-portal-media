@@ -17,7 +17,7 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
-![DearSt! RHYTHM STAGEのゲーム画面](https://obs.line-scdn.net:443/0h7OwlAGEJaGBKFXeKGoEXNxJAZhEmZHF1MyN6GDdQYgx5d3Q3PiMkTydqUAk7TXNVMQ9BAi5uaSxvdXBGdQh4ZmdGVDtnREpBNiF7WGt9ag5idWRJKBhsdjNFU1Eh/webp_w100)
+![DearSt! RHYTHM STAGEのゲーム画面](/screenshots/dearst-rhythm-stage.png)
 
 ## DearSt! RHYTHM STAGEとは
 

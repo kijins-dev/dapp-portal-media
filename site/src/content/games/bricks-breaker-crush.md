@@ -17,7 +17,7 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
-![Bricks Breaker Crushのゲーム画面](https://obs.line-scdn.net:443/0h1u_UaSTOblpiLHBAocgRDTh5YCsOXXdPGxp8Ih9pZDZRTnINGzYiXx5TVTNOdyp3ABlURwxSUgEEfU9NGDV5V0ZNVmsTSUwNFxpYTEN_bC9PYl9eXjYibgFXbDBHYFk/webp_w100)
+![Bricks Breaker Crushのゲーム画面](/screenshots/bricks-breaker-crush.png)
 
 ## Bricks Breaker Crushとは
 

@@ -17,7 +17,7 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
-![TCOM Arenaのゲーム画面](https://obs.line-scdn.net:443/0hhddutoZuN0tZDCkkPsRIHAFZOTo1fS5eIDolMyRJPSdqbiscZhQBSXlcHx90byxmOQEOWjl3Ngd8bC9tZhEnTXRfCxB0XRVqOjh7aDxZHyl1VDtiLBYNXSBcDHoy/webp_w100)
+![TCOM Arenaのゲーム画面](/screenshots/tcom-arena.png)
 
 ## TCOM Arenaとは
 

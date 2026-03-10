@@ -17,7 +17,7 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
-![Retro.funのゲーム画面](https://obs.line-scdn.net:443/0hL_65PQ_ZE3ALTA0fQH9sJ1EZHQFnPQplcnoBCHYJGRw4Lg8nclUpZWscEj98LiJgN1YDci0nLyttHTJncVUEfS8tK0F6KTEnfkFeaW4nThYiAwhkNnkHZmg3ERouACQ/webp_w100)
+![Retro.funのゲーム画面](/screenshots/retro-fun.png)
 
 ## Retro.funとは
 

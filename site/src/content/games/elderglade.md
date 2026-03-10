@@ -17,7 +17,7 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
-![Eldergladeのゲーム画面](https://obs.line-scdn.net:443/0hWXVBrdhdCHdrOxYYDNV3IDNuBgYHShFiEg0aDxZ-AhtYWRQgVw4bZhNHPywNYyZWHCEcdgZACTtOWxBRVCYYcUZoNCxGaipWCA9EVA1HIBlCWwReHyEyYRJrM0YA/webp_w100)
+![Eldergladeのゲーム画面](/screenshots/elderglade.png)
 
 ## Eldergladeとは
 

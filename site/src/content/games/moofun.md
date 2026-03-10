@@ -17,7 +17,7 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
-![Moofunのゲーム画面](https://obs.line-scdn.net:443/0hSOeyzoDwDGBYABJ6t8NzNwBVAhE0cRV1ITYeGCVFBgxrYhA3ZxocdnlVNzN0TC1RPTYmUzh7DSx9YBRGZx0cZnVTMDt1US5BOjQ1cSV8CS90YgBWLBo2diFQN1Ez/webp_w100)
+![Moofunのゲーム画面](/screenshots/moofun.png)
 
 ## Moofunとは
 

@@ -17,7 +17,7 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
-![SuperZのゲーム画面](https://obs.line-scdn.net:443/0hzTk8v6c3JXtWQTsUMi5aLA4UKwo6MDxuL3c3AysELxdlIzksakwfQCwpHjgkIRQtaU8MVHA6JDdzIT1daVw1fXsSGSB7EAdaNXVpWDIRDQInIilOMVsfbS8RHko9/webp_w100)
+![SuperZのゲーム画面](/screenshots/superz.png)
 
 ## SuperZとは
 

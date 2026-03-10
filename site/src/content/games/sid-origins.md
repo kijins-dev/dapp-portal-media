@@ -17,7 +17,7 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
-![Sid Originsのゲーム画面](https://obs.line-scdn.net:443/0h5cOjW9ufakxyE3QjF6IVGypGZD0eYnNZCyV4NA9WYCBBcXYbBwpudw94QgsAX0tuTSB6URZoawBXc3JqTQ56Sl9AVhdfQkhtEScmbxZsNzkCcWZ6SwlQWgtDUX0Z/webp_w100)
+![Sid Originsのゲーム画面](/screenshots/sid-origins.png)
 
 ## Sid Originsとは
 

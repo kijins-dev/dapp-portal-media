@@ -17,7 +17,7 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
-![Fananasのゲーム画面](https://data.dappportal.io/assets/dapp/787bc061-3757-4ce2-ad23-9a9d4fc5690d.jpg)
+![Fananasのゲーム画面](/screenshots/fananas.png)
 
 ## Fananasとは
 

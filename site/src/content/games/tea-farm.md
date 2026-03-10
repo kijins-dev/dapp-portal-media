@@ -17,7 +17,7 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
-![Tea Farmのゲーム画面](https://obs.line-scdn.net:443/0ht1rJYZzzKx5PMzVxDU5USRdmJW8jQjILNgU5ZjJ2IXJ8UTdJcAYNH2lNEForaBpMcz04DGtIKlJqUzM4cC47GGJgF0ViYgk_LAdnOSxPdlEiaCcrcikRCDZjEC8k/webp_w100)
+![Tea Farmのゲーム画面](/screenshots/tea-farm.png)
 
 ## Tea Farmとは
 

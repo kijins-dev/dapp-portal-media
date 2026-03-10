@@ -17,7 +17,7 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
-![LARVA Survivalのゲーム画面](https://obs.line-scdn.net:443/0hh9GGGAlmNxZ6Pil7mBxIQSBrOWcWTy4DAwglbgd7PXpJXCtBAyQecABrDFELXHIgDid6Cx1rG00cbxYBACcgG15fDycLWxVBDzN6EFpAD2MWZnMSRwgeIhlFNXxfcgA/webp_w100)
+![LARVA Survivalのゲーム画面](/screenshots/larva-survival.png)
 
 ## LARVA Survivalとは
 

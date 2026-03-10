@@ -17,7 +17,7 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
-![LastMemories miniのゲーム画面](https://obs.line-scdn.net:443/0h9jKTsRZbZkV2LXgqEKgZEi54aDQaXH9QDxt0PQtobClFT3oSSTQqfg1_XjwYTiNsAhhidhRWZwlTTX5jSTB2Q1t-Wh5bfERkFRkqZhFRZxIETmpwECBiUw99XXQd/webp_w100)
+![LastMemories miniのゲーム画面](/screenshots/lastmemories-mini.png)
 
 ## LastMemories miniとは
 

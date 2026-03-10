@@ -17,7 +17,7 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
-![Puzzle & Guardiansのゲーム画面](https://obs.line-scdn.net:443/0heeauEgtEOkpcDCTbh4hFHQZZNDswfSNfJTooMiFJMCZvbiYdJRYcVyFkAR02QgtdJDoQSzBfLBE6XRtdJhUtR3htAnstaRgdKToTLDFyAic2VxhsKzgDfj93OCB5QA0/webp_w100)
+![Puzzle & Guardiansのゲーム画面](/screenshots/puzzle-guardians.png)
 
 ## Puzzle & Guardiansとは
 

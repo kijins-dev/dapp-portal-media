@@ -17,7 +17,7 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
-![$JSR: Chant to Earnのゲーム画面](https://obs.line-scdn.net:443/0hQnx0qbQVDkFFSRBNHcVxFh8cADApOBdUPH8cOTgMBC12KxIWPFMdJiYbUgYvKiBgPVAKXDwZIhojGC9WP1AZTGEoNnA0LCwWMH83YiYiJjQ3KRVVeEQ0VyYyDCtgBTk/webp_w100)
+![$JSR: Chant to Earnのゲーム画面](/screenshots/jsr-chant-to-earn.png)
 
 ## $JSR: Chant to Earnとは
 

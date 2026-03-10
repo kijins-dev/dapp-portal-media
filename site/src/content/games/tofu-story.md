@@ -17,7 +17,7 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
-![TOFU Storyのゲーム画面](https://obs.line-scdn.net:443/0hLV8FRNHoE3kFPw3WwNJsLlpqHQhpTgpsfAkBAXh6GRU2XQ8uOwklZHhDKxQpZwgmOSVfFnxtBkloXSFHZQwpH2VEEi0gczJyYQkAdGlABhB3cCJuZiUudGFeKDk/webp_w100)
+![TOFU Storyのゲーム画面](/screenshots/tofu-story.png)
 
 ## TOFU Storyとは
 

@@ -17,7 +17,7 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
-![YURUDORATOUのゲーム画面](https://data.dappportal.io/assets/dapp/ec32c7bb-515e-4c80-9696-9d1b17ab0588.png)
+![YURUDORATOUのゲーム画面](/screenshots/yurudoratou.png)
 
 ## YURUDORATOUとは
 

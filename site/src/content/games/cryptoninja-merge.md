@@ -17,7 +17,7 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
-![CryptoNinja Merge!のゲーム画面](https://data.dappportal.io/assets/dapp/22beadd5-8e7b-4ea8-af15-99901ac7be6d.png)
+![CryptoNinja Merge!のゲーム画面](/screenshots/cryptoninja-merge.png)
 
 ## CryptoNinja Merge!とは
 

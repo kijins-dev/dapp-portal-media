@@ -17,7 +17,7 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
-![The Fanのゲーム画面](https://obs.line-scdn.net:443/0hWUjXL7n5CHpXIRaiLrd3LQ90Bgs7UBFvLhcaAipkAhZkQxQtajgiSndeHR87QjpHKxcxVShaCTZyQRBcaDwYfHpyNCF6cCpbKjkhazJzMy07QQRMazsybC5xM0s8/webp_w100)
+![The Fanのゲーム画面](/screenshots/the-fan.png)
 
 ## The Fanとは
 

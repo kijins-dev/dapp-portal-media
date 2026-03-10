@@ -17,7 +17,7 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
-![Hatchers Elementのゲーム画面](https://data.dappportal.io/assets/dapp/9da3bf3f-3801-4257-b0de-b8c87aab8ae9.png)
+![Hatchers Elementのゲーム画面](/screenshots/hatchers-element.png)
 
 ## Hatchers Elementとは
 

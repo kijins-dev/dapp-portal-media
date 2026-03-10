@@ -17,7 +17,7 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
-![LQuestのゲーム画面](https://obs.line-scdn.net:443/0hxTz2xAt0J3tHSznljQ9YLBgeKQorOj5uPn01AzoOLRd0KTssfkU3djgbHwopE2JeOn8eQz4ZMksqKRVFJ3gdHScwJi9iBwZwP30NS2EbIiAtBBleJFEadiMqHDs/webp_w100)
+![LQuestのゲーム画面](/screenshots/lquest.png)
 
 ## LQuestとは
 

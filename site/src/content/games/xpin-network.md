@@ -17,7 +17,7 @@ generation_model: "claude-sonnet-4-6"
 draft: false
 ---
 
-![XPIN Networkのゲーム画面](https://obs.line-scdn.net:443/0ho9jnKFaTMBZXFy_1Zm9PQQ1CPmc7ZikDLiEibipSOnpkdSxBLg4jdChENXMjT3QdIyIaFy9_Jk0xRhEBLQ4nG3N2CCcmchJBIiEgAypCCHsjdSg8IA8JIjRsMnxyWwc/webp_w100)
+![XPIN Networkのゲーム画面](/screenshots/xpin-network.png)
 
 ## XPIN Networkとは
 
