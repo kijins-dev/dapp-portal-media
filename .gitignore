@@ -5,5 +5,15 @@ dist/
 drafts/
 data/*
 !data/onchain/
+!data/apps.json
+!data/tokens.json
+!data/games-research.json
+!data/screenshot-results.json
+!data/audit-result.json
+!data/perf-history.json
 *hook-log*
 HANDOVER.md
+.claude-flow/
+.openclaw/
+.swarm/
+gtm_database.db

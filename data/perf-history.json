@@ -1,0 +1,1382 @@
+{
+  "weeks": [
+    {
+      "week": "2026-03-13",
+      "metrics": [
+        {
+          "slug": "11",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "airship-knights",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "battle-wheels",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "begods",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "bombie",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "bricks-breaker-crush",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "bubbleheroes",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "captain-tsubasa",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "capybobo",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "capygo",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "cash-pang",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "cattea",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "chiwat",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "cryptoninja-merge",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "dearst-rhythm-stage",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "degen-defense",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "depick",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "elderglade",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "eternal-king",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "fananas",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "fate-war",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "fly-to-the-valhalla",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "gamunity",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "genleap",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "get-plucked",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "gold-striker",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "hatchers-element",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "horo",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "ixs-academy",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "jsr-chant-to-earn",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "keiji-kabuki-survivor",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "kyuzos-friends",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "laguna-network",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "lair",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "larva-survival",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "lastmemories-mini",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "legend-war",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "lootadog-travel",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "love-terminal",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "lquest",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "lucky-dice",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "magic-squad",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "mini-ganghouse",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "moofun",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "musikhan",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "my-restaurant",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "nani-kiru",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "patapata",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "paw-spa",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "pepenade-crush-fear-greed",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "petpop",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "pinky-auctions",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "puzzle-guardians",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "retro-fun",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "samurai-shodown-rps",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "savanna-survival",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "seekd",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "sid-origins",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "siege-of-titans-td",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "slime-miner",
+          "pv": 1,
+          "sessions": 1,
+          "bounce_rate": 0,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "social-meme",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "sorafi",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "starai",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "superz",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "tcom-arena",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "tea-farm",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "the-fan",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "the-fox-seeks-friends",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "tofu-story",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "tower-defense-future-war",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "unscrew",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "wizzwoods",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "wonton",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "xpin-network",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "yuligo",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "yurudoratou",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        }
+      ]
+    },
+    {
+      "week": "2026-03-13",
+      "metrics": [
+        {
+          "slug": "11",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "airship-knights",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "battle-wheels",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "begods",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "bombie",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "bricks-breaker-crush",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "bubbleheroes",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "captain-tsubasa",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "capybobo",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "capygo",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "cash-pang",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "cattea",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "chiwat",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "cryptoninja-merge",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "dearst-rhythm-stage",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "degen-defense",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "depick",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "elderglade",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "eternal-king",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "fananas",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "fate-war",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "fly-to-the-valhalla",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "gamunity",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "genleap",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "get-plucked",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "gold-striker",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "hatchers-element",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "horo",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "ixs-academy",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "jsr-chant-to-earn",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "keiji-kabuki-survivor",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "kyuzos-friends",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "laguna-network",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "lair",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "larva-survival",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "lastmemories-mini",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "legend-war",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "lootadog-travel",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "love-terminal",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "lquest",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "lucky-dice",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "magic-squad",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "mini-ganghouse",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "moofun",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "musikhan",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "my-restaurant",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "nani-kiru",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "patapata",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "paw-spa",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "pepenade-crush-fear-greed",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "petpop",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "pinky-auctions",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "puzzle-guardians",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "retro-fun",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "samurai-shodown-rps",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "savanna-survival",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "seekd",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "sid-origins",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "siege-of-titans-td",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "slime-miner",
+          "pv": 1,
+          "sessions": 1,
+          "bounce_rate": 0,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "social-meme",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "sorafi",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "starai",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "superz",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "tcom-arena",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "tea-farm",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "the-fan",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "the-fox-seeks-friends",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "tofu-story",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "tower-defense-future-war",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "unscrew",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "wizzwoods",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "wonton",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "xpin-network",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "yuligo",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        },
+        {
+          "slug": "yurudoratou",
+          "pv": null,
+          "sessions": null,
+          "bounce_rate": null,
+          "gsc_clicks": null,
+          "gsc_impressions": null,
+          "gsc_position": null
+        }
+      ]
+    }
+  ]
+}

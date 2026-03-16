@@ -9,6 +9,9 @@ jobs:
   linkcheck:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    permissions:
+      contents: read
+      issues: write
     steps:
       - uses: actions/checkout@v4
 
@@ -19,14 +22,54 @@ jobs:
 
       - run: npm ci
 
+      - name: Install site dependencies
+        run: cd site && npm ci
+
       - name: Build site
         run: npm run site:build
 
       - name: Check links
+        id: check
         run: |
           npx linkinator dist/ --recurse --skip "^(?!http)" --format json > /tmp/linkcheck.json 2>&1 || true
-          BROKEN=$(node -e "const r=JSON.parse(require('fs').readFileSync('/tmp/linkcheck.json','utf8'));const b=r.links?.filter(l=>l.state==='BROKEN')||[];console.log(b.length);b.forEach(l=>console.log(l.url,l.status))")
-          echo "Broken links: $BROKEN"
-          if [ "$BROKEN" != "0" ]; then
-            echo "::warning::Found broken links"
-          fi
+          BROKEN=$(node -e "
+            const r=JSON.parse(require('fs').readFileSync('/tmp/linkcheck.json','utf8'));
+            const b=(r.links||[]).filter(l=>l.state==='BROKEN');
+            console.log(b.length);
+          ")
+          BROKEN_LIST=$(node -e "
+            const r=JSON.parse(require('fs').readFileSync('/tmp/linkcheck.json','utf8'));
+            const b=(r.links||[]).filter(l=>l.state==='BROKEN');
+            b.forEach(l=>console.log('- '+l.url+' ('+l.status+') ← '+l.parent));
+          ")
+          echo "broken_count=$BROKEN" >> $GITHUB_OUTPUT
+          {
+            echo 'broken_list<<EOF'
+            echo "$BROKEN_LIST"
+            echo 'EOF'
+          } >> $GITHUB_OUTPUT
+
+      - name: Create issue for broken links
+        if: steps.check.outputs.broken_count != '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create \
+            --title "リンク切れ検知: ${{ steps.check.outputs.broken_count }}件 ($(date +%Y-%m-%d))" \
+            --label "broken-link" \
+            --body "$(cat <<BODY
+          ## リンク切れが見つかりました
+
+          **件数**: ${{ steps.check.outputs.broken_count }}件
+
+          ### 詳細
+          ${{ steps.check.outputs.broken_list }}
+
+          ## 対応
+          - 外部リンク切れ → リンク先を更新 or 削除
+          - 内部リンク切れ → パス修正
+
+          ---
+          *Link Check workflow で自動起票*
+          BODY
+          )"

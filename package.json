@@ -14,6 +14,7 @@
     "site:build": "cd site && npm run build",
     "site:preview": "cd site && npm run preview",
     "onchain": "tsx src/onchain/index.ts",
+    "audit": "tsx --env-file=.env src/audit/index.ts",
     "typecheck": "tsc --noEmit"
   },
   "keywords": [],
@@ -22,6 +23,7 @@
   "dependencies": {
     "@anthropic-ai/sdk": "^0.78.0",
     "@types/node": "^25.3.3",
+    "jose": "^6.2.1",
     "playwright": "^1.58.2",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3"

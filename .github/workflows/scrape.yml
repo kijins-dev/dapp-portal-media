@@ -9,6 +9,9 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     timeout-minutes: 5
+    permissions:
+      contents: write
+      issues: write
     steps:
       - uses: actions/checkout@v4
 
@@ -31,10 +34,13 @@ jobs:
           git add data/apps.json
           if git diff --cached --quiet; then
             echo "changed=false" >> $GITHUB_OUTPUT
+            echo "new_count=0" >> $GITHUB_OUTPUT
           else
-            NEW_COUNT=$(node -e "const d=JSON.parse(require('fs').readFileSync('data/diff.json','utf8'));console.log(d.new?.length||0)")
+            NEW_COUNT=$(node -e "const d=JSON.parse(require('fs').readFileSync('data/diff.json','utf8'));console.log(d.new_apps?.length||0)")
+            NEW_NAMES=$(node -e "const d=JSON.parse(require('fs').readFileSync('data/diff.json','utf8'));console.log((d.new_apps||[]).map(a=>a.name+' ('+a.slug+')').join(', ')||'none')")
             echo "changed=true" >> $GITHUB_OUTPUT
             echo "new_count=$NEW_COUNT" >> $GITHUB_OUTPUT
+            echo "new_names=$NEW_NAMES" >> $GITHUB_OUTPUT
           fi
 
       - name: Commit if changed
@@ -44,3 +50,29 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git commit -m "chore: scrape update - ${{ steps.diff.outputs.new_count }} new apps"
           git push
+
+      - name: Create issue for new apps
+        if: steps.diff.outputs.new_count != '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create \
+            --title "新アプリ検知: ${{ steps.diff.outputs.new_count }}件" \
+            --label "new-app" \
+            --body "$(cat <<'BODY'
+          ## 新規アプリが追加されました
+
+          **検知数**: ${{ steps.diff.outputs.new_count }}件
+          **アプリ**: ${{ steps.diff.outputs.new_names }}
+
+          ## 対応手順
+          1. `data/diff.json` で詳細確認
+          2. `games-research.json` に新エントリ追加
+          3. `npm run generate:single -- {slug}` で記事生成
+          4. 品質ゲート通過を確認して `draft: false` に変更
+          5. コミット & プッシュ
+
+          ---
+          *Scrape Apps workflow で自動起票*
+          BODY
+          )"

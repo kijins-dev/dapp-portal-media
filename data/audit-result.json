@@ -1,0 +1,783 @@
+{
+  "generated_at": "2026-03-13T05:46:39.082Z",
+  "config": {
+    "ga4_property_id": "527637781",
+    "gsc_site_url": "sc-domain:dapp-portal-guide.com",
+    "date_range_days": 7
+  },
+  "data_sufficient": false,
+  "data_reason": "データ不足: 公開から11日 (最低14日必要)",
+  "total_articles": 76,
+  "articles_with_ga4": 1,
+  "articles_with_gsc": 0,
+  "scored": [],
+  "snapshots": [
+    {
+      "slug": "11",
+      "game_name": "11+",
+      "category": "SOCIAL",
+      "template_variant": "social_community",
+      "published_at": "2026-03-08",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "airship-knights",
+      "game_name": "Airship Knights",
+      "category": "GAME",
+      "template_variant": "game_casual",
+      "published_at": "2026-03-07",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "battle-wheels",
+      "game_name": "Battle Wheels",
+      "category": "GAME",
+      "template_variant": "game_casual",
+      "published_at": "2026-03-07",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "begods",
+      "game_name": "BeGods",
+      "category": "GAME",
+      "template_variant": "game_casual",
+      "published_at": "2026-03-07",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "bombie",
+      "game_name": "Bombie",
+      "category": "GAME",
+      "template_variant": "game_earning",
+      "published_at": "2026-03-02",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "bricks-breaker-crush",
+      "game_name": "Bricks Breaker Crush",
+      "category": "GAME",
+      "template_variant": "game_casual",
+      "published_at": "2026-03-04",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "bubbleheroes",
+      "game_name": "BubbleHeroes",
+      "category": "GAME",
+      "template_variant": "game_casual",
+      "published_at": "2026-03-08",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "captain-tsubasa",
+      "game_name": "Captain Tsubasa",
+      "category": "GAME",
+      "template_variant": "game_earning",
+      "published_at": "2026-03-02",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "capybobo",
+      "game_name": "CapyBobo",
+      "category": "GAME",
+      "template_variant": "game_earning",
+      "published_at": "2026-03-05",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "capygo",
+      "game_name": "CapyGo",
+      "category": "CONTENT",
+      "template_variant": "content_explorer",
+      "published_at": "2026-03-05",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "cash-pang",
+      "game_name": "CASH PANG",
+      "category": "SocialFi",
+      "template_variant": "social_community",
+      "published_at": "2026-03-05",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "cattea",
+      "game_name": "Cattea",
+      "category": "GAME",
+      "template_variant": "game_strategy",
+      "published_at": "2026-03-03",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "chiwat",
+      "game_name": "Chiwat",
+      "category": "CONTENT",
+      "template_variant": "content_explorer",
+      "published_at": "2026-03-04",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "cryptoninja-merge",
+      "game_name": "CryptoNinja Merge!",
+      "category": "GAME",
+      "template_variant": "game_casual",
+      "published_at": "2026-03-09",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "dearst-rhythm-stage",
+      "game_name": "DearSt! RHYTHM STAGE",
+      "category": "GAME",
+      "template_variant": "game_casual",
+      "published_at": "2026-03-06",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "degen-defense",
+      "game_name": "Degen Defense",
+      "category": "GAME",
+      "template_variant": "game_casual",
+      "published_at": "2026-03-07",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "depick",
+      "game_name": "dePICK",
+      "category": "SOCIAL",
+      "template_variant": "social_community",
+      "published_at": "2026-03-08",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "elderglade",
+      "game_name": "Elderglade",
+      "category": "GAME",
+      "template_variant": "game_earning",
+      "published_at": "2026-03-02",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "eternal-king",
+      "game_name": "Eternal King",
+      "category": "GAME",
+      "template_variant": "game_casual",
+      "published_at": "2026-03-09",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "fananas",
+      "game_name": "Fananas",
+      "category": "GAME",
+      "template_variant": "game_casual",
+      "published_at": "2026-03-04",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "fate-war",
+      "game_name": "Fate War",
+      "category": "GAME",
+      "template_variant": "game_casual",
+      "published_at": "2026-03-04",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "fly-to-the-valhalla",
+      "game_name": "Fly To The Valhalla",
+      "category": "GAME",
+      "template_variant": "game_casual",
+      "published_at": "2026-03-09",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "gamunity",
+      "game_name": "Gamunity",
+      "category": "GAME",
+      "template_variant": "game_casual",
+      "published_at": "2026-03-08",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "genleap",
+      "game_name": "GenLeap",
+      "category": "GAME",
+      "template_variant": "game_casual",
+      "published_at": "2026-03-06",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "get-plucked",
+      "game_name": "Get Plucked",
+      "category": "GAME",
+      "template_variant": "game_casual",
+      "published_at": "2026-03-10",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "gold-striker",
+      "game_name": "Gold Striker",
+      "category": "GAME",
+      "template_variant": "game_casual",
+      "published_at": "2026-03-06",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "hatchers-element",
+      "game_name": "Hatchers Element",
+      "category": "GAME",
+      "template_variant": "game_casual",
+      "published_at": "2026-03-08",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "horo",
+      "game_name": "HORO",
+      "category": "CONTENT",
+      "template_variant": "content_explorer",
+      "published_at": "2026-03-08",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "ixs-academy",
+      "game_name": "IXS Academy",
+      "category": "CONTENT",
+      "template_variant": "content_explorer",
+      "published_at": "2026-03-03",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "jsr-chant-to-earn",
+      "game_name": "$JSR: Chant to Earn",
+      "category": "CONTENT",
+      "template_variant": "content_explorer",
+      "published_at": "2026-03-08",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "keiji-kabuki-survivor",
+      "game_name": "KEIJI KABUKI Survivor",
+      "category": "GAME",
+      "template_variant": "game_casual",
+      "published_at": "2026-03-06",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "kyuzos-friends",
+      "game_name": "Kyuzo's Friends",
+      "category": "GAME",
+      "template_variant": "game_strategy",
+      "published_at": "2026-03-02",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "laguna-network",
+      "game_name": "Laguna Network",
+      "category": "SOCIAL",
+      "template_variant": "social_community",
+      "published_at": "2026-03-05",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "lair",
+      "game_name": "Lair",
+      "category": "CONTENT",
+      "template_variant": "game_earning",
+      "published_at": "2026-03-03",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "larva-survival",
+      "game_name": "LARVA Survival",
+      "category": "GAME",
+      "template_variant": "game_casual",
+      "published_at": "2026-03-05",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "lastmemories-mini",
+      "game_name": "LastMemories mini",
+      "category": "GAME",
+      "template_variant": "game_casual",
+      "published_at": "2026-03-04",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "legend-war",
+      "game_name": "Legend War",
+      "category": "GAME",
+      "template_variant": "game_casual",
+      "published_at": "2026-03-09",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "lootadog-travel",
+      "game_name": "LOOTaDOG Travel",
+      "category": "CONTENT",
+      "template_variant": "content_explorer",
+      "published_at": "2026-03-09",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "love-terminal",
+      "game_name": "Love Terminal",
+      "category": "GAME",
+      "template_variant": "game_casual",
+      "published_at": "2026-03-06",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "lquest",
+      "game_name": "LQuest",
+      "category": "SOCIAL",
+      "template_variant": "social_community",
+      "published_at": "2026-03-08",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "lucky-dice",
+      "game_name": "Lucky Dice",
+      "category": "GAME",
+      "template_variant": "game_strategy",
+      "published_at": "2026-03-03",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "magic-squad",
+      "game_name": "Magic Squad",
+      "category": "GAME",
+      "template_variant": "game_casual",
+      "published_at": "2026-03-07",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "mini-ganghouse",
+      "game_name": "Mini GangHouse",
+      "category": "GAME",
+      "template_variant": "game_casual",
+      "published_at": "2026-03-10",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "moofun",
+      "game_name": "Moofun",
+      "category": "GAME",
+      "template_variant": "game_casual",
+      "published_at": "2026-03-09",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "musikhan",
+      "game_name": "MusiKhan",
+      "category": "CONTENT",
+      "template_variant": "content_explorer",
+      "published_at": "2026-03-07",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "my-restaurant",
+      "game_name": "My Restaurant",
+      "category": "GAME",
+      "template_variant": "game_casual",
+      "published_at": "2026-03-06",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "nani-kiru",
+      "game_name": "Nani-Kiru",
+      "category": "GAME",
+      "template_variant": "game_casual",
+      "published_at": "2026-03-06",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "patapata",
+      "game_name": "PataPata",
+      "category": "GAME",
+      "template_variant": "game_casual",
+      "published_at": "2026-03-09",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "paw-spa",
+      "game_name": "Paw Spa",
+      "category": "GAME",
+      "template_variant": "game_strategy",
+      "published_at": "2026-03-02",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "pepenade-crush-fear-greed",
+      "game_name": "Pepenade Crush: Fear & Greed",
+      "category": "GAME",
+      "template_variant": "game_casual",
+      "published_at": "2026-03-09",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "petpop",
+      "game_name": "PetPoP",
+      "category": "GAME",
+      "template_variant": "game_casual",
+      "published_at": "2026-03-05",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "pinky-auctions",
+      "game_name": "Pinky Auctions",
+      "category": "CONTENT",
+      "template_variant": "content_explorer",
+      "published_at": "2026-03-05",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "puzzle-guardians",
+      "game_name": "Puzzle & Guardians",
+      "category": "GAME",
+      "template_variant": "game_casual",
+      "published_at": "2026-03-06",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "retro-fun",
+      "game_name": "Retro.fun",
+      "category": "GAME",
+      "template_variant": "game_strategy",
+      "published_at": "2026-03-03",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "samurai-shodown-rps",
+      "game_name": "SAMURAI SHODOWN: RPS",
+      "category": "GAME",
+      "template_variant": "game_casual",
+      "published_at": "2026-03-07",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "savanna-survival",
+      "game_name": "Savanna Survival",
+      "category": "GAME",
+      "template_variant": "game_earning",
+      "published_at": "2026-03-02",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "seekd",
+      "game_name": "SeekD",
+      "category": "AI",
+      "template_variant": "tech_platform",
+      "published_at": "2026-03-04",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "sid-origins",
+      "game_name": "Sid Origins",
+      "category": "GAME",
+      "template_variant": "game_strategy",
+      "published_at": "2026-03-03",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "siege-of-titans-td",
+      "game_name": "Siege of Titans TD",
+      "category": "GAME",
+      "template_variant": "game_casual",
+      "published_at": "2026-03-10",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "slime-miner",
+      "game_name": "Slime Miner",
+      "category": "GAME",
+      "template_variant": "game_earning",
+      "published_at": "2026-03-02",
+      "ga4": {
+        "slug": "slime-miner",
+        "page_path": "/games/slime-miner/",
+        "pageviews": 1,
+        "sessions": 1,
+        "avg_session_duration": 10.047206,
+        "bounce_rate": 0
+      },
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "social-meme",
+      "game_name": "social.meme",
+      "category": "SocialFi",
+      "template_variant": "social_community",
+      "published_at": "2026-03-02",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "sorafi",
+      "game_name": "Sorafi",
+      "category": "DeFi",
+      "template_variant": "tech_platform",
+      "published_at": "2026-03-07",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "starai",
+      "game_name": "StarAI",
+      "category": "CONTENT",
+      "template_variant": "content_explorer",
+      "published_at": "2026-03-05",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "superz",
+      "game_name": "SuperZ",
+      "category": "CONTENT",
+      "template_variant": "game_earning",
+      "published_at": "2026-03-02",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "tcom-arena",
+      "game_name": "TCOM Arena",
+      "category": "GAME",
+      "template_variant": "game_strategy",
+      "published_at": "2026-03-03",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "tea-farm",
+      "game_name": "Tea Farm",
+      "category": "GAME",
+      "template_variant": "game_casual",
+      "published_at": "2026-03-04",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "the-fan",
+      "game_name": "The Fan",
+      "category": "SOCIAL",
+      "template_variant": "social_community",
+      "published_at": "2026-03-07",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "the-fox-seeks-friends",
+      "game_name": "The Fox Seeks Friends",
+      "category": "GAME",
+      "template_variant": "game_strategy",
+      "published_at": "2026-03-04",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "tofu-story",
+      "game_name": "TOFU Story",
+      "category": "SocialFi",
+      "template_variant": "social_community",
+      "published_at": "2026-03-02",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "tower-defense-future-war",
+      "game_name": "Tower Defense: Future War",
+      "category": "GAME",
+      "template_variant": "game_casual",
+      "published_at": "2026-03-06",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "unscrew",
+      "game_name": "Unscrew",
+      "category": "GAME",
+      "template_variant": "game_casual",
+      "published_at": "2026-03-08",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "wizzwoods",
+      "game_name": "Wizzwoods",
+      "category": "GAME",
+      "template_variant": "game_strategy",
+      "published_at": "2026-03-03",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "wonton",
+      "game_name": "Wonton",
+      "category": "GAME",
+      "template_variant": "game_casual",
+      "published_at": "2026-03-04",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "xpin-network",
+      "game_name": "XPIN Network",
+      "category": "DePIN",
+      "template_variant": "tech_platform",
+      "published_at": "2026-03-09",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "yuligo",
+      "game_name": "YuliGO",
+      "category": "SOCIAL",
+      "template_variant": "game_earning",
+      "published_at": "2026-03-03",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    },
+    {
+      "slug": "yurudoratou",
+      "game_name": "YURUDORATOU",
+      "category": "GAME",
+      "template_variant": "game_casual",
+      "published_at": "2026-03-05",
+      "ga4": null,
+      "gsc": null,
+      "collected_at": "2026-03-13T05:46:39.081Z"
+    }
+  ]
+}

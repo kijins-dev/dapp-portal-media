@@ -1,14 +1,14 @@
-name: Weekly Onchain Data Update
+name: Weekly Performance Audit
 
 on:
   schedule:
-    - cron: '0 3 * * 1'  # 毎週月曜 UTC 3:00 (JST 12:00)
+    - cron: '0 4 * * 1'  # 毎週月曜 UTC 4:00 (JST 13:00)
   workflow_dispatch: {}
 
 jobs:
-  onchain-update:
+  performance-audit:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
 
@@ -19,25 +19,19 @@ jobs:
 
       - run: npm ci
 
-      - name: Install site dependencies
-        run: cd site && npm ci
-
-      - name: Collect onchain data
-        run: npm run onchain
+      - name: Run performance audit
+        run: npm run audit
         env:
-          QUICKNODE_RPC_URL: ${{ secrets.QUICKNODE_RPC_URL }}
-
-      - name: Build site
-        run: npm run site:build
+          GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
 
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/onchain/
+          git add data/audit-result.json data/perf-history.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: weekly onchain data update $(date +%Y-%m-%d)"
+            git commit -m "chore: weekly performance audit $(date +%Y-%m-%d)"
             git push
           fi

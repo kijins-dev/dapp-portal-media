@@ -1,0 +1,20 @@
+{
+  "ga4": {
+    "property_id": "527637781",
+    "date_range_days": 7
+  },
+  "gsc": {
+    "site_url": "sc-domain:dapp-portal-guide.com",
+    "date_range_days": 7
+  },
+  "scoring": {
+    "weights": {
+      "pv": 0.30,
+      "session_duration": 0.25,
+      "bounce_rate": 0.20,
+      "gsc": 0.25
+    },
+    "min_data_days": 14,
+    "min_articles_with_data": 5
+  }
+}
