@@ -1,23 +1,8 @@
 {
-  "generated_at": "2026-03-10T07:16:42.615Z",
+  "generated_at": "2026-03-16T06:21:16.849Z",
   "entries": [
     {
       "rank": 1,
-      "slug": "superz",
-      "game_name": "SuperZ",
-      "play_count": "1.5M",
-      "type": "onchain",
-      "tokens": [
-        {
-          "symbol": "GRND",
-          "weekly_token_distributed": 37495108.8928,
-          "active_wallets_7d": 1190,
-          "weekly_change_pct": null
-        }
-      ]
-    },
-    {
-      "rank": 2,
       "slug": "elderglade",
       "game_name": "Elderglade",
       "play_count": "16.5M",
@@ -25,9 +10,24 @@
       "tokens": [
         {
           "symbol": "ELDE",
-          "weekly_token_distributed": 8519792.1384,
-          "active_wallets_7d": 50,
-          "weekly_change_pct": null
+          "weekly_token_distributed": 103448251.8028,
+          "active_wallets_7d": 41,
+          "weekly_change_pct": 1114.21
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "slug": "superz",
+      "game_name": "SuperZ",
+      "play_count": "1.5M",
+      "type": "onchain",
+      "tokens": [
+        {
+          "symbol": "GRND",
+          "weekly_token_distributed": 76633695.7864,
+          "active_wallets_7d": 1023,
+          "weekly_change_pct": 104.38
         }
       ]
     },
@@ -40,9 +40,9 @@
       "tokens": [
         {
           "symbol": "LAIR",
-          "weekly_token_distributed": 6096442.3142,
-          "active_wallets_7d": 45,
-          "weekly_change_pct": null
+          "weekly_token_distributed": 5447990.0965,
+          "active_wallets_7d": 46,
+          "weekly_change_pct": -10.64
         }
       ]
     },
@@ -55,29 +55,14 @@
       "tokens": [
         {
           "symbol": "JOHN",
-          "weekly_token_distributed": 4914868.9038,
-          "active_wallets_7d": 39,
-          "weekly_change_pct": null
+          "weekly_token_distributed": 4661248.5851,
+          "active_wallets_7d": 42,
+          "weekly_change_pct": -5.16
         }
       ]
     },
     {
       "rank": 5,
-      "slug": "yuligo",
-      "game_name": "YuliGO",
-      "play_count": "1.2M",
-      "type": "onchain",
-      "tokens": [
-        {
-          "symbol": "YULI",
-          "weekly_token_distributed": 2158536.558,
-          "active_wallets_7d": 8,
-          "weekly_change_pct": null
-        }
-      ]
-    },
-    {
-      "rank": 6,
       "slug": "slime-miner",
       "game_name": "Slime Miner",
       "play_count": "24.4M",
@@ -85,14 +70,14 @@
       "tokens": [
         {
           "symbol": "SLX",
-          "weekly_token_distributed": 375405.8408,
-          "active_wallets_7d": 37,
-          "weekly_change_pct": null
+          "weekly_token_distributed": 3628008.5705,
+          "active_wallets_7d": 44,
+          "weekly_change_pct": 866.42
         }
       ]
     },
     {
-      "rank": 7,
+      "rank": 6,
       "slug": "savanna-survival",
       "game_name": "Savanna Survival",
       "play_count": "8.5M",
@@ -100,9 +85,24 @@
       "tokens": [
         {
           "symbol": "SVSA",
-          "weekly_token_distributed": 742,
-          "active_wallets_7d": 3,
-          "weekly_change_pct": null
+          "weekly_token_distributed": 35514.0573,
+          "active_wallets_7d": 9,
+          "weekly_change_pct": 4686.26
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "slug": "yuligo",
+      "game_name": "YuliGO",
+      "play_count": "1.2M",
+      "type": "onchain",
+      "tokens": [
+        {
+          "symbol": "YULI",
+          "weekly_token_distributed": 11002.263,
+          "active_wallets_7d": 7,
+          "weekly_change_pct": -99.49
         }
       ]
     },
@@ -115,9 +115,9 @@
       "tokens": [
         {
           "symbol": "BOMB",
-          "weekly_token_distributed": 272.687,
-          "active_wallets_7d": 4,
-          "weekly_change_pct": null
+          "weekly_token_distributed": 633,
+          "active_wallets_7d": 2,
+          "weekly_change_pct": 132.13
         }
       ]
     },

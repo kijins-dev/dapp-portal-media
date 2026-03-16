@@ -11,6 +11,17 @@
           "active_wallets_7d": 4
         }
       ]
+    },
+    {
+      "week_start": "2026-03-09",
+      "week_end": "2026-03-16",
+      "tokens": [
+        {
+          "symbol": "BOMB",
+          "weekly_token_distributed": 633,
+          "active_wallets_7d": 2
+        }
+      ]
     }
   ]
 }

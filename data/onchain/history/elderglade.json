@@ -11,6 +11,17 @@
           "active_wallets_7d": 50
         }
       ]
+    },
+    {
+      "week_start": "2026-03-09",
+      "week_end": "2026-03-16",
+      "tokens": [
+        {
+          "symbol": "ELDE",
+          "weekly_token_distributed": 103448251.8028,
+          "active_wallets_7d": 41
+        }
+      ]
     }
   ]
 }
