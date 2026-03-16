@@ -20,7 +20,7 @@ jobs:
       - run: npm ci
 
       - name: Run performance audit
-        run: npm run audit
+        run: npx tsx src/audit/index.ts
         env:
           GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
 

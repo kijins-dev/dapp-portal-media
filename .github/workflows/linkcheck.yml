@@ -31,7 +31,7 @@ jobs:
       - name: Check links
         id: check
         run: |
-          npx linkinator dist/ --recurse --skip "^(?!http)" --format json > /tmp/linkcheck.json 2>&1 || true
+          npx linkinator dist/ --recurse --skip "^(?!http)" --format json > /tmp/linkcheck.json 2>/dev/null || true
           BROKEN=$(node -e "
             const r=JSON.parse(require('fs').readFileSync('/tmp/linkcheck.json','utf8'));
             const b=(r.links||[]).filter(l=>l.state==='BROKEN');
