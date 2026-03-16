@@ -49,6 +49,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git commit -m "chore: scrape update - ${{ steps.diff.outputs.new_count }} new apps"
+          git pull --rebase origin master
           git push
 
       - name: Create issue for new apps

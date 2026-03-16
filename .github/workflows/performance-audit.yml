@@ -35,5 +35,6 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "chore: weekly performance audit $(date +%Y-%m-%d)"
+            git pull --rebase origin master
             git push
           fi
