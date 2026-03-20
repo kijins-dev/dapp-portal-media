@@ -1,9 +1,9 @@
 {
-  "scraped_at": "2026-03-20T13:35:17.175Z",
+  "scraped_at": "2026-03-20T19:07:52.729Z",
   "scraper_version": "1.2.0",
   "source_url": "https://www.unifi.me/apps",
   "total_apps": 28,
-  "content_hash": "sha256:7624a78572c5186cfad2cfb3c4b3b50383e1611d589600c40542689e85ee7a5a",
+  "content_hash": "sha256:24ae47feb1c9f57d18745ce7b10c11c697b82debd25f8e4808f0929837b31af3",
   "apps": [
     {
       "name": "Slime Miner",
@@ -12,14 +12,14 @@
       "play_count": "24.4M",
       "play_count_raw": 24400000,
       "thumbnail_url": "https://obs.line-scdn.net:443/0hTQu88-hVC35IQRURDXN0KRIUBQ8kMBJrMXcZBjUEARJ7IxcpMVgYGSsRI04lIxd1NkxHEG4qNyUuECppMlgcc2wgM085JCkpPUxGZy0RMyUuDSl-dVsfaCs6CRRtDTw/webp_w100",
-      "detail_url": "https://kaia.slimeminer.io/?dp_tracking_id=jwT5xWizWGREO2md",
+      "detail_url": "https://kaia.slimeminer.io/?dp_tracking_id=ZmkBQ9g96gBbaYKf",
       "first_seen": "2026-03-02",
       "last_seen": "2026-03-20",
       "rewards": [],
       "source_urls": [
         "https://www.unifi.me/apps"
       ],
-      "fetched_at": "2026-03-20T13:35:17.133Z"
+      "fetched_at": "2026-03-20T19:07:52.686Z"
     },
     {
       "name": "Elderglade",
@@ -28,14 +28,14 @@
       "play_count": "16.5M",
       "play_count_raw": 16500000,
       "thumbnail_url": "https://obs.line-scdn.net:443/0hWXVBrdhdCHdrOxYYDNV3IDNuBgYHShFiEg0aDxZ-AhtYWRQgVw4bZhNHPywNYyZWHCEcdgZACTtOWxBRVCYYcUZoNCxGaipWCA9EVA1HIBlCWwReHyEyYRJrM0YA/webp_w100",
-      "detail_url": "https://line.elderglade.com/?dp_tracking_id=jwT5xWizWGREO2md",
+      "detail_url": "https://line.elderglade.com/?dp_tracking_id=ZmkBQ9g96gBbaYKf",
       "first_seen": "2026-03-02",
       "last_seen": "2026-03-20",
       "rewards": [],
       "source_urls": [
         "https://www.unifi.me/apps"
       ],
-      "fetched_at": "2026-03-20T13:35:17.133Z"
+      "fetched_at": "2026-03-20T19:07:52.686Z"
     },
     {
       "name": "Captain Tsubasa",
@@ -44,14 +44,14 @@
       "play_count": "12.8M",
       "play_count_raw": 12800000,
       "thumbnail_url": "https://obs.line-scdn.net:443/0haQ1ZYvL8Pn4MIyARRBVBKVZ2MA9gUidrdRUsBnFmNBI_QSIpdToHQWlfPBxpQA9fbxYtGHZIEiVqch9pdjopcyhCBk99RhwpeS5zZ2lIPBdiQx9qMRcEaG9YPBQpbwk/webp_w100",
-      "detail_url": "https://app.line.tsubasa-rivals.com/?dp_tracking_id=jwT5xWizWGREO2md",
+      "detail_url": "https://app.line.tsubasa-rivals.com/?dp_tracking_id=ZmkBQ9g96gBbaYKf",
       "first_seen": "2026-03-02",
       "last_seen": "2026-03-20",
       "rewards": [],
       "source_urls": [
         "https://www.unifi.me/apps"
       ],
-      "fetched_at": "2026-03-20T13:35:17.133Z"
+      "fetched_at": "2026-03-20T19:07:52.686Z"
     },
     {
       "name": "Savanna Survival",
@@ -60,14 +60,14 @@
       "play_count": "8.5M",
       "play_count_raw": 8500000,
       "thumbnail_url": "https://obs.line-scdn.net:443/0hlSpzzSb2M3xNAy0TyLVMKxdWPQ0hcippNDUhBDBGORB-YS8rNBonfStQMitjTBJ_MRkafTJ8HycrUhJrNxokcWliC008ZhErOA5-ZSpTGytjYRFKcRo3ai54MRZoTwQ/webp_w100",
-      "detail_url": "https://dapp.savannasurvival.io/web-mobile-liff/index.html?dp_tracking_id=jwT5xWizWGREO2md",
+      "detail_url": "https://dapp.savannasurvival.io/web-mobile-liff/index.html?dp_tracking_id=ZmkBQ9g96gBbaYKf",
       "first_seen": "2026-03-02",
       "last_seen": "2026-03-20",
       "rewards": [],
       "source_urls": [
         "https://www.unifi.me/apps"
       ],
-      "fetched_at": "2026-03-20T13:35:17.133Z"
+      "fetched_at": "2026-03-20T19:07:52.686Z"
     },
     {
       "name": "Paw Spa",
@@ -76,14 +76,14 @@
       "play_count": "2.1M",
       "play_count_raw": 2100000,
       "thumbnail_url": "https://obs.line-scdn.net:443/0hxasFHn9rJ05OPzkhKIVYGRZqKT8iTj5bNwk1NjN6LSJ9XTsZOTIOSzJtHwU6Zyt_KAsjVy1EJgJrXz9ocSI3SGNsGxVjbgVvLQtrbSlAIiMjXCt7LCUdWDdvHH8l/webp_w100",
-      "detail_url": "https://pawspa.2plus1.studio/?dp_tracking_id=jwT5xWizWGREO2md",
+      "detail_url": "https://pawspa.2plus1.studio/?dp_tracking_id=ZmkBQ9g96gBbaYKf",
       "first_seen": "2026-03-02",
       "last_seen": "2026-03-20",
       "rewards": [],
       "source_urls": [
         "https://www.unifi.me/apps"
       ],
-      "fetched_at": "2026-03-20T13:35:17.133Z"
+      "fetched_at": "2026-03-20T19:07:52.686Z"
     },
     {
       "name": "SuperZ",
@@ -92,14 +92,14 @@
       "play_count": "1.5M",
       "play_count_raw": 1500000,
       "thumbnail_url": "https://obs.line-scdn.net:443/0hzTk8v6c3JXtWQTsUMi5aLA4UKwo6MDxuL3c3AysELxdlIzksakwfQCwpHjgkIRQtaU8MVHA6JDdzIT1daVw1fXsSGSB7EAdaNXVpWDIRDQInIilOMVsfbS8RHko9/webp_w100",
-      "detail_url": "https://app.superz.superwalk.io/?dp_tracking_id=jwT5xWizWGREO2md",
+      "detail_url": "https://app.superz.superwalk.io/?dp_tracking_id=ZmkBQ9g96gBbaYKf",
       "first_seen": "2026-03-02",
       "last_seen": "2026-03-20",
       "rewards": [],
       "source_urls": [
         "https://www.unifi.me/apps"
       ],
-      "fetched_at": "2026-03-20T13:35:17.133Z"
+      "fetched_at": "2026-03-20T19:07:52.686Z"
     },
     {
       "name": "Bombie",
@@ -108,14 +108,14 @@
       "play_count": "1.5M",
       "play_count_raw": 1500000,
       "thumbnail_url": "https://obs.line-scdn.net:443/0hljiSJ2KLM0VUKi0q05pMEg5_PTQ4WypQLRwhPSlvOSlnSC8SLTAneipVMR4wZAIXIDMjUChWNR4yexJSLjMkSHBLC3QlTxESISd-XDN6MRF6cndvIxwacTdRMS9xZgQ/webp_w100",
-      "detail_url": "https://cdn.bombie.xyz/games/bombie/index.html?dp_tracking_id=jwT5xWizWGREO2md",
+      "detail_url": "https://cdn.bombie.xyz/games/bombie/index.html?dp_tracking_id=ZmkBQ9g96gBbaYKf",
       "first_seen": "2026-03-02",
       "last_seen": "2026-03-20",
       "rewards": [],
       "source_urls": [
         "https://www.unifi.me/apps"
       ],
-      "fetched_at": "2026-03-20T13:35:17.133Z"
+      "fetched_at": "2026-03-20T19:07:52.686Z"
     },
     {
       "name": "Lair",
@@ -124,14 +124,14 @@
       "play_count": "1.2M",
       "play_count_raw": 1200000,
       "thumbnail_url": "https://obs.line-scdn.net:443/0hd68vfuGhOxkFDyV2NdxETl9aNWhpfiIMfDkpYXhKMXU2bSdOfBUSJnpfZ0EqQRoOcDsrGGBxF0JjXhoOfxYsFCFuAyh0ahlOcAJ2AGBwZ1IoQycZcjsRD2l0OXMgQww/webp_w100",
-      "detail_url": "https://app.lair.fi/game?dp_tracking_id=jwT5xWizWGREO2md",
+      "detail_url": "https://app.lair.fi/game?dp_tracking_id=ZmkBQ9g96gBbaYKf",
       "first_seen": "2026-03-02",
       "last_seen": "2026-03-20",
       "rewards": [],
       "source_urls": [
         "https://www.unifi.me/apps"
       ],
-      "fetched_at": "2026-03-20T13:35:17.133Z"
+      "fetched_at": "2026-03-20T19:07:52.686Z"
     },
     {
       "name": "YuliGO",
@@ -140,14 +140,14 @@
       "play_count": "1.2M",
       "play_count_raw": 1200000,
       "thumbnail_url": "https://obs.line-scdn.net:443/0hncOxX1BZMUxyAS8jNsBOGypUPz0ecChZCzcjNA9EOyBBYy0bBTQYURBqGiEbZABhBzUhWRd6MABXYSlqTRwhSl9SDRdfUBNtETV9axdSGgRaYT1lDxsLWgtRCn0Z/webp_w100",
-      "detail_url": "https://kaia.yuliverse.com/?dp_tracking_id=jwT5xWizWGREO2md",
+      "detail_url": "https://kaia.yuliverse.com/?dp_tracking_id=ZmkBQ9g96gBbaYKf",
       "first_seen": "2026-03-02",
       "last_seen": "2026-03-20",
       "rewards": [],
       "source_urls": [
         "https://www.unifi.me/apps"
       ],
-      "fetched_at": "2026-03-20T13:35:17.133Z"
+      "fetched_at": "2026-03-20T19:07:52.686Z"
     },
     {
       "name": "Sid Origins",
@@ -156,14 +156,14 @@
       "play_count": "1M",
       "play_count_raw": 1000000,
       "thumbnail_url": "https://obs.line-scdn.net:443/0h5cOjW9ufakxyE3QjF6IVGypGZD0eYnNZCyV4NA9WYCBBcXYbBwpudw94QgsAX0tuTSB6URZoawBXc3JqTQ56Sl9AVhdfQkhtEScmbxZsNzkCcWZ6SwlQWgtDUX0Z/webp_w100",
-      "detail_url": "https://game.sidorigins.com/?dp_tracking_id=jwT5xWizWGREO2md",
+      "detail_url": "https://game.sidorigins.com/?dp_tracking_id=ZmkBQ9g96gBbaYKf",
       "first_seen": "2026-03-02",
       "last_seen": "2026-03-20",
       "rewards": [],
       "source_urls": [
         "https://www.unifi.me/apps"
       ],
-      "fetched_at": "2026-03-20T13:35:17.133Z"
+      "fetched_at": "2026-03-20T19:07:52.686Z"
     },
     {
       "name": "Fate War",
@@ -172,14 +172,14 @@
       "play_count": "467.4K",
       "play_count_raw": 467400,
       "thumbnail_url": "https://obs.line-scdn.net:443/0hpQI6sFZpL350TzERNhtQKS4aIQ8YPjZrDXk9BgkKJRJHLTMpDVYrTQwwLRceLA1xC1ZjHBcaAyUSHg5pDlY4c1AuF08FKg0pAUJiZxEccykcAGtUSVUraBc0LRRRAxg/webp_w100",
-      "detail_url": "https://center.fatewar.xyz/sa/ReleaseLINE/webgl/index.html?dp_tracking_id=jwT5xWizWGREO2md",
+      "detail_url": "https://center.fatewar.xyz/sa/ReleaseLINE/webgl/index.html?dp_tracking_id=ZmkBQ9g96gBbaYKf",
       "first_seen": "2026-03-02",
       "last_seen": "2026-03-20",
       "rewards": [],
       "source_urls": [
         "https://www.unifi.me/apps"
       ],
-      "fetched_at": "2026-03-20T13:35:17.133Z"
+      "fetched_at": "2026-03-20T19:07:52.686Z"
     },
     {
       "name": "Chiwat",
@@ -188,14 +188,14 @@
       "play_count": "207.8K",
       "play_count_raw": 207800,
       "thumbnail_url": "https://obs.line-scdn.net:443/0hQgrRovBwDkhPKxAQ41hxHxV-ADkjWhddNh0cMDJuBCR8SRIfNjJCbzRUNnAnThUWNzInWmpXGBMpei9fNTIZRWtKNnk-TiwfOh03WiF-CxxjSCxIcyUdfCxQDCJqZzk/webp_w100",
-      "detail_url": "https://app.chiwat.xyz/?dp_tracking_id=jwT5xWizWGREO2md",
+      "detail_url": "https://app.chiwat.xyz/?dp_tracking_id=ZmkBQ9g96gBbaYKf",
       "first_seen": "2026-03-02",
       "last_seen": "2026-03-20",
       "rewards": [],
       "source_urls": [
         "https://www.unifi.me/apps"
       ],
-      "fetched_at": "2026-03-20T13:35:17.133Z"
+      "fetched_at": "2026-03-20T19:07:52.686Z"
     },
     {
       "name": "Pinky Auctions",
@@ -204,14 +204,14 @@
       "play_count": "149.3K",
       "play_count_raw": 149300,
       "thumbnail_url": "https://obs.line-scdn.net:443/0hb-EBLxG0PQJ4OyM3OYJCVSBuM3MUSiQXAQ0vegV-N25LWSFVRAgXDxpFCkZUWAMvRTYEJl5APE5dWyUkRyYtBFVoAVlVah8jGjYULRRuFW8PWTE3GiEHFAFrBjMT/webp_w100",
-      "detail_url": "https://pinky-line.vercel.app/?dp_tracking_id=jwT5xWizWGREO2md",
+      "detail_url": "https://pinky-line.vercel.app/?dp_tracking_id=ZmkBQ9g96gBbaYKf",
       "first_seen": "2026-03-02",
       "last_seen": "2026-03-20",
       "rewards": [],
       "source_urls": [
         "https://www.unifi.me/apps"
       ],
-      "fetched_at": "2026-03-20T13:35:17.133Z"
+      "fetched_at": "2026-03-20T19:07:52.686Z"
     },
     {
       "name": "CASH PANG",
@@ -220,14 +220,14 @@
       "play_count": "112K",
       "play_count_raw": 112000,
       "thumbnail_url": "https://obs.line-scdn.net:443/0hxTE3b46CJ3t4SjiRKiFYLCIfKQoUOz5uAXw1AwUPLRdLKDssAVAORBsYegoNKWMsDH4eHR4aGyAeGwZsAlMwdlwrH0oJLwUsDXw3Zh0iEDgVETwkRURrTxQxJRFdBhA/webp_w100",
-      "detail_url": "https://liff.line.me/2008098849-9Kk7r4a5?dp_tracking_id=jwT5xWizWGREO2md",
+      "detail_url": "https://liff.line.me/2008098849-9Kk7r4a5?dp_tracking_id=ZmkBQ9g96gBbaYKf",
       "first_seen": "2026-03-02",
       "last_seen": "2026-03-20",
       "rewards": [],
       "source_urls": [
         "https://www.unifi.me/apps"
       ],
-      "fetched_at": "2026-03-20T13:35:17.133Z"
+      "fetched_at": "2026-03-20T19:07:52.686Z"
     },
     {
       "name": "YURUDORATOU",
@@ -236,14 +236,14 @@
       "play_count": "100.7K",
       "play_count_raw": 100700,
       "thumbnail_url": "https://data.dappportal.io/assets/dapp/ec32c7bb-515e-4c80-9696-9d1b17ab0588.png",
-      "detail_url": "https://play.tou.yurudora.com/?dp_tracking_id=jwT5xWizWGREO2md",
+      "detail_url": "https://play.tou.yurudora.com/?dp_tracking_id=ZmkBQ9g96gBbaYKf",
       "first_seen": "2026-03-02",
       "last_seen": "2026-03-20",
       "rewards": [],
       "source_urls": [
         "https://www.unifi.me/apps"
       ],
-      "fetched_at": "2026-03-20T13:35:17.133Z"
+      "fetched_at": "2026-03-20T19:07:52.686Z"
     },
     {
       "name": "DearSt! RHYTHM STAGE",
@@ -252,14 +252,14 @@
       "play_count": "53K",
       "play_count_raw": 53000,
       "thumbnail_url": "https://obs.line-scdn.net:443/0h7OwlAGEJaGBKFXeKGoEXNxJAZhEmZHF1MyN6GDdQYgx5d3Q3PiMkTydqUAk7TXNVMQ9BAi5uaSxvdXBGdQh4ZmdGVDtnREpBNiF7WGt9ag5idWRJKBhsdjNFU1Eh/webp_w100",
-      "detail_url": "https://dearst-rhythmstage.com/?dp_tracking_id=jwT5xWizWGREO2md",
+      "detail_url": "https://dearst-rhythmstage.com/?dp_tracking_id=ZmkBQ9g96gBbaYKf",
       "first_seen": "2026-03-02",
       "last_seen": "2026-03-20",
       "rewards": [],
       "source_urls": [
         "https://www.unifi.me/apps"
       ],
-      "fetched_at": "2026-03-20T13:35:17.133Z"
+      "fetched_at": "2026-03-20T19:07:52.686Z"
     },
     {
       "name": "Puzzle & Guardians",
@@ -268,14 +268,14 @@
       "play_count": "33.1K",
       "play_count_raw": 33100,
       "thumbnail_url": "https://obs.line-scdn.net:443/0heeauEgtEOkpcDCTbh4hFHQZZNDswfSNfJTooMiFJMCZvbiYdJRYcVyFkAR02QgtdJDoQSzBfLBE6XRtdJhUtR3htAnstaRgdKToTLDFyAic2VxhsKzgDfj93OCB5QA0/webp_w100",
-      "detail_url": "https://puzzleandguardians.com/index.html?dp_tracking_id=jwT5xWizWGREO2md",
+      "detail_url": "https://puzzleandguardians.com/index.html?dp_tracking_id=ZmkBQ9g96gBbaYKf",
       "first_seen": "2026-03-02",
       "last_seen": "2026-03-20",
       "rewards": [],
       "source_urls": [
         "https://www.unifi.me/apps"
       ],
-      "fetched_at": "2026-03-20T13:35:17.133Z"
+      "fetched_at": "2026-03-20T19:07:52.686Z"
     },
     {
       "name": "KEIJI KABUKI Survivor",
@@ -284,14 +284,14 @@
       "play_count": "23.2K",
       "play_count_raw": 23200,
       "thumbnail_url": "https://obs.line-scdn.net:443/0hF288GgsYGR0FQQcm5wxmSloUF2xpMAAIfHcLZXgEE3E2IwVKO1k_DCASMWx3GigWY0wwJXwTDC1oIysjZXIje2U6GEkgDTgSZ1kvGyQqG3stDiczf1skEGEgIl0/webp_w100",
-      "detail_url": "https://kaia-app.kabuki-survivor.com/?dp_tracking_id=jwT5xWizWGREO2md",
+      "detail_url": "https://kaia-app.kabuki-survivor.com/?dp_tracking_id=ZmkBQ9g96gBbaYKf",
       "first_seen": "2026-03-02",
       "last_seen": "2026-03-20",
       "rewards": [],
       "source_urls": [
         "https://www.unifi.me/apps"
       ],
-      "fetched_at": "2026-03-20T13:35:17.133Z"
+      "fetched_at": "2026-03-20T19:07:52.686Z"
     },
     {
       "name": "MusiKhan",
@@ -300,14 +300,14 @@
       "play_count": "11K",
       "play_count_raw": 11000,
       "thumbnail_url": "https://obs.line-scdn.net:443/0hJ-HXDw2tFQJ1IQvD1ChqVS90G3MZUAwXDBcHeghkH25GQwlVDDgsGFRfPkEHbysnDxIBNhZdA1kTcDQVDzgCD1FALTMERDdVABc_GFRdPlIeQRkCAhVZNhZaF2hQbSI/webp_w100",
-      "detail_url": "https://kaia.khans.io/?dp_tracking_id=jwT5xWizWGREO2md",
+      "detail_url": "https://kaia.khans.io/?dp_tracking_id=ZmkBQ9g96gBbaYKf",
       "first_seen": "2026-03-02",
       "last_seen": "2026-03-20",
       "rewards": [],
       "source_urls": [
         "https://www.unifi.me/apps"
       ],
-      "fetched_at": "2026-03-20T13:35:17.133Z"
+      "fetched_at": "2026-03-20T19:07:52.686Z"
     },
     {
       "name": "Degen Defense",
@@ -316,14 +316,14 @@
       "play_count": "6.6K",
       "play_count_raw": 6600,
       "thumbnail_url": "https://obs.line-scdn.net:443/0hbiCjSLeSPUZ-EyONi5JCESZGMzcSYiRTByUvPgNWNypNcSERCyAHXwJsBR4YcQ9nQgkHSwRoPApbcyVgQQ4tQFNAAR1TQh9nAwoLVFhBFXIaSDF0RwkHUAdDBncV/webp_w100",
-      "detail_url": "https://play.degendefense.com/?dp_tracking_id=jwT5xWizWGREO2md",
+      "detail_url": "https://play.degendefense.com/?dp_tracking_id=ZmkBQ9g96gBbaYKf",
       "first_seen": "2026-03-02",
       "last_seen": "2026-03-20",
       "rewards": [],
       "source_urls": [
         "https://www.unifi.me/apps"
       ],
-      "fetched_at": "2026-03-20T13:35:17.133Z"
+      "fetched_at": "2026-03-20T19:07:52.686Z"
     },
     {
       "name": "Battle Wheels",
@@ -332,14 +332,14 @@
       "play_count": "5.5K",
       "play_count_raw": 5500,
       "thumbnail_url": "https://obs.line-scdn.net:443/0h1Qc8s4vCbn5eQXEjL-kRKQYUYA8yMHdrJ3d8BiMEZBJtI3IpYHRqTT4pazZzDipUY1hYfyE6bzJ7IXZYYVx-eHMSUiVzEExfIlgiYz0TbAcuImJMZ0xqaCcRVU81/webp_w100",
-      "detail_url": "https://battlewheels.trala.me/?dp_tracking_id=jwT5xWizWGREO2md",
+      "detail_url": "https://battlewheels.trala.me/?dp_tracking_id=ZmkBQ9g96gBbaYKf",
       "first_seen": "2026-03-02",
       "last_seen": "2026-03-20",
       "rewards": [],
       "source_urls": [
         "https://www.unifi.me/apps"
       ],
-      "fetched_at": "2026-03-20T13:35:17.133Z"
+      "fetched_at": "2026-03-20T19:07:52.686Z"
     },
     {
       "name": "Magic Squad",
@@ -348,14 +348,14 @@
       "play_count": "4.7K",
       "play_count_raw": 4700,
       "thumbnail_url": "https://obs.line-scdn.net:443/0h-txmM0v3cltFFG1aVB4NDB9BfCopZWtOPCJgIzhReDd2dm4MPA12Xj9ERQ9qdkx9MSdheGBqTgAjRVNMPw1lVmF1Smo0cVAMMCJhZyZEcABpW0NxeCA-byZvcDFgWEU/webp_w100",
-      "detail_url": "https://magicsquad.xyz/?dp_tracking_id=jwT5xWizWGREO2md",
+      "detail_url": "https://magicsquad.xyz/?dp_tracking_id=ZmkBQ9g96gBbaYKf",
       "first_seen": "2026-03-02",
       "last_seen": "2026-03-20",
       "rewards": [],
       "source_urls": [
         "https://www.unifi.me/apps"
       ],
-      "fetched_at": "2026-03-20T13:35:17.133Z"
+      "fetched_at": "2026-03-20T19:07:52.686Z"
     },
     {
       "name": "BubbleHeroes",
@@ -364,14 +364,14 @@
       "play_count": "3.2K",
       "play_count_raw": 3200,
       "thumbnail_url": "https://obs.line-scdn.net:443/0hDl60raRTG0MLSQRmOMlkFFEcFTJnOAJWcn8JO3YMES84KwcUclNWVmg2PBAmBSoQfkQITmUiDRhtGDpUcVAMTi8oI3J6LDkUfn8PfysiMBR-ETocNnwxVWgyGSkuBSw/webp_w100",
-      "detail_url": "https://game.bubbleheroes.xyz/?dp_tracking_id=jwT5xWizWGREO2md",
+      "detail_url": "https://game.bubbleheroes.xyz/?dp_tracking_id=ZmkBQ9g96gBbaYKf",
       "first_seen": "2026-03-02",
       "last_seen": "2026-03-20",
       "rewards": [],
       "source_urls": [
         "https://www.unifi.me/apps"
       ],
-      "fetched_at": "2026-03-20T13:35:17.133Z"
+      "fetched_at": "2026-03-20T19:07:52.686Z"
     },
     {
       "name": "Legend War",
@@ -380,14 +380,14 @@
       "play_count": "1.8K",
       "play_count_raw": 1800,
       "thumbnail_url": "https://obs.line-scdn.net:443/0hUSH43g9bCnx1TRWzey91Ky0YBA0ZPBNpDHsYBAgIABBGLxYrSnsZEgkdCygeFShzSXggZRs2CzBQLRJaSlAaelgeNidYHChdClceZQ0YIkgTAzhVSUAOagwdMU0e/webp_w100",
-      "detail_url": "https://lw.blockverse.games/?dp_tracking_id=jwT5xWizWGREO2md",
+      "detail_url": "https://lw.blockverse.games/?dp_tracking_id=ZmkBQ9g96gBbaYKf",
       "first_seen": "2026-03-09",
       "last_seen": "2026-03-20",
       "rewards": [],
       "source_urls": [
         "https://www.unifi.me/apps"
       ],
-      "fetched_at": "2026-03-20T13:35:17.133Z"
+      "fetched_at": "2026-03-20T19:07:52.686Z"
     },
     {
       "name": "XPIN Network",
@@ -396,14 +396,14 @@
       "play_count": "1.4K",
       "play_count_raw": 1400,
       "thumbnail_url": "https://obs.line-scdn.net:443/0ho9jnKFaTMBZXFy_1Zm9PQQ1CPmc7ZikDLiEibipSOnpkdSxBLg4jdChENXMjT3QdIyIaFy9_Jk0xRhEBLQ4nG3N2CCcmchJBIiEgAypCCHsjdSg8IA8JIjRsMnxyWwc/webp_w100",
-      "detail_url": "https://dapp.xpin.network/?dp_tracking_id=jwT5xWizWGREO2md",
+      "detail_url": "https://dapp.xpin.network/?dp_tracking_id=ZmkBQ9g96gBbaYKf",
       "first_seen": "2026-03-02",
       "last_seen": "2026-03-20",
       "rewards": [],
       "source_urls": [
         "https://www.unifi.me/apps"
       ],
-      "fetched_at": "2026-03-20T13:35:17.133Z"
+      "fetched_at": "2026-03-20T19:07:52.686Z"
     },
     {
       "name": "Fly To The Valhalla",
@@ -412,14 +412,14 @@
       "play_count": "1.3K",
       "play_count_raw": 1300,
       "thumbnail_url": "https://obs.line-scdn.net:443/0h5xEOf441ald4NnUwFGQVACBjZCYUR3NCAQB4LwVzYDtLVHYAATtQSgNJfzIdVlRmHAJ-VhxNaxtdVnJxRyt6UVVlVgxVZ0h2BQJQVhRmQhgRbWZ-BSxQQQFmUWYT/webp_w100",
-      "detail_url": "https://fttv.magnumopus.co.kr/main?dp_tracking_id=jwT5xWizWGREO2md",
+      "detail_url": "https://fttv.magnumopus.co.kr/main?dp_tracking_id=ZmkBQ9g96gBbaYKf",
       "first_seen": "2026-03-02",
       "last_seen": "2026-03-20",
       "rewards": [],
       "source_urls": [
         "https://www.unifi.me/apps"
       ],
-      "fetched_at": "2026-03-20T13:35:17.133Z"
+      "fetched_at": "2026-03-20T19:07:52.686Z"
     },
     {
       "name": "Eternal King",
@@ -428,14 +428,14 @@
       "play_count": "0",
       "play_count_raw": 0,
       "thumbnail_url": "https://obs.line-scdn.net:443/0hne3CR9GcMUoOOi-kgqFOHVRvPztiSyhfdwwjMnN_OyY9WC0ddyMYWGBqGg14YhAcag4ldXFGJxFoaxBddCMmRypbCXt_XxMdewwHUCtFGSNkdQAVeQ4bXG1BMyArdgY/webp_w100",
-      "detail_url": "https://dg8em2xvux7r9.cloudfront.net/?dp_tracking_id=jwT5xWizWGREO2md",
+      "detail_url": "https://dg8em2xvux7r9.cloudfront.net/?dp_tracking_id=ZmkBQ9g96gBbaYKf",
       "first_seen": "2026-03-02",
       "last_seen": "2026-03-20",
       "rewards": [],
       "source_urls": [
         "https://www.unifi.me/apps"
       ],
-      "fetched_at": "2026-03-20T13:35:17.133Z"
+      "fetched_at": "2026-03-20T19:07:52.686Z"
     },
     {
       "name": "Siege of Titans TD",
@@ -444,14 +444,14 @@
       "play_count": "0",
       "play_count_raw": 0,
       "thumbnail_url": "https://obs.line-scdn.net:443/0hHIHHvbT6F2Z1MQigPyloMS9kGRcZQA5zDAcFHgh0HQpGUwsxDCs-Z1BhPwMCUiVDFigxcwtjOz0TYDZxDygAa1FQL1cEVDUxAAcTcw1jFTVYfyZMAgctcBZKFQxQfSA/webp_w100",
-      "detail_url": "https://siegeoftitans.midas-play.com/app/?dp_tracking_id=jwT5xWizWGREO2md",
+      "detail_url": "https://siegeoftitans.midas-play.com/app/?dp_tracking_id=ZmkBQ9g96gBbaYKf",
       "first_seen": "2026-03-02",
       "last_seen": "2026-03-20",
       "rewards": [],
       "source_urls": [
         "https://www.unifi.me/apps"
       ],
-      "fetched_at": "2026-03-20T13:35:17.133Z"
+      "fetched_at": "2026-03-20T19:07:52.686Z"
     }
   ]
 }
