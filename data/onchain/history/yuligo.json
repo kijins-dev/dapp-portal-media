@@ -22,6 +22,17 @@
           "active_wallets_7d": 7
         }
       ]
+    },
+    {
+      "week_start": "2026-03-16",
+      "week_end": "2026-03-23",
+      "tokens": [
+        {
+          "symbol": "YULI",
+          "weekly_token_distributed": 25608.45,
+          "active_wallets_7d": 9
+        }
+      ]
     }
   ]
 }

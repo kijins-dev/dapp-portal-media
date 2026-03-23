@@ -22,6 +22,17 @@
           "active_wallets_7d": 1023
         }
       ]
+    },
+    {
+      "week_start": "2026-03-16",
+      "week_end": "2026-03-23",
+      "tokens": [
+        {
+          "symbol": "GRND",
+          "weekly_token_distributed": 66800646.7544,
+          "active_wallets_7d": 1258
+        }
+      ]
     }
   ]
 }

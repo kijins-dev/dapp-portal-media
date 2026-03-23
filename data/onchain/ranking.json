@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-03-16T06:21:16.849Z",
+  "generated_at": "2026-03-23T05:06:20.943Z",
   "entries": [
     {
       "rank": 1,
-      "slug": "elderglade",
-      "game_name": "Elderglade",
-      "play_count": "16.5M",
+      "slug": "slime-miner",
+      "game_name": "Slime Miner",
+      "play_count": "24.4M",
       "type": "onchain",
       "tokens": [
         {
-          "symbol": "ELDE",
-          "weekly_token_distributed": 103448251.8028,
-          "active_wallets_7d": 41,
-          "weekly_change_pct": 1114.21
+          "symbol": "SLX",
+          "weekly_token_distributed": 121516771.4607,
+          "active_wallets_7d": 42,
+          "weekly_change_pct": 3249.41
         }
       ]
     },
@@ -25,24 +25,24 @@
       "tokens": [
         {
           "symbol": "GRND",
-          "weekly_token_distributed": 76633695.7864,
-          "active_wallets_7d": 1023,
-          "weekly_change_pct": 104.38
+          "weekly_token_distributed": 66800646.7544,
+          "active_wallets_7d": 1258,
+          "weekly_change_pct": -12.83
         }
       ]
     },
     {
       "rank": 3,
-      "slug": "lair",
-      "game_name": "Lair",
-      "play_count": "1.2M",
+      "slug": "elderglade",
+      "game_name": "Elderglade",
+      "play_count": "16.5M",
       "type": "onchain",
       "tokens": [
         {
-          "symbol": "LAIR",
-          "weekly_token_distributed": 5447990.0965,
-          "active_wallets_7d": 46,
-          "weekly_change_pct": -10.64
+          "symbol": "ELDE",
+          "weekly_token_distributed": 28977220.1712,
+          "active_wallets_7d": 32,
+          "weekly_change_pct": -71.99
         }
       ]
     },
@@ -55,39 +55,39 @@
       "tokens": [
         {
           "symbol": "JOHN",
-          "weekly_token_distributed": 4661248.5851,
-          "active_wallets_7d": 42,
-          "weekly_change_pct": -5.16
+          "weekly_token_distributed": 10109759.9868,
+          "active_wallets_7d": 60,
+          "weekly_change_pct": 116.89
         }
       ]
     },
     {
       "rank": 5,
-      "slug": "slime-miner",
-      "game_name": "Slime Miner",
-      "play_count": "24.4M",
+      "slug": "lair",
+      "game_name": "Lair",
+      "play_count": "1.2M",
       "type": "onchain",
       "tokens": [
         {
-          "symbol": "SLX",
-          "weekly_token_distributed": 3628008.5705,
-          "active_wallets_7d": 44,
-          "weekly_change_pct": 866.42
+          "symbol": "LAIR",
+          "weekly_token_distributed": 9170843.3781,
+          "active_wallets_7d": 58,
+          "weekly_change_pct": 68.33
         }
       ]
     },
     {
       "rank": 6,
-      "slug": "savanna-survival",
-      "game_name": "Savanna Survival",
-      "play_count": "8.5M",
+      "slug": "bombie",
+      "game_name": "Bombie",
+      "play_count": "1.5M",
       "type": "onchain",
       "tokens": [
         {
-          "symbol": "SVSA",
-          "weekly_token_distributed": 35514.0573,
-          "active_wallets_7d": 9,
-          "weekly_change_pct": 4686.26
+          "symbol": "BOMB",
+          "weekly_token_distributed": 255484.6769,
+          "active_wallets_7d": 10,
+          "weekly_change_pct": 40260.93
         }
       ]
     },
@@ -100,24 +100,24 @@
       "tokens": [
         {
           "symbol": "YULI",
-          "weekly_token_distributed": 11002.263,
-          "active_wallets_7d": 7,
-          "weekly_change_pct": -99.49
+          "weekly_token_distributed": 25608.45,
+          "active_wallets_7d": 9,
+          "weekly_change_pct": 132.76
         }
       ]
     },
     {
       "rank": 8,
-      "slug": "bombie",
-      "game_name": "Bombie",
-      "play_count": "1.5M",
+      "slug": "savanna-survival",
+      "game_name": "Savanna Survival",
+      "play_count": "8.5M",
       "type": "onchain",
       "tokens": [
         {
-          "symbol": "BOMB",
-          "weekly_token_distributed": 633,
-          "active_wallets_7d": 2,
-          "weekly_change_pct": 132.13
+          "symbol": "SVSA",
+          "weekly_token_distributed": 367,
+          "active_wallets_7d": 4,
+          "weekly_change_pct": -98.97
         }
       ]
     },
