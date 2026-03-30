@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-03-23T05:06:20.943Z",
+  "generated_at": "2026-03-30T05:27:31.368Z",
   "entries": [
     {
       "rank": 1,
-      "slug": "slime-miner",
-      "game_name": "Slime Miner",
-      "play_count": "24.4M",
+      "slug": "yuligo",
+      "game_name": "YuliGO",
+      "play_count": "1.2M",
       "type": "onchain",
       "tokens": [
         {
-          "symbol": "SLX",
-          "weekly_token_distributed": 121516771.4607,
-          "active_wallets_7d": 42,
-          "weekly_change_pct": 3249.41
+          "symbol": "YULI",
+          "weekly_token_distributed": 131784909.5729,
+          "active_wallets_7d": 76,
+          "weekly_change_pct": 514514.94
         }
       ]
     },
@@ -25,9 +25,9 @@
       "tokens": [
         {
           "symbol": "GRND",
-          "weekly_token_distributed": 66800646.7544,
-          "active_wallets_7d": 1258,
-          "weekly_change_pct": -12.83
+          "weekly_token_distributed": 46038400.9927,
+          "active_wallets_7d": 1181,
+          "weekly_change_pct": -31.08
         }
       ]
     },
@@ -40,29 +40,14 @@
       "tokens": [
         {
           "symbol": "ELDE",
-          "weekly_token_distributed": 28977220.1712,
-          "active_wallets_7d": 32,
-          "weekly_change_pct": -71.99
+          "weekly_token_distributed": 18266604.5624,
+          "active_wallets_7d": 42,
+          "weekly_change_pct": -36.96
         }
       ]
     },
     {
       "rank": 4,
-      "slug": "captain-tsubasa",
-      "game_name": "Captain Tsubasa",
-      "play_count": "12.8M",
-      "type": "onchain",
-      "tokens": [
-        {
-          "symbol": "JOHN",
-          "weekly_token_distributed": 10109759.9868,
-          "active_wallets_7d": 60,
-          "weekly_change_pct": 116.89
-        }
-      ]
-    },
-    {
-      "rank": 5,
       "slug": "lair",
       "game_name": "Lair",
       "play_count": "1.2M",
@@ -70,14 +55,44 @@
       "tokens": [
         {
           "symbol": "LAIR",
-          "weekly_token_distributed": 9170843.3781,
-          "active_wallets_7d": 58,
-          "weekly_change_pct": 68.33
+          "weekly_token_distributed": 6451063.536,
+          "active_wallets_7d": 80,
+          "weekly_change_pct": -29.66
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "slug": "captain-tsubasa",
+      "game_name": "Captain Tsubasa",
+      "play_count": "12.8M",
+      "type": "onchain",
+      "tokens": [
+        {
+          "symbol": "JOHN",
+          "weekly_token_distributed": 5088093.6501,
+          "active_wallets_7d": 37,
+          "weekly_change_pct": -49.67
         }
       ]
     },
     {
       "rank": 6,
+      "slug": "slime-miner",
+      "game_name": "Slime Miner",
+      "play_count": "24.4M",
+      "type": "onchain",
+      "tokens": [
+        {
+          "symbol": "SLX",
+          "weekly_token_distributed": 387793.0042,
+          "active_wallets_7d": 32,
+          "weekly_change_pct": -99.68
+        }
+      ]
+    },
+    {
+      "rank": 7,
       "slug": "bombie",
       "game_name": "Bombie",
       "play_count": "1.5M",
@@ -85,24 +100,9 @@
       "tokens": [
         {
           "symbol": "BOMB",
-          "weekly_token_distributed": 255484.6769,
-          "active_wallets_7d": 10,
-          "weekly_change_pct": 40260.93
-        }
-      ]
-    },
-    {
-      "rank": 7,
-      "slug": "yuligo",
-      "game_name": "YuliGO",
-      "play_count": "1.2M",
-      "type": "onchain",
-      "tokens": [
-        {
-          "symbol": "YULI",
-          "weekly_token_distributed": 25608.45,
-          "active_wallets_7d": 9,
-          "weekly_change_pct": 132.76
+          "weekly_token_distributed": 6103,
+          "active_wallets_7d": 7,
+          "weekly_change_pct": -97.61
         }
       ]
     },
@@ -115,9 +115,9 @@
       "tokens": [
         {
           "symbol": "SVSA",
-          "weekly_token_distributed": 367,
-          "active_wallets_7d": 4,
-          "weekly_change_pct": -98.97
+          "weekly_token_distributed": 0,
+          "active_wallets_7d": 0,
+          "weekly_change_pct": -100
         }
       ]
     },

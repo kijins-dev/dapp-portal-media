@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-23T05:06:20.942Z",
+  "generated_at": "2026-03-30T05:27:31.367Z",
   "games": [
     {
       "slug": "slime-miner",
@@ -10,17 +10,17 @@
           "symbol": "SLX",
           "contract": "0x32db8748f9b99c6fc2590484f584089955d05c19",
           "decimals": 18,
-          "weekly_token_distributed": 121516771.4607,
-          "active_wallets_7d": 42,
-          "reward_concentration": 0.9951,
-          "weekly_change_pct": 3249.41,
+          "weekly_token_distributed": 387793.0042,
+          "active_wallets_7d": 32,
+          "reward_concentration": 0.6301,
+          "weekly_change_pct": -99.68,
           "token_flow": {
             "exchange": 0,
-            "other": 121516771.4607
+            "other": 387793.0042
           }
         }
       ],
-      "measured_at": "2026-03-23T05:06:20.924Z"
+      "measured_at": "2026-03-30T05:27:31.350Z"
     },
     {
       "slug": "elderglade",
@@ -31,17 +31,17 @@
           "symbol": "ELDE",
           "contract": "0x8755d2e532b1559454689bf0e8964bd78b187ff6",
           "decimals": 18,
-          "weekly_token_distributed": 28977220.1712,
-          "active_wallets_7d": 32,
-          "reward_concentration": 0.6561,
-          "weekly_change_pct": -71.99,
+          "weekly_token_distributed": 18266604.5624,
+          "active_wallets_7d": 42,
+          "reward_concentration": 0.6191,
+          "weekly_change_pct": -36.96,
           "token_flow": {
             "exchange": 0,
-            "other": 28977220.1712
+            "other": 18266604.5624
           }
         }
       ],
-      "measured_at": "2026-03-23T05:06:20.924Z"
+      "measured_at": "2026-03-30T05:27:31.350Z"
     },
     {
       "slug": "captain-tsubasa",
@@ -52,17 +52,17 @@
           "symbol": "JOHN",
           "contract": "0x050be4454495579b8d943d795ee3d8b6df4eb7c1",
           "decimals": 18,
-          "weekly_token_distributed": 10109759.9868,
-          "active_wallets_7d": 60,
-          "reward_concentration": 0.5967,
-          "weekly_change_pct": 116.89,
+          "weekly_token_distributed": 5088093.6501,
+          "active_wallets_7d": 37,
+          "reward_concentration": 0.6677,
+          "weekly_change_pct": -49.67,
           "token_flow": {
             "exchange": 0,
-            "other": 10109759.9868
+            "other": 5088093.6501
           }
         }
       ],
-      "measured_at": "2026-03-23T05:06:20.924Z"
+      "measured_at": "2026-03-30T05:27:31.350Z"
     },
     {
       "slug": "savanna-survival",
@@ -73,17 +73,17 @@
           "symbol": "SVSA",
           "contract": "0x9947d29b1607ea6edb502d7c08d998fbf0ae0ab1",
           "decimals": 18,
-          "weekly_token_distributed": 367,
-          "active_wallets_7d": 4,
-          "reward_concentration": 1,
-          "weekly_change_pct": -98.97,
+          "weekly_token_distributed": 0,
+          "active_wallets_7d": 0,
+          "reward_concentration": 0,
+          "weekly_change_pct": -100,
           "token_flow": {
             "exchange": 0,
-            "other": 367
+            "other": 0
           }
         }
       ],
-      "measured_at": "2026-03-23T05:06:20.924Z"
+      "measured_at": "2026-03-30T05:27:31.350Z"
     },
     {
       "slug": "superz",
@@ -94,17 +94,17 @@
           "symbol": "GRND",
           "contract": "0x84f8c3c8d6ee30a559d73ec570d574f671e82647",
           "decimals": 18,
-          "weekly_token_distributed": 66800646.7544,
-          "active_wallets_7d": 1258,
-          "reward_concentration": 0.9385,
-          "weekly_change_pct": -12.83,
+          "weekly_token_distributed": 46038400.9927,
+          "active_wallets_7d": 1181,
+          "reward_concentration": 0.9441,
+          "weekly_change_pct": -31.08,
           "token_flow": {
             "exchange": 0,
-            "other": 66800646.7544
+            "other": 46038400.9927
           }
         }
       ],
-      "measured_at": "2026-03-23T05:06:20.924Z"
+      "measured_at": "2026-03-30T05:27:31.350Z"
     },
     {
       "slug": "bombie",
@@ -115,17 +115,17 @@
           "symbol": "BOMB",
           "contract": "0x0ba2ba407e80bcb8a314649d9bc12efeecc81519",
           "decimals": 18,
-          "weekly_token_distributed": 255484.6769,
-          "active_wallets_7d": 10,
-          "reward_concentration": 0.3499,
-          "weekly_change_pct": 40260.93,
+          "weekly_token_distributed": 6103,
+          "active_wallets_7d": 7,
+          "reward_concentration": 0.9831,
+          "weekly_change_pct": -97.61,
           "token_flow": {
             "exchange": 0,
-            "other": 255484.6769
+            "other": 6103
           }
         }
       ],
-      "measured_at": "2026-03-23T05:06:20.924Z"
+      "measured_at": "2026-03-30T05:27:31.350Z"
     },
     {
       "slug": "lair",
@@ -136,17 +136,17 @@
           "symbol": "LAIR",
           "contract": "0xd70c7d511560493c79df607076fb863f5c8a50b0",
           "decimals": 18,
-          "weekly_token_distributed": 9170843.3781,
-          "active_wallets_7d": 58,
-          "reward_concentration": 0.7028,
-          "weekly_change_pct": 68.33,
+          "weekly_token_distributed": 6451063.536,
+          "active_wallets_7d": 80,
+          "reward_concentration": 0.7817,
+          "weekly_change_pct": -29.66,
           "token_flow": {
             "exchange": 0,
-            "other": 9170843.3781
+            "other": 6451063.536
           }
         }
       ],
-      "measured_at": "2026-03-23T05:06:20.924Z"
+      "measured_at": "2026-03-30T05:27:31.350Z"
     },
     {
       "slug": "yuligo",
@@ -157,17 +157,17 @@
           "symbol": "YULI",
           "contract": "0x91bcba699222fe2c14ae90e51943a40e59050f79",
           "decimals": 18,
-          "weekly_token_distributed": 25608.45,
-          "active_wallets_7d": 9,
-          "reward_concentration": 0.9997,
-          "weekly_change_pct": 132.76,
+          "weekly_token_distributed": 131784909.5729,
+          "active_wallets_7d": 76,
+          "reward_concentration": 0.8174,
+          "weekly_change_pct": 514514.94,
           "token_flow": {
             "exchange": 0,
-            "other": 25608.45
+            "other": 131784909.5729
           }
         }
       ],
-      "measured_at": "2026-03-23T05:06:20.924Z"
+      "measured_at": "2026-03-30T05:27:31.350Z"
     }
   ]
 }

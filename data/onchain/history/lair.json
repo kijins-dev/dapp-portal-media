@@ -33,6 +33,17 @@
           "active_wallets_7d": 58
         }
       ]
+    },
+    {
+      "week_start": "2026-03-23",
+      "week_end": "2026-03-30",
+      "tokens": [
+        {
+          "symbol": "LAIR",
+          "weekly_token_distributed": 6451063.536,
+          "active_wallets_7d": 80
+        }
+      ]
     }
   ]
 }
